@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-geolocation",
+        "scope": null,
+        "escapedName": "nativescript-geolocation",
+        "name": "nativescript-geolocation",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld"
+    ]
+  ],
+  "_from": "nativescript-geolocation@latest",
+  "_id": "nativescript-geolocation@0.0.18",
+  "_inCache": true,
+  "_location": "/nativescript-geolocation",
+  "_nodeVersion": "6.9.4",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-geolocation-0.0.18.tgz_1485940246269_0.4086605738848448"
+  },
+  "_npmUser": {
+    "name": "tns-bot",
+    "email": "nativescript@telerik.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-geolocation",
+    "scope": null,
+    "escapedName": "nativescript-geolocation",
+    "name": "nativescript-geolocation",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-geolocation/-/nativescript-geolocation-0.0.18.tgz",
+  "_shasum": "b290d7a226f014a8fc819cc99c812d201c732111",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-geolocation",
+  "_where": "/Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld",
+  "author": {
+    "name": "Nedyalko Nikolov",
+    "email": "nedyalko.nikolov@progress.com"
+  },
+  "dependencies": {},
+  "description": "Provides API for getting and monitoring location for NativeScript app.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "b290d7a226f014a8fc819cc99c812d201c732111",
+    "tarball": "https://registry.npmjs.org/nativescript-geolocation/-/nativescript-geolocation-0.0.18.tgz"
+  },
+  "keywords": [
+    "NativeScript",
+    "location",
+    "geolocation"
+  ],
+  "main": "nativescript-geolocation",
+  "maintainers": [
+    {
+      "name": "hdeshev",
+      "email": "hristo@deshev.com"
+    },
+    {
+      "name": "tns-bot",
+      "email": "nativescript@telerik.com"
+    }
+  ],
+  "name": "nativescript-geolocation",
+  "nativescript": {
+    "platforms": {
+      "android": "2.4.0",
+      "ios": "2.4.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {},
+  "version": "0.0.18"
+}

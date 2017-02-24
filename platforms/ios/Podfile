@@ -1,0 +1,8 @@
+use_frameworks!
+
+target "HelloWorld" do
+# Begin Podfile - /Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld/node_modules/nativescript-google-maps-sdk/platforms/ios/Podfile 
+ pod 'GoogleMaps' 
+ # End Podfile 
+
+end

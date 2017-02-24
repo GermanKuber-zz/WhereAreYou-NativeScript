@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-google-maps-sdk",
+        "scope": null,
+        "escapedName": "nativescript-google-maps-sdk",
+        "name": "nativescript-google-maps-sdk",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld"
+    ]
+  ],
+  "_from": "nativescript-google-maps-sdk@latest",
+  "_id": "nativescript-google-maps-sdk@1.4.3",
+  "_inCache": true,
+  "_location": "/nativescript-google-maps-sdk",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-google-maps-sdk-1.4.3.tgz_1483067507911_0.18214154848828912"
+  },
+  "_npmUser": {
+    "name": "dprietti",
+    "email": "npm@prietti.com"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-google-maps-sdk",
+    "scope": null,
+    "escapedName": "nativescript-google-maps-sdk",
+    "name": "nativescript-google-maps-sdk",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-google-maps-sdk/-/nativescript-google-maps-sdk-1.4.3.tgz",
+  "_shasum": "4a46d628af6fc5bb54195b905e4830ce47867171",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-google-maps-sdk",
+  "_where": "/Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld",
+  "author": {
+    "name": "Dan Prietti",
+    "email": "dprietti@gmail.com",
+    "url": "https://github.com/dapriett"
+  },
+  "bugs": {
+    "url": "https://github.com/dapriett/nativescript-google-maps-sdk/issues"
+  },
+  "dependencies": {},
+  "description": "Google Maps SDK plugin for Nativescript",
+  "devDependencies": {
+    "tns-core-modules": "^1.5.1",
+    "typescript": "^1.8.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "4a46d628af6fc5bb54195b905e4830ce47867171",
+    "tarball": "https://registry.npmjs.org/nativescript-google-maps-sdk/-/nativescript-google-maps-sdk-1.4.3.tgz"
+  },
+  "gitHead": "f1b6fd61e6a2fc72a1e95831504ba619e55b1f2c",
+  "homepage": "https://github.com/dapriett/nativescript-google-maps-sdk#readme",
+  "keywords": [
+    "Nativescript",
+    "Google",
+    "Maps",
+    "API",
+    "SDK"
+  ],
+  "license": "MIT",
+  "main": "map-view",
+  "maintainers": [
+    {
+      "name": "dprietti",
+      "email": "npm@prietti.com"
+    }
+  ],
+  "name": "nativescript-google-maps-sdk",
+  "nativescript": {
+    "platforms": {
+      "android": "1.5.1",
+      "ios": "1.5.1"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dapriett/nativescript-google-maps-sdk.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typings": "map-view.d.ts",
+  "version": "1.4.3"
+}

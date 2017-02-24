@@ -1,12 +1,35 @@
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
-
+import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { AppComponent } from "./app.component";
-
+import { routes, navigatableComponents } from "./app.routing";
+import { LoginComponent } from './pages/login/login.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { FriendsMapComponent } from './widgets/friends-map/friends-map.component';
+import { FriendsComponent } from './widgets/friends/friends.component';
+import { SIDEDRAWER_DIRECTIVES } from "nativescript-telerik-ui/sidedrawer/angular";
+var application = require("application");
+declare var GMSServices: any;
+if (application.ios) {
+  GMSServices.provideAPIKey("AIzaSyCCbRydI84FEFapTzFo5qtGCv5i6NGuQgE");
+}
 @NgModule({
-  declarations: [AppComponent],
-  bootstrap: [AppComponent],
-  imports: [NativeScriptModule],
+  declarations: [
+    AppComponent,
+    LoginComponent,
+    DashboardComponent,
+    FriendsComponent,
+    FriendsMapComponent,
+    SIDEDRAWER_DIRECTIVES
+  ],
+  bootstrap: [
+    AppComponent
+  ],
+  imports: [
+    NativeScriptModule,
+    NativeScriptModule,
+    NativeScriptRouterModule,
+    NativeScriptRouterModule.forRoot(routes)],
   schemas: [NO_ERRORS_SCHEMA],
 })
-export class AppModule {}
+export class AppModule { }
