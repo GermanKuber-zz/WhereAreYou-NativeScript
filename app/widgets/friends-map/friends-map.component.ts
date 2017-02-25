@@ -6,6 +6,10 @@ import sideDrawerModule = require('nativescript-telerik-ui/sidedrawer');
 var style = require('./map-style.json');
 import { Color } from 'color';
 import { RadSideDrawerComponent, SideDrawerType } from 'nativescript-telerik-ui/sidedrawer/angular';
+import { FriendsLiveService } from '../../shared/friends/friends-lives.service';
+import { FriendsService } from '../../shared/friends/friends.service';
+import { Observable } from '../../../platforms/ios/build/emulator/HelloWorld.app/app/tns_modules/rxjs/src/Observable';
+import { FriendPosition } from '../../shared/friends/friend';
 
 console.log('Registering MapView');
 registerElement('MapView', () => MapView);
@@ -14,199 +18,217 @@ registerElement('MapView', () => MapView);
   selector: "friends-map",
   templateUrl: "widgets/friends-map/friends-map.html",
   styleUrls: ["widgets/friends-map/friends-map-common.css", "widgets/friends-map/friends-map.css"],
-  providers: []
+  providers: [FriendsLiveService, FriendsService]
 })
-export class FriendsMapComponent {
-  // mapView: MapView = null;
-  // watchId: number = null;
-  // gpsLine: Polyline;
-
-  // tapLine: Polyline;
-  // tapMarker: any;
-  // gpsMarker: any;
-  // centeredOnLocation: boolean = false;
-  // ngOnInit() {
-
-  //   if (!geolocation.isEnabled()) {
-  //     geolocation.enableLocationRequest();
-  //   }
-
-  //   // this.groceryListService.load()
-  //   // .subscribe(loadedGroceries => {
-  //   //   loadedGroceries.forEach((groceryObject) => {
-  //   //     this.groceryList.unshift(groceryObject);
-  //   //   });
-  //   //   this.isLoading = false;
-  //   //   this.listLoaded = true;
-  //   // });
-  // }
-
-  // @ViewChild(RadSideDrawerComponent) public drawerComponent: RadSideDrawerComponent;
-  // private drawer: SideDrawerType;
+export class FriendsMapComponent implements OnInit {
+  //#Mapa 
+  mapView: MapView = null;
+  watchId: number = null;
+  gpsLine: Polyline;
+  tapLine: Polyline;
+  tapMarker: any;
+  gpsMarker: any;
+  centeredOnLocation: boolean = false;
+  //#Amigos
+  public friends: Array<FriendPosition>;
 
 
-  // openDrawer() {
-  //   this.drawer.showDrawer();
-  // }
+  constructor(private friendsLiveService: FriendsLiveService,
+    private friendsService: FriendsService) {
 
-  // closeDrawer() {
-  //   this.drawer.closeDrawer();
-  // }
-  // enableLocation() {
-  //   if (!geolocation.isEnabled()) {
-  //     console.log('Location not enabled, requesting.');
-  //     return geolocation.enableLocationRequest();
-  //   } else {
-  //     return Promise.resolve(true);
-  //   }
-  // }
 
-  // getLocation() {
-  //   if (geolocation.isEnabled()) {
-  //     return geolocation.getCurrentLocation({
-  //       desiredAccuracy: 10,
-  //       updateDistance: 10,
-  //       minimumUpdateTime: 1000,
-  //       maximumAge: 10000
-  //     })
-  //   }
-  //   return Promise.reject('Geolocation not enabled.');
-  // }
+  }
 
-  // //Map events
-  // onMapReady(event) {
-  //   console.log('Map Ready');
-  //   if (this.mapView || !event.object) return;
 
-  //   this.mapView = event.object;
+  ngOnInit() {
 
-  //   this.mapView.setStyle(style);
+    if (!geolocation.isEnabled()) {
+      geolocation.enableLocationRequest();
+    }
+    this.friendsLiveService.getFriendsByGroup(1).subscribe(x => {
+      for (var item of x) {
+        this.friends.push(item);
+      }
+    });
+    // this.groceryListService.load()
+    // .subscribe(loadedGroceries => {
+    //   loadedGroceries.forEach((groceryObject) => {
+    //     this.groceryList.unshift(groceryObject);
+    //   });
+    //   this.isLoading = false;
+    //   this.listLoaded = true;
+    // });
+  }
 
-  //   // this.mapView.markerSelect = this.onMarkerSelect;
-  //   // this.mapView.cameraChanged = this.onCameraChanged;
+  @ViewChild(RadSideDrawerComponent) public drawerComponent: RadSideDrawerComponent;
+  private drawer: SideDrawerType;
 
-  //   this.enableLocation()
-  //     .then(this.getLocation)
-  //     .then(() => {
-  //       this.watchId = geolocation.watchLocation(this.locationReceived, this.error, {
-  //         desiredAccuracy: 10,
-  //         updateDistance: 10,
-  //         minimumUpdateTime: 10000,
-  //         maximumAge: 60000
-  //       });
-  //     }, this.error);
-  // };
 
-  // mapTapped = (event) => {
-  //   console.log('Map Tapped');
+  openDrawer() {
+    this.drawer.showDrawer();
+  }
 
-  //   this.tapLine = this.addPointToLine({
-  //     color: new Color('Red'),
-  //     line: this.tapLine,
-  //     location: event.position,
-  //     geodesic: true,
-  //     width: 10
-  //   });
+  closeDrawer() {
+    this.drawer.closeDrawer();
+  }
+  enableLocation() {
+    if (!geolocation.isEnabled()) {
+      console.log('Location not enabled, requesting.');
+      return geolocation.enableLocationRequest();
+    } else {
+      return Promise.resolve(true);
+    }
+  }
 
-  //   this.removeMarker(this.tapMarker);
-  //   this.tapMarker = this.addMarker({
-  //     location: event.position,
-  //     title: 'Tap Location'
-  //   });
-  // };
+  getLocation() {
+    if (geolocation.isEnabled()) {
+      var location = geolocation.getCurrentLocation({
+        desiredAccuracy: 10,
+        updateDistance: 10,
+        minimumUpdateTime: 1000,
+        maximumAge: 10000
+      })
+      return location;
+    }
+    return Promise.reject('Geolocation not enabled.');
+  }
 
-  // locationReceived = (position: Position) => {
-  //   console.log('GPS Update Received');
+  //Map events
+  onMapReady(event) {
+    console.log('Map Ready');
+    if (this.mapView || !event.object) return;
 
-  //   if (this.mapView && position ) {
-  //     this.mapView.latitude = position.latitude;
-  //     this.mapView.longitude = position.longitude;
-  //     this.mapView.zoom = 16;
-  //     this.centeredOnLocation = true;
-  //   }
+    this.mapView = event.object;
 
-  //   // this.gpsLine = this.addPointToLine({
-  //   //   color: new Color('Green'),
-  //   //   line: this.gpsLine,
-  //   //   location: position,
-  //   //   geodesic: true,
-  //   //   width: 10
-  //   // });
+    this.mapView.setStyle(style);
 
-  //   this.removeMarker(this.gpsMarker);
-  //   this.gpsMarker = this.addMarker({
-  //     location: position,
-  //     title: 'GPS Location'
-  //   });
-  // };
+    // this.mapView.markerSelect = this.onMarkerSelect;
+    // this.mapView.cameraChanged = this.onCameraChanged;
 
-  // addPointToLine(args: AddLineArgs) {
-  //   if (!this.mapView || !args || !args.location) return;
+    this.enableLocation()
+      .then(() => {
+        var location = this.getLocation();
+      })
+      .then(() => {
+        this.watchId = geolocation.watchLocation(this.locationReceived, this.error, {
+          desiredAccuracy: 10,
+          updateDistance: 10,
+          minimumUpdateTime: 10000,
+          maximumAge: 60000
+        });
+      }, this.error);
+  };
 
-  //   let line = args.line;
+  mapTapped = (event) => {
+    console.log('Map Tapped');
 
-  //   if (!line) {
-  //     line = new Polyline();
-  //     line.visible = true;
-  //     line.width = args.width || 10;
-  //     line.color = args.color || new Color('Red');
-  //     line.geodesic = args.geodesic != undefined ? args.geodesic : true;
-  //     this.mapView.addPolyline(line);
-  //   }
-  //   line.addPoint(Position.positionFromLatLng(args.location.latitude, args.location.longitude));
+    this.tapLine = this.addPointToLine({
+      color: new Color('Red'),
+      line: this.tapLine,
+      location: event.position,
+      geodesic: true,
+      width: 10
+    });
 
-  //   return line;
-  // }
+    this.removeMarker(this.tapMarker);
+    this.tapMarker = this.addMarker({
+      location: event.position,
+      title: 'Tap Location'
+    });
+  };
 
-  // addMarker(args: AddMarkerArgs) {
-  //   if (!this.mapView || !args || !args.location) return;
+  locationReceived = (position: Position) => {
+    console.log('GPS Update Received');
 
-  //   let marker = new Marker();
-  //   marker.position = Position.positionFromLatLng(args.location.latitude, args.location.longitude);
-  //   marker.title = args.title;
-  //   marker.snippet = args.title;
-  //   this.mapView.addMarker(marker);
+    if (this.mapView && position) {
+      this.mapView.latitude = position.latitude;
+      this.mapView.longitude = position.longitude;
+      this.mapView.zoom = 16;
+      this.centeredOnLocation = true;
+    }
 
-  //   return marker;
-  // };
+    // this.gpsLine = this.addPointToLine({
+    //   color: new Color('Green'),
+    //   line: this.gpsLine,
+    //   location: position,
+    //   geodesic: true,
+    //   width: 10
+    // });
 
-  // clearGpsLine() {
-  //   this.removeLine(this.gpsLine);
-  //   this.gpsLine = null;
-  //   this.closeDrawer();
-  // };
+    this.removeMarker(this.gpsMarker);
+    this.gpsMarker = this.addMarker({
+      location: position,
+      title: 'GPS Location'
+    });
+  };
 
-  // clearTapLine() {
-  //   this.removeLine(this.tapLine);
-  //   this.tapLine = null;
-  //   this.removeMarker(this.tapMarker);
-  //   this.tapMarker = null;
-  //   this.closeDrawer();
-  // }
+  addPointToLine(args: AddLineArgs) {
+    if (!this.mapView || !args || !args.location) return;
 
-  // removeLine(line: Polyline) {
-  //   if (line) {
-  //     line.removeAllPoints();
-  //   }
-  // }
+    let line = args.line;
 
-  // removeMarker(marker: Marker) {
-  //   if (this.mapView && marker) {
-  //     this.mapView.removeMarker(marker);
-  //   }
-  // }
+    if (!line) {
+      line = new Polyline();
+      line.visible = true;
+      line.width = args.width || 10;
+      line.color = args.color || new Color('Red');
+      line.geodesic = args.geodesic != undefined ? args.geodesic : true;
+      this.mapView.addPolyline(line);
+    }
+    line.addPoint(Position.positionFromLatLng(args.location.latitude, args.location.longitude));
 
-  // error(err) {
-  //   console.log('Error: ' + JSON.stringify(err));
-  // }
+    return line;
+  }
 
-  // onMarkerSelect(event) {
-  //   console.log('Clicked on ' + event.marker.title);
-  // }
+  addMarker(args: AddMarkerArgs) {
+    if (!this.mapView || !args || !args.location) return;
 
-  // onCameraChanged(event) {
-  //   console.log('Camera changed: ' + JSON.stringify(event.camera));
-  // }
+    let marker = new Marker();
+    marker.position = Position.positionFromLatLng(args.location.latitude, args.location.longitude);
+    marker.title = args.title;
+    marker.snippet = args.title;
+    this.mapView.addMarker(marker);
+
+    return marker;
+  };
+
+  clearGpsLine() {
+    this.removeLine(this.gpsLine);
+    this.gpsLine = null;
+    this.closeDrawer();
+  };
+
+  clearTapLine() {
+    this.removeLine(this.tapLine);
+    this.tapLine = null;
+    this.removeMarker(this.tapMarker);
+    this.tapMarker = null;
+    this.closeDrawer();
+  }
+
+  removeLine(line: Polyline) {
+    if (line) {
+      line.removeAllPoints();
+    }
+  }
+
+  removeMarker(marker: Marker) {
+    if (this.mapView && marker) {
+      this.mapView.removeMarker(marker);
+    }
+  }
+
+  error(err) {
+    console.log('Error: ' + JSON.stringify(err));
+  }
+
+  onMarkerSelect(event) {
+    console.log('Clicked on ' + event.marker.title);
+  }
+
+  onCameraChanged(event) {
+    console.log('Camera changed: ' + JSON.stringify(event.camera));
+  }
 
 }
 

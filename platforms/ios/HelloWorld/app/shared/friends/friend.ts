@@ -5,3 +5,8 @@ export class Friend {
   lastName: string;
   groupId: number;
 }
+export class FriendPosition {
+  id:number;
+  latitude: number;
+  longitude: number;
+}

@@ -12,6 +12,7 @@ import tabViewModule = require("ui/tab-view");
   providers: []
 })
 export class DashboardComponent implements OnInit {
+  
   ngOnInit(): void {
     var a = "";
   }
