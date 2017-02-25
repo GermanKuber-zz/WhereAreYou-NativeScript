@@ -18,14 +18,6 @@ registerElement('MapView', () => MapView);
   providers: [FriendsLiveService, FriendsService, MapViewService]
 })
 export class FriendsMapComponent implements OnInit {
-  //#Mapa 
-  mapView: MapView = null;
-  watchId: number = null;
-  gpsLine: Polyline;
-  tapLine: Polyline;
-  tapMarker: any;
-  gpsMarker: any;
-  centeredOnLocation: boolean = false;
   //#Amigos
   public friends: Array<FriendPosition>;
 
@@ -35,9 +27,13 @@ export class FriendsMapComponent implements OnInit {
     this.friends = new Array<FriendPosition>();
   }
 
+  onMapReady(event) {
+    if (!event.object) return;
+    this.mapViewService.onMapReady(event);
 
+  }
   ngOnInit() {
-    this.mapViewService.setMapView(this.mapView);
+
 
   }
 
