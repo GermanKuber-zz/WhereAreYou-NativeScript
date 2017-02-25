@@ -5,7 +5,7 @@ import "rxjs/add/operator/do";
 import "rxjs/add/operator/map";
 
 import { Friend } from "./friend";
-import { Config } from "../config";
+
 
 @Injectable()
 export class FriendsService {
