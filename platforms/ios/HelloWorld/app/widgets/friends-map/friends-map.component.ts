@@ -44,20 +44,7 @@ export class FriendsMapComponent implements OnInit {
     if (!geolocation.isEnabled()) {
       geolocation.enableLocationRequest();
     }
-    this.friendsLiveService.getFriendsByGroup(1).subscribe(x => {
-      for (var item of x) {
-        this.friends.push(item);
-        this.removeMarker(this.tapMarker);
 
-        var mark = new AddMarkerArgs();
-        mark.title = "Primeroo";
-        mark.location = new Position();
-        mark.location.latitude = item.latitude;
-        mark.location.longitude = item.longitude;
-        this.tapMarker = this.addMarker(mark);
-      }
-
-    });
     // this.groceryListService.load()
     // .subscribe(loadedGroceries => {
     //   loadedGroceries.forEach((groceryObject) => {
@@ -103,7 +90,6 @@ export class FriendsMapComponent implements OnInit {
 
   //Map events
   onMapReady(event) {
-    console.log('Map Ready');
     if (this.mapView || !event.object) return;
 
     this.mapView = event.object;
@@ -125,24 +111,26 @@ export class FriendsMapComponent implements OnInit {
           maximumAge: 60000
         });
       }, this.error);
+    this.getFriends();
+    this.subscribeFriendLocationUpdate();
   };
 
   mapTapped = (event) => {
-    console.log('Map Tapped');
+    // console.log('Map Tapped');
 
-    this.tapLine = this.addPointToLine({
-      color: new Color('Red'),
-      line: this.tapLine,
-      location: event.position,
-      geodesic: true,
-      width: 10
-    });
+    // this.tapLine = this.addPointToLine({
+    //   color: new Color('Red'),
+    //   line: this.tapLine,
+    //   location: event.position,
+    //   geodesic: true,
+    //   width: 10
+    // });
 
-    this.removeMarker(this.tapMarker);
-    this.tapMarker = this.addMarker({
-      location: event.position,
-      title: 'Tap Location'
-    });
+    // this.removeMarker(this.tapMarker);
+    // this.tapMarker = this.addMarker({
+    //   location: event.position,
+    //   title: 'Tap Location'
+    // });
   };
 
   locationReceived = (position: Position) => {
@@ -151,7 +139,7 @@ export class FriendsMapComponent implements OnInit {
     if (this.mapView && position) {
       this.mapView.latitude = position.latitude;
       this.mapView.longitude = position.longitude;
-      this.mapView.zoom = 16;
+      this.mapView.zoom = 6;
       this.centeredOnLocation = true;
     }
 
@@ -187,8 +175,7 @@ export class FriendsMapComponent implements OnInit {
 
     return line;
   }
-
-  addMarker(args: AddMarkerArgs) {
+  addMarker(args: AddMarkerArgs): Marker {
     if (!this.mapView || !args || !args.location) return;
 
     let marker = new Marker();
@@ -236,6 +223,30 @@ export class FriendsMapComponent implements OnInit {
 
   onCameraChanged(event) {
     console.log('Camera changed: ' + JSON.stringify(event.camera));
+  }
+  private updateFriendLocation(friend: FriendPosition): void {
+    var a = friend;
+  }
+  private subscribeFriendLocationUpdate() {
+    //Me suscribo al metodo de actualizacion para obtener actualizacion de ubicacion de mis amigos
+    this.friendsLiveService.updateFriendLocation((f) => this.updateFriendLocation(f));
+
+  }
+  private getFriends(): void {
+    this.friendsLiveService.getFriendsByGroup(1).subscribe(x => {
+      for (var item of x) {
+        this.friends.push(item);
+        this.removeMarker(this.tapMarker);
+        var mark = new AddMarkerArgs();
+        mark.title = "Primeroo";
+        mark.location = new Position();
+        mark.location.latitude = item.latitude;
+        mark.location.longitude = item.longitude;
+        var mapMark: Marker = this.addMarker(mark);
+        mapMark.snippet = "Primero";
+        this.mapView.addMarker(mapMark);
+      }
+    });
   }
 
 }
