@@ -33,10 +33,9 @@ export class FriendsMapComponent implements OnInit {
   public friends: Array<FriendPosition>;
 
 
-  constructor(private friendsLiveService: FriendsLiveService,
-    private friendsService: FriendsService) {
+  constructor(private friendsLiveService: FriendsLiveService) {
 
-
+    this.friends = new Array<FriendPosition>();
   }
 
 
@@ -48,7 +47,16 @@ export class FriendsMapComponent implements OnInit {
     this.friendsLiveService.getFriendsByGroup(1).subscribe(x => {
       for (var item of x) {
         this.friends.push(item);
+        this.removeMarker(this.tapMarker);
+
+        var mark = new AddMarkerArgs();
+        mark.title = "Primeroo";
+        mark.location = new Position();
+        mark.location.latitude = item.latitude;
+        mark.location.longitude = item.longitude;
+        this.tapMarker = this.addMarker(mark);
       }
+
     });
     // this.groceryListService.load()
     // .subscribe(loadedGroceries => {

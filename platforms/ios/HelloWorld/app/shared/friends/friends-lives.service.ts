@@ -8,7 +8,6 @@ import { Config } from "../config";
 
 @Injectable()
 export class FriendsLiveService {
-  constructor() { }
 
   getFriendsByGroup(idGroup: number): Observable<Array<FriendPosition>> {
     return Observable.of<FriendPosition[]>(mockListFriend);
@@ -25,6 +24,6 @@ var mockListFriend = new Array<FriendPosition>();
 
 mockListFriend.push(<FriendPosition>{
   id: 1,
-  latitude: 37.35322775,
-  longitude: -122.10761167
+  latitude: 37.33233120,
+  longitude: -122.0312120
 })
