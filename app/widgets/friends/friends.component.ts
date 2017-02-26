@@ -18,7 +18,7 @@ export class FriendsComponent implements OnInit {
   constructor(private friendService: FriendsService) {
 
   }
-  
+
 
   public onItemTap(args) {
     this.selected = this.myItems[args.index];

@@ -148,7 +148,7 @@ export class MapViewService {
         if (this.mapView && position) {
             this.mapView.latitude = position.latitude;
             this.mapView.longitude = position.longitude;
-            this.mapView.zoom = 10;
+            this.mapView.zoom = 13;
             this.centeredOnLocation = true;
         }
 
