@@ -16,7 +16,7 @@ export class MapViewService {
     tapMarker: any;
     gpsMarker: any;
     centeredOnLocation: boolean = false;
-
+    private markList: Array<MarkWrapper> = new Array<MarkWrapper>();
     constructor() {
         if (!geolocation.isEnabled()) {
             geolocation.enableLocationRequest();
@@ -24,8 +24,6 @@ export class MapViewService {
     }
 
     ngOnInit() {
-
-
 
         // this.groceryListService.load()
         // .subscribe(loadedGroceries => {
@@ -37,6 +35,44 @@ export class MapViewService {
         // });
     }
 
+    //Private Methods
+    public createMarkWrapper(markInfo: AddMarkerArgs, markId: number): MarkWrapper {
+        //Creo un MarkWrapper el cual relaciona el Marker con el id del usuario dibujado
+        var mark = new AddMarkerArgs();
+        mark.title = markInfo.title;
+        mark.location = new Position();
+        mark.location.latitude = markInfo.location.latitude;
+        mark.location.longitude = markInfo.location.longitude;
+        var mapMark: Marker = this.addMarker(mark);
+        var markWrapper = new MarkWrapper();
+        markWrapper.markId = markId;
+        markWrapper.mark = mapMark;
+        return markWrapper;
+    }
+    private getMarkWrapper(markId: number): MarkWrapper {
+        //Regreso un markWrapper por ID
+        for (var item of this.markList)
+            if (item.markId == markId)
+                return item;
+
+    }
+    //Public Methods
+    public addCommonMark(markInfo: AddMarkerArgs, markId: number): void {
+        var markWrapper = this.createMarkWrapper(markInfo, markId);
+        this.markList.push(markWrapper);
+        this.mapView.addMarker(markWrapper.mark);
+
+    }
+    public updateCommonMark(markInfo: AddMarkerArgs, markId: number): void {
+        var markWrapper = this.getMarkWrapper(markId);
+        if (markWrapper != null) {
+            this.mapView.removeMarker(markWrapper.mark);
+            markWrapper.mark.position = markInfo.location;
+            this.mapView.addMarker(markWrapper.mark);
+        }
+    }
+
+
     private enableLocation() {
         if (!geolocation.isEnabled()) {
             console.log('Location not enabled, requesting.');
@@ -46,7 +82,7 @@ export class MapViewService {
         }
     }
 
-    getLocation() {
+    private getLocation() {
         if (geolocation.isEnabled()) {
             var location = geolocation.getCurrentLocation({
                 desiredAccuracy: 10,
@@ -60,12 +96,16 @@ export class MapViewService {
     }
 
     //Map events
-    onMapReady(event) {
+    public onMapReady(event, mapReadyNotify: () => void) {
         if (this.mapView || !event.object) return;
 
         this.mapView = event.object;
         this.mapView.setStyle(style);
 
+        //Notifico cuando el mapa esta listo
+        this.mapView.notifyMapReady = () => {
+            mapReadyNotify();
+        }
         // this.mapView.markerSelect = this.onMarkerSelect;
         // this.mapView.cameraChanged = this.onCameraChanged;
 
@@ -84,7 +124,7 @@ export class MapViewService {
 
     };
 
-    mapTapped = (event) => {
+    private mapTapped = (event) => {
         // console.log('Map Tapped');
 
         // this.tapLine = this.addPointToLine({
@@ -102,13 +142,13 @@ export class MapViewService {
         // });
     };
 
-    locationReceived = (position: Position) => {
+    private locationReceived = (position: Position) => {
         console.log('GPS Update Received');
 
         if (this.mapView && position) {
             this.mapView.latitude = position.latitude;
             this.mapView.longitude = position.longitude;
-            this.mapView.zoom = 6;
+            this.mapView.zoom = 10;
             this.centeredOnLocation = true;
         }
 
@@ -127,7 +167,7 @@ export class MapViewService {
         });
     };
 
-    addPointToLine(args: AddLineArgs) {
+    private addPointToLine(args: AddLineArgs) {
         if (!this.mapView || !args || !args.location) return;
 
         let line = args.line;
@@ -144,7 +184,7 @@ export class MapViewService {
 
         return line;
     }
-    addMarker(args: AddMarkerArgs): Marker {
+    private addMarker(args: AddMarkerArgs): Marker {
         if (!this.mapView || !args || !args.location) return;
 
         let marker = new Marker();
@@ -156,13 +196,13 @@ export class MapViewService {
         return marker;
     };
 
-    clearGpsLine() {
+    private clearGpsLine() {
         this.removeLine(this.gpsLine);
         this.gpsLine = null;
 
     };
 
-    clearTapLine() {
+    private clearTapLine() {
         this.removeLine(this.tapLine);
         this.tapLine = null;
         this.removeMarker(this.tapMarker);
@@ -170,44 +210,29 @@ export class MapViewService {
 
     }
 
-    removeLine(line: Polyline) {
+    private removeLine(line: Polyline) {
         if (line) {
             line.removeAllPoints();
         }
     }
 
-    removeMarker(marker: Marker) {
+    private removeMarker(marker: Marker) {
         if (this.mapView && marker) {
             this.mapView.removeMarker(marker);
         }
     }
 
-    error(err) {
+    private error(err) {
         console.log('Error: ' + JSON.stringify(err));
     }
 
-    onMarkerSelect(event) {
+    private onMarkerSelect(event) {
         console.log('Clicked on ' + event.marker.title);
     }
 
-    onCameraChanged(event) {
+    private onCameraChanged(event) {
         console.log('Camera changed: ' + JSON.stringify(event.camera));
     }
-
-    private getFriends(): void {
-
-        this.removeMarker(this.tapMarker);
-        var mark = new AddMarkerArgs();
-        mark.title = "Primeroo";
-        mark.location = new Position();
-        // mark.location.latitude = item.latitude;
-        // mark.location.longitude = item.longitude;
-        var mapMark: Marker = this.addMarker(mark);
-        mapMark.snippet = "Primero";
-        this.mapView.addMarker(mapMark);
-    }
-
-
 }
 
 
@@ -222,4 +247,9 @@ export class AddLineArgs {
 export class AddMarkerArgs {
     public location: Position;
     public title: string;
+}
+
+class MarkWrapper {
+    mark: Marker;
+    markId: number;
 }

@@ -11,39 +11,40 @@ export class FriendsLiveService {
   constructor() {
     this.mockListFriend.push(<FriendPosition>{
       id: 1,
-      latitude: 37.93233120,
-      longitude: -122.0312120
+      latitude: 37.33233141,
+      longitude: -122.0312186
     })
     this.mockListFriend.push(<FriendPosition>{
       id: 2,
-      latitude: 37.53233120,
-      longitude: -122.1312120
+      latitude: 37.33253141,
+      longitude: -122.0312186
     })
     this.mockListFriend.push(<FriendPosition>{
       id: 3,
-      latitude: 38.13233120,
-      longitude: -123.0312120
+      latitude: 37.33263121,
+      longitude: -122.0315187
     })
   }
 
   getFriendsByGroup(idGroup: number): Observable<Array<FriendPosition>> {
-    return Observable.of<FriendPosition[]>(mockListFriend);
+    return Observable.of<FriendPosition[]>(this.mockListFriend);
   }
   updateFriendLocation(callback: (FriendPosition) => void): void {
     //TODO: Meotodo que debo remplazar con el comportamiento de SignalR
     setTimeout(() => {
       this.generateRanonMove(callback);
       this.updateFriendLocation(callback);
-    }, 3000);
+    }, 300);
   }
 
   //TODO: Metodo mock donde simulto el movimiento de un amigo Demo eliminar
   private generateRanonMove(callback: (FriendPosition) => void): void {
-    var friend = this.mockListFriend[this.getRandomInt(0, 2)]
-    friend.latitude = friend.latitude + 0.08233120
-    friend.longitude = friend.longitude + 0.04233120
+    var friend = this.mockListFriend[this.getRandomInt(0, 3)]
+    var test = (Math.random() * (0.00002000 - 0.00055120) + 0.00055120).toFixed(4);
+    var test2 = (Math.random() * (0.00004000 - 0.00079120) + 0.00079120).toFixed(4);
+    friend.latitude = friend.latitude + +test;
+    friend.longitude = friend.longitude + +test2;
     callback(friend);
-
   }
 
 
@@ -57,7 +58,3 @@ export class FriendsLiveService {
     return Math.floor(Math.random() * (max - min)) + min;
   }
 }
-
-
-var mockListFriend = new Array<FriendPosition>();
-

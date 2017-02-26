@@ -4,6 +4,7 @@ export class Friend {
   name: string;
   lastName: string;
   groupId: number;
+  displayName:string;
 }
 export class FriendPosition {
   id:number;
