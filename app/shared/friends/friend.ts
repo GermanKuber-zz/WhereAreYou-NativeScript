@@ -5,6 +5,7 @@ export class Friend {
   lastName: string;
   groupId: number;
   displayName:string;
+  activate:boolean;
 }
 export class FriendPosition {
   id:number;

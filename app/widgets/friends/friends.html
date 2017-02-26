@@ -1,6 +1,6 @@
 <ListView [items]="myItems" class="list-group" (itemTap)="onItemTap($event)">
 	<template let-item="item" let-odd="odd" let-even="even">
-		<GridLayout columns="25, auto, *" rows="50">
+		<GridLayout columns="25, auto, *" rows="50" [class]="getColorItem(item)">
 			<Label col="0" [text]="item.id" class="list-group-item"></Label>
 			<Label col="1" [text]="item.name" class="list-group-item"></Label>
 			<Label col="2" [text]="item.email" class="list-group-item"></Label>

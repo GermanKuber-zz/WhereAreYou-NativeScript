@@ -38,7 +38,8 @@ mockListFriend.push(<Friend>{
   name: "Nombre 1",
   lastName: "Apellido 1",
   displayName: "Display Name 1",
-  groupId: 1
+  groupId: 1,
+  activate: true
 })
 mockListFriend.push(<Friend>{
   id: 2,
@@ -46,7 +47,8 @@ mockListFriend.push(<Friend>{
   name: "Nombre 2",
   lastName: "Apellido 1",
   displayName: "Display Name 2",
-  groupId: 1
+  groupId: 1,
+  activate: false
 })
 mockListFriend.push(<Friend>{
   id: 3,
@@ -54,7 +56,8 @@ mockListFriend.push(<Friend>{
   name: "Nombre 3",
   lastName: "Apellido 1",
   displayName: "Display Name 3",
-  groupId: 1
+  groupId: 1,
+  activate: true
 })
 mockListFriend.push(<Friend>{
   id: 4,

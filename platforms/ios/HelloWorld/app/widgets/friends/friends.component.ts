@@ -12,13 +12,19 @@ import labelModule = require("ui/label");
   providers: [FriendsService]
 })
 export class FriendsComponent implements OnInit {
+  classMap = { 'friend-enable': true, 'friend-disable': false };
   selected: Friend = new Friend();
   public myItems: Array<Friend>;
   private counter: number;
   constructor(private friendService: FriendsService) {
 
   }
-
+  public getColorItem(friend: Friend): string {
+    if (friend.activate)
+      return "friend-enable";
+    else
+      return "friend-disable";
+  }
 
   public onItemTap(args) {
     this.selected = this.myItems[args.index];
@@ -27,6 +33,7 @@ export class FriendsComponent implements OnInit {
   listViewItemTap(args) {
     var itemIndex = args.index;
   }
+
 
   ngOnInit() {
     this.friendService.getAllFriends().subscribe(x => {
