@@ -16,7 +16,7 @@ registerElement('MapView', () => MapView);
   selector: "friends-map",
   templateUrl: "widgets/friends-map/friends-map.html",
   styleUrls: ["widgets/friends-map/friends-map-common.css", "widgets/friends-map/friends-map.css"],
-  providers: [FriendsLiveService, FriendsService, MapViewService]
+  providers: [FriendsLiveService, MapViewService]
 })
 export class FriendsMapComponent implements OnInit {
   //#Amigos
@@ -40,6 +40,14 @@ export class FriendsMapComponent implements OnInit {
 
     this.getFriends();
     this.subscribeFriendLocationUpdate();
+    this.friendsService.getAllFriends().subscribe(x => {
+      x.forEach(s => {
+        if (!s.activate) {
+          //si el amigo esta desactivado lo elimino
+
+        }
+      });
+    });
   }
   ngOnInit() {
 
@@ -48,7 +56,7 @@ export class FriendsMapComponent implements OnInit {
   private updateFriendLocation(friend: FriendPosition): void {
     var newMarkFriend = this.createMark(friend);
     if (newMarkFriend != null)
-          this.mapViewService.updateCommonMark(newMarkFriend[0], newMarkFriend[1].id);
+      this.mapViewService.updateCommonMark(newMarkFriend[0], newMarkFriend[1].id);
   }
   private subscribeFriendLocationUpdate() {
     //Me suscribo al metodo de actualizacion para obtener actualizacion de ubicacion de mis amigos
@@ -69,7 +77,7 @@ export class FriendsMapComponent implements OnInit {
   private createMark(position: FriendPosition): [AddMarkerArgs, Friend] {
     var mark = new AddMarkerArgs();
     var friend = this.friendsService.getFriendById(position.id);
-    if (friend != null) {
+    if (friend != null && friend.activate) {
       mark.title = friend.displayName;
       mark.location = new Position();
       mark.location.latitude = position.latitude;

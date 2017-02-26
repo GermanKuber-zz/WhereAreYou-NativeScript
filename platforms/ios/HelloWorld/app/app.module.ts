@@ -1,4 +1,4 @@
-import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
+import { NgModule, NO_ERRORS_SCHEMA, Provider } from '@angular/core';
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { AppComponent } from "./app.component";
@@ -8,6 +8,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { FriendsMapComponent } from './widgets/friends-map/friends-map.component';
 import { FriendsComponent } from './widgets/friends/friends.component';
 import { SIDEDRAWER_DIRECTIVES } from "nativescript-telerik-ui/sidedrawer/angular";
+import { FriendsService } from './shared/friends/friends.service';
 var application = require("application");
 declare var GMSServices: any;
 if (application.ios) {
@@ -21,6 +22,9 @@ if (application.ios) {
     FriendsComponent,
     FriendsMapComponent,
     SIDEDRAWER_DIRECTIVES
+  ],
+  providers: [
+    FriendsService
   ],
   bootstrap: [
     AppComponent

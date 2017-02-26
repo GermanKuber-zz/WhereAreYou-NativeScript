@@ -1,20 +1,37 @@
 import { Injectable } from "@angular/core";
-import { Observable } from "rxjs/Rx";
+import { Observable } from 'rxjs/Observable';
 import "rxjs/add/operator/do";
 import "rxjs/add/operator/map";
-
 import { Friend } from "./friend";
+import { every } from '../../../platforms/ios/HelloWorld/app/tns_modules/rxjs/src/operator/every';
+import { Observer } from '../../../platforms/ios/HelloWorld/app/tns_modules/rxjs/src/Observer';
 
 
 @Injectable()
 export class FriendsService {
-  constructor() { }
+  private friend: Observable<Friend[]>;
+  private data: Observable<Array<Friend>>;
+  private dataObserver: Observer<Array<Friend>>;
+  private observer :any;
+  constructor() {
+    this.friend = new Observable<any>(observer => {
+      observer.next(mockListFriend);
+      this.observer = observer;
+    });
+  }
   getFriendsByGroup(id: number): Observable<Array<Friend>> {
     return Observable.of<Friend[]>(mockListFriend);
   }
 
   getAllFriends(): Observable<Array<Friend>> {
-    return Observable.of<Friend[]>(mockListFriend);
+    // this.data = new Observable(observer => this.dataObserver = observer);
+
+    // return this.data;
+    // this.friend = Observable.of<Friend[]>(mockListFriend);
+    return this.friend;
+  }
+  updateFriend(friend: Friend): void {
+    this.observer.next(mockListFriend);
   }
   getFriendById(id: number): Friend {
     for (var friend of mockListFriend) {

@@ -2,17 +2,15 @@ import { Component, Input, OnInit } from '@angular/core';
 import { FriendsService } from '../../shared/friends/friends.service';
 import { Friend } from '../../shared/friends/friend';
 import listViewModule = require("ui/list-view");
-import observableArray = require("data/observable-array");
+
 import labelModule = require("ui/label");
 
 @Component({
   selector: "friends",
   templateUrl: "widgets/friends/friends.html",
-  styleUrls: ["widgets/friends/friends-common.css", "widgets/friends/friends.css"],
-  providers: [FriendsService]
+  styleUrls: ["widgets/friends/friends-common.css", "widgets/friends/friends.css"]
 })
 export class FriendsComponent implements OnInit {
-  classMap = { 'friend-enable': true, 'friend-disable': false };
   selected: Friend = new Friend();
   public myItems: Array<Friend>;
   private counter: number;
@@ -27,8 +25,9 @@ export class FriendsComponent implements OnInit {
   }
 
   public onItemTap(args) {
-    this.selected = this.myItems[args.index];
-
+    var itemSelected = <Friend>this.myItems[args.index];
+    itemSelected.activate = !itemSelected.activate;
+    this.friendService.updateFriend(itemSelected);
   }
   listViewItemTap(args) {
     var itemIndex = args.index;
@@ -36,12 +35,13 @@ export class FriendsComponent implements OnInit {
 
 
   ngOnInit() {
+    this.myItems = new Array<Friend>();
     this.friendService.getAllFriends().subscribe(x => {
-      this.myItems = new Array<Friend>();
       x.forEach(s => {
         this.myItems.push(s);
       });
     });
+
     // this.groceryListService.load()
     // .subscribe(loadedGroceries => {
     //   loadedGroceries.forEach((groceryObject) => {

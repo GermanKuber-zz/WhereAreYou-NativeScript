@@ -6,6 +6,7 @@ import { MapView, Marker, Polyline, Position } from 'nativescript-google-maps-sd
 let geolocation = require('nativescript-geolocation');
 var style = require('./map-style.json');
 import { Color } from 'color';
+import { FriendsService } from '../../../shared/friends/friends.service';
 @Injectable()
 export class MapViewService {
     //#Mapa 
@@ -17,7 +18,7 @@ export class MapViewService {
     gpsMarker: any;
     centeredOnLocation: boolean = false;
     private markList: Array<MarkWrapper> = new Array<MarkWrapper>();
-    constructor() {
+    constructor(private friendService: FriendsService) {
         if (!geolocation.isEnabled()) {
             geolocation.enableLocationRequest();
         }
@@ -108,7 +109,7 @@ export class MapViewService {
         }
         // this.mapView.markerSelect = this.onMarkerSelect;
         // this.mapView.cameraChanged = this.onCameraChanged;
-
+        
         this.enableLocation()
             .then(() => {
                 var location = this.getLocation();
@@ -125,6 +126,7 @@ export class MapViewService {
     };
 
     private mapTapped = (event) => {
+
         // console.log('Map Tapped');
 
         // this.tapLine = this.addPointToLine({
