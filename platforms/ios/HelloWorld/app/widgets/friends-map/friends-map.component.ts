@@ -60,7 +60,9 @@ export class FriendsMapComponent implements OnInit {
   }
   private subscribeFriendLocationUpdate() {
     //Me suscribo al metodo de actualizacion para obtener actualizacion de ubicacion de mis amigos
-    this.friendsLiveService.updateFriendLocation((f) => this.updateFriendLocation(f));
+    this.friendsLiveService.getFriendsLocations().subscribe(f=>{
+      this.updateFriendLocation(f); 
+    });
 
   }
   private getFriends(): void {

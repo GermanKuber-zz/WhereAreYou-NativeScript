@@ -29,22 +29,29 @@ export class FriendsLiveService {
   getFriendsByGroup(idGroup: number): Observable<Array<FriendPosition>> {
     return Observable.of<FriendPosition[]>(this.mockListFriend);
   }
-  updateFriendLocation(callback: (FriendPosition) => void): void {
+  getFriendsLocations(): Observable<FriendPosition> {
     //TODO: Meotodo que debo remplazar con el comportamiento de SignalR
+    let source = Observable.create(observer => {
+      this.autoCall(observer);
+    });
+    return source;
+
+  }
+  private autoCall(observer) {
     setTimeout(() => {
-      this.generateRanonMove(callback);
-      this.updateFriendLocation(callback);
+      var friend = this.generateRanonMove();
+      observer.next(friend);;
+      this.autoCall(observer);
     }, 300);
   }
-
   //TODO: Metodo mock donde simulto el movimiento de un amigo Demo eliminar
-  private generateRanonMove(callback: (FriendPosition) => void): void {
+  private generateRanonMove(): FriendPosition {
     var friend = this.mockListFriend[this.getRandomInt(0, 3)]
     var test = (Math.random() * (0.00002000 - 0.00055120) + 0.00055120).toFixed(4);
     var test2 = (Math.random() * (0.00004000 - 0.00079120) + 0.00079120).toFixed(4);
     friend.latitude = friend.latitude + +test;
     friend.longitude = friend.longitude + +test2;
-    callback(friend);
+    return friend;
   }
 
 
