@@ -72,6 +72,10 @@ export class MapViewService {
             this.mapView.addMarker(markWrapper.mark);
         }
     }
+    public removeCommonMark(markInfo: AddMarkerArgs, markId: number): void {
+        var markWrapper = this.getMarkWrapper(markId);
+        this.mapView.removeMarker(markWrapper.mark);
+    }
 
 
     private enableLocation() {
@@ -109,7 +113,7 @@ export class MapViewService {
         }
         // this.mapView.markerSelect = this.onMarkerSelect;
         // this.mapView.cameraChanged = this.onCameraChanged;
-        
+
         this.enableLocation()
             .then(() => {
                 var location = this.getLocation();

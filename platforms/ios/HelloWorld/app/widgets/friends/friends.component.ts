@@ -19,6 +19,7 @@ export class FriendsComponent implements OnInit {
 
   constructor(private friendService: FriendsService) {
 
+
   }
   public getColorItem(friend: Friend): string {
     if (friend.activate)
@@ -46,6 +47,15 @@ export class FriendsComponent implements OnInit {
     this.myFriends = new Array<Friend>();
     this.friendService.getAllFriends().subscribe(x => {
       this.myFriends = x;
+    });
+    this.friendService.friendUpdate$.subscribe(x => {
+      var count = 0;
+      for (var item of this.myFriends) {
+        if (item.id == x.id) {
+          this.myFriends[count] = x;
+        }
+        ++count;
+      }
     });
   }
 }

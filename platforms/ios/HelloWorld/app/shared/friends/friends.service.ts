@@ -5,6 +5,7 @@ import "rxjs/add/operator/map";
 import { Friend } from "./friend";
 import { every } from 'rxjs/src/operator/every';
 import { Observer } from 'rxjs/src/Observer';
+import { Subject } from 'rxjs/Subject';
 
 
 @Injectable()
@@ -12,13 +13,26 @@ export class FriendsService {
   private friend: Observable<Friend[]>;
   private data: Observable<Array<Friend>>;
   private dataObserver: Observer<Array<Friend>>;
-  private observer: any;
+
+  friendUpdate$: Subject<Friend> = new Subject<Friend>();
+
   constructor() {
-    this.friend = new Observable<any>(observer => {
-      observer.next(mockListFriend);
-      this.observer = observer;
-    });
+
   }
+
+
+
+  // Observable string sources
+  private friendsP = new Subject<Friend>();
+  private missionConfirmedSource = new Subject<Friend>();
+  // Observable string streams
+  friends$: Observable<Friend> = this.friendsP.asObservable();
+
+  // Service message commands
+  addFriend(mission: Friend) {
+    this.friendsP.next(mission);
+  }
+
   getFriendsByGroup(id: number): Observable<Array<Friend>> {
     return Observable.of<Friend[]>(mockListFriend);
   }
@@ -36,6 +50,7 @@ export class FriendsService {
         mockListFriend[index] = friend;
       ++index;
     }
+    this.friendUpdate$.next(friend);
   }
   getFriendById(id: number): Friend {
     for (var friend of mockListFriend) {

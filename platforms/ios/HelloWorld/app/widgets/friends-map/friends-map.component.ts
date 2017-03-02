@@ -21,13 +21,12 @@ registerElement('MapView', () => MapView);
 export class FriendsMapComponent implements OnInit {
   //#Amigos
   // public friends: Array<FriendPosition>;
-  private friendsList: Array<Friend>;
+  private myFriends: Array<Friend>;
 
   constructor(private friendsService: FriendsService,
     private friendsLiveService: FriendsLiveService,
-
     private mapViewService: MapViewService) {
-    // this.friends = new Array<FriendPosition>();
+
   }
 
   onMapReady(event) {
@@ -36,21 +35,24 @@ export class FriendsMapComponent implements OnInit {
 
   }
   private mapReadyNotify() {
-    this.friendsList = new Array<Friend>();
 
-    this.getFriends();
+    this.getFriendsPositions();
     this.subscribeFriendLocationUpdate();
-    this.friendsService.getAllFriends().subscribe(x => {
-      x.forEach(s => {
-        if (!s.activate) {
-          //si el amigo esta desactivado lo elimino
-
-        }
-      });
-    });
   }
   ngOnInit() {
+    this.friendsService.friendUpdate$.subscribe(x => {
+      var count = 0;
+      for (var item of this.myFriends) {
+        if (item.id == x.id)
+          this.myFriends[count] = x;
 
+        ++count;
+      }
+    });
+    this.myFriends = new Array<Friend>();
+    this.friendsService.getAllFriends().subscribe(x => {
+      this.myFriends = x;
+    });
   }
 
   private updateFriendLocation(friend: FriendPosition): void {
@@ -60,12 +62,12 @@ export class FriendsMapComponent implements OnInit {
   }
   private subscribeFriendLocationUpdate() {
     //Me suscribo al metodo de actualizacion para obtener actualizacion de ubicacion de mis amigos
-    this.friendsLiveService.getFriendsLocations().subscribe(f=>{
-      this.updateFriendLocation(f); 
+    this.friendsLiveService.getFriendsLocations().subscribe(f => {
+      this.updateFriendLocation(f);
     });
 
   }
-  private getFriends(): void {
+  private getFriendsPositions(): void {
     //Obtengo todos los amigos conectados por grupo y los dibujo en el mapa
     this.friendsLiveService.getFriendsByGroup(1).subscribe(friendsPosition => {
       for (var item of friendsPosition) {
