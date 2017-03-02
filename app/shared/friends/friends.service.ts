@@ -131,3 +131,30 @@ mockListFriend.push(<Friend>{
   groupId: 1,
   activate: true
 })
+mockListFriend.push(<Friend>{
+  id: 8,
+  email: "octavo@gmail.com",
+  name: "Nombre 8",
+  lastName: "Apellido 1",
+  displayName: "Display Name 7",
+  groupId: 1,
+  activate: true
+})
+mockListFriend.push(<Friend>{
+  id: 9,
+  email: "noveno@gmail.com",
+  name: "Nombre 9",
+  lastName: "Apellido 1",
+  displayName: "Display Name 7",
+  groupId: 1,
+  activate: true
+})
+mockListFriend.push(<Friend>{
+  id: 10,
+  email: "decimo@gmail.com",
+  name: "Nombre 10",
+  lastName: "Apellido 1",
+  displayName: "Display Name 7",
+  groupId: 1,
+  activate: true
+})
