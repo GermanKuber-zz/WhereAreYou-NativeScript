@@ -62,7 +62,7 @@ export class FriendsComponent implements OnInit {
   public onItemSelected(args: ListViewEventData) {
     var listView = <RadListView>frameModule.topmost().currentPage.getViewById("listView");
     listView.notifySwipeToExecuteFinished();
-     var itemSelected = <Friend>this.myFriends[args.itemIndex];
+    var itemSelected = <Friend>this.myFriends[args.itemIndex];
     for (var item of this.myFriends)
       if (item.id == itemSelected.id)
         item.activate = !item.activate;
@@ -76,7 +76,8 @@ export class FriendsComponent implements OnInit {
   }
 
   public onRightSwipeClick(args) {
-    console.log("Right swipe click");
+    var removeFriend = <Friend>args.object.bindingContext;
+    this.friendService.deleteFriend(removeFriend);
   }
 
   public onItemTap(args) {
@@ -100,13 +101,7 @@ export class FriendsComponent implements OnInit {
       this.myFriends = x;
     });
     this.friendService.friendUpdate$.subscribe(x => {
-      var count = 0;
-      for (var item of this.myFriends) {
-        if (item.id == x.id) {
-          this.myFriends[count] = x;
-        }
-        ++count;
-      }
+      this.myFriends = x;
     });
   }
 }

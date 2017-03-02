@@ -41,13 +41,7 @@ export class FriendsMapComponent implements OnInit {
   }
   ngOnInit() {
     this.friendsService.friendUpdate$.subscribe(x => {
-      var count = 0;
-      for (var item of this.myFriends) {
-        if (item.id == x.id)
-          this.myFriends[count] = x;
-
-        ++count;
-      }
+      this.myFriends = x;
     });
     this.myFriends = new Array<Friend>();
     this.friendsService.getAllFriends().subscribe(x => {

@@ -14,7 +14,7 @@ export class FriendsService {
   private data: Observable<Array<Friend>>;
   private dataObserver: Observer<Array<Friend>>;
 
-  friendUpdate$: Subject<Friend> = new Subject<Friend>();
+  friendUpdate$: Subject<Array<Friend>> = new Subject<Array<Friend>>();
 
   constructor() {
 
@@ -50,7 +50,14 @@ export class FriendsService {
         mockListFriend[index] = friend;
       ++index;
     }
-    this.friendUpdate$.next(friend);
+    this.friendUpdate$.next(mockListFriend);
+  }
+  deleteFriend(friend: Friend): void {
+    var index = mockListFriend.indexOf(friend, 0);
+    if (index > -1) {
+      mockListFriend.splice(index, 1);
+    }
+    this.friendUpdate$.next(mockListFriend);
   }
   getFriendById(id: number): Friend {
     for (var friend of mockListFriend) {
