@@ -1,4 +1,4 @@
-<ListView [items]="myItems" class="list-group" (itemTap)="onItemTap($event)">
+<ListView #listView [items]="myFriends" class="list-group list-friends" (itemTap)="onItemTap($event)">
 	<template let-item="item" let-odd="odd" let-even="even">
 		<GridLayout columns="25, auto, *" rows="50" [class]="getColorItem(item)">
 			<Label col="0" [text]="item.id" class="list-group-item"></Label>

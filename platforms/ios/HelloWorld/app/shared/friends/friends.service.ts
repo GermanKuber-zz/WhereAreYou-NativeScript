@@ -3,8 +3,8 @@ import { Observable } from 'rxjs/Observable';
 import "rxjs/add/operator/do";
 import "rxjs/add/operator/map";
 import { Friend } from "./friend";
-import { every } from '../../../platforms/ios/HelloWorld/app/tns_modules/rxjs/src/operator/every';
-import { Observer } from '../../../platforms/ios/HelloWorld/app/tns_modules/rxjs/src/Observer';
+import { every } from 'rxjs/src/operator/every';
+import { Observer } from 'rxjs/src/Observer';
 
 
 @Injectable()
@@ -12,7 +12,7 @@ export class FriendsService {
   private friend: Observable<Friend[]>;
   private data: Observable<Array<Friend>>;
   private dataObserver: Observer<Array<Friend>>;
-  private observer :any;
+  private observer: any;
   constructor() {
     this.friend = new Observable<any>(observer => {
       observer.next(mockListFriend);
@@ -24,14 +24,18 @@ export class FriendsService {
   }
 
   getAllFriends(): Observable<Array<Friend>> {
-    // this.data = new Observable(observer => this.dataObserver = observer);
-
-    // return this.data;
-    // this.friend = Observable.of<Friend[]>(mockListFriend);
-    return this.friend;
+    let source = Observable.create(observer => {
+      observer.next(mockListFriend);
+    });
+    return source;
   }
   updateFriend(friend: Friend): void {
-    this.observer.next(mockListFriend);
+    var index = 0;
+    for (var item of mockListFriend) {
+      if (item.id == friend.id)
+        mockListFriend[index] = friend;
+      ++index;
+    }
   }
   getFriendById(id: number): Friend {
     for (var friend of mockListFriend) {
