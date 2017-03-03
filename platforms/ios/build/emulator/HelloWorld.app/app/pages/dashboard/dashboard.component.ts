@@ -3,6 +3,8 @@ import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
 // import { Grocery } from "../../shared/grocery/grocery";
 // import { GroceryListService } from "../../shared/grocery/grocery-list.service";
 import { TextField } from "ui/text-field";
+import { FriendsService } from '../../shared/friends/friends.service';
+import { Friend } from '../../shared/friends/friend';
 import frames = require("ui/frame");
 import tabViewModule = require("ui/tab-view");
 @Component({
@@ -12,15 +14,15 @@ import tabViewModule = require("ui/tab-view");
   providers: []
 })
 export class DashboardComponent implements OnInit {
+  public friends: Array<Friend> = new Array<Friend>();
   ngOnInit(): void {
-    var a = "";
+    this.friendService.getAllFriends().subscribe(f => {
+      this.friends = f;
+    });
   }
 
-  constructor() {
-    console.log("Constructor!!!");
+  constructor(private friendService: FriendsService) {
 
   }
-  public buttonTap() {
-    console.log("Mensaje");
-  }
+
 }

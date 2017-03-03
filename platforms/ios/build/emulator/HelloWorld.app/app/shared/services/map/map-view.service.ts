@@ -2,7 +2,9 @@ import { Injectable } from "@angular/core";
 import { Observable } from "rxjs/Rx";
 import "rxjs/add/operator/do";
 import "rxjs/add/operator/map";
+import { Image } from "ui/image";
 import { MapView, Marker, Polyline, Position } from 'nativescript-google-maps-sdk';
+var mapsModule = require("nativescript-google-maps-sdk");
 let geolocation = require('nativescript-geolocation');
 var style = require('./map-style.json');
 import { Color } from 'color';
@@ -44,6 +46,7 @@ export class MapViewService {
         mark.location = new Position();
         mark.location.latitude = markInfo.location.latitude;
         mark.location.longitude = markInfo.location.longitude;
+
         var mapMark: Marker = this.addMarker(mark);
         var markWrapper = new MarkWrapper();
         markWrapper.markId = markId;
@@ -62,6 +65,12 @@ export class MapViewService {
         var markWrapper = this.createMarkWrapper(markInfo, markId);
         this.markList.push(markWrapper);
         this.mapView.addMarker(markWrapper.mark);
+        var marker = new mapsModule.Marker();
+        marker.position = mapsModule.Position.positionFromLatLng(-33.66, 151.20);
+        marker.infoWindowTemplate = '~/info-window';
+        marker.title = "Seeeeeeeeeeee";
+        this.mapView.addMarker(marker);
+        marker.showInfoWindow();
 
     }
     public updateCommonMark(markInfo: AddMarkerArgs, markId: number): void {
@@ -70,7 +79,12 @@ export class MapViewService {
             this.mapView.removeMarker(markWrapper.mark);
             markWrapper.mark.position = markInfo.location;
             this.mapView.addMarker(markWrapper.mark);
+            markWrapper.mark.showInfoWindow();
         }
+    }
+    public removeCommonMark(markInfo: AddMarkerArgs, markId: number): void {
+        var markWrapper = this.getMarkWrapper(markId);
+        this.mapView.removeMarker(markWrapper.mark);
     }
 
 
@@ -100,6 +114,11 @@ export class MapViewService {
     public onMapReady(event, mapReadyNotify: () => void) {
         if (this.mapView || !event.object) return;
 
+ var mapView = event.object.android;
+ 
+    var gMap = mapView.getMap();
+
+
         this.mapView = event.object;
         this.mapView.setStyle(style);
 
@@ -109,7 +128,7 @@ export class MapViewService {
         }
         // this.mapView.markerSelect = this.onMarkerSelect;
         // this.mapView.cameraChanged = this.onCameraChanged;
-        
+
         this.enableLocation()
             .then(() => {
                 var location = this.getLocation();
@@ -123,25 +142,12 @@ export class MapViewService {
                 });
             }, this.error);
 
+
+
     };
 
     private mapTapped = (event) => {
 
-        // console.log('Map Tapped');
-
-        // this.tapLine = this.addPointToLine({
-        //   color: new Color('Red'),
-        //   line: this.tapLine,
-        //   location: event.position,
-        //   geodesic: true,
-        //   width: 10
-        // });
-
-        // this.removeMarker(this.tapMarker);
-        // this.tapMarker = this.addMarker({
-        //   location: event.position,
-        //   title: 'Tap Location'
-        // });
     };
 
     private locationReceived = (position: Position) => {
@@ -150,18 +156,9 @@ export class MapViewService {
         if (this.mapView && position) {
             this.mapView.latitude = position.latitude;
             this.mapView.longitude = position.longitude;
-            this.mapView.zoom = 13;
+            this.mapView.zoom = 2;
             this.centeredOnLocation = true;
         }
-
-        // this.gpsLine = this.addPointToLine({
-        //   color: new Color('Green'),
-        //   line: this.gpsLine,
-        //   location: position,
-        //   geodesic: true,
-        //   width: 10
-        // });
-
         this.removeMarker(this.gpsMarker);
         this.gpsMarker = this.addMarker({
             location: position,
@@ -193,7 +190,21 @@ export class MapViewService {
         marker.position = Position.positionFromLatLng(args.location.latitude, args.location.longitude);
         marker.title = args.title;
         marker.snippet = args.title;
+        var image = new Image();
+        image.src = "~/images/friend-marker.png";
+        image.width = 10;
+        image.height = 10;
+        marker.icon = image;
+
+        (<any>marker).infoWindowTemplate = '~/shared/services/map/info-window';
         this.mapView.addMarker(marker);
+
+        //   var  markers = new mapsModule.Marker();
+        //     markers.position = mapsModule.Position.positionFromLatLng(-33.66, 151.20);
+        //     markers.title = "Seeeeeeeeeeee";
+        //     (<any>markers).infoWindowTemplate = '~/shared/services/map/info-window';
+        //      this.mapView.addMarker(markers);
+        //     markers.showInfoWindow();
 
         return marker;
     };

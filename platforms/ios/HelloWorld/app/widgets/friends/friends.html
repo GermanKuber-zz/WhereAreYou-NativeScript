@@ -1,28 +1,27 @@
 <!--<RadListView #listView [items]="myFriends" class="list-group list-friends" (itemSelected)="onItemTap($event)">-->
-<RadListView id="listView" [items]="myFriends" class="list-group list-friends" 
- selectionBehavior="None" 
-    (itemSwipeProgressEnded)="onSwipeCellFinished($event)" 
-    (itemTap)="onItemSelected($event)" 
-    (itemSwipeProgressStarted)="onSwipeCellStarted($event)" 
-    (itemSwipeProgressChanged)="onCellSwiping($event)" 
-    itemSwipe="true"
-> 
+<GridLayout columns="2*, *" rows="40" [class]="getColorItem(item)">
+	<TextView col="0" [(ngModel)]="inviteFriend"></TextView>
+	<Button col="1" text="+" (tap)="addFriend($event)"></Button>
+</GridLayout>
+<RadListView id="listView" [items]="myFriends" class="list-group list-friends" selectionBehavior="None" (itemSwipeProgressEnded)="onSwipeCellFinished($event)"
+	(itemTap)="onItemSelected($event)" (itemSwipeProgressStarted)="onSwipeCellStarted($event)" (itemSwipeProgressChanged)="onCellSwiping($event)"
+	itemSwipe="true">
 	<!--(itemSelected)="onItemSelected($event)"
 	(itemDeselected)="onItemDeselected($event)">-->
 	<template tkListItemTemplate let-item="item" let-odd="odd" let-even="even">
-		<GridLayout columns="25, auto, *" rows="50" [class]="getColorItem(item)">
+		<GridLayout columns="50, auto, *" rows="50" [class]="getColorItem(item)">
 			<Label col="0" [text]="item.id" class="list-group-item"></Label>
 			<Label col="1" [text]="item.name" class="list-group-item"></Label>
 			<Label col="2" [text]="item.email" class="list-group-item"></Label>
-		</GridLayout>		
+		</GridLayout>
 	</template>
-	 <GridLayout *tkListItemSwipeTemplate columns="auto, *, auto" class="listItemSwipeGridLayout">
-        <StackLayout id="mark-view" class="markViewStackLayout" col="0" (tap)="onLeftSwipeClick($event)">
-            <Label text="mark" verticalAlignment="center" horizontalAlignment="center"></Label>
-        </StackLayout>
-        <StackLayout id="delete-view" class="deleteViewStackLayout" col="2" (tap)="onRightSwipeClick($event)">
-            <!--<Label text="delete" verticalAlignment="center" horizontalAlignment="center"></Label>-->
-			<Image class="img-delete"  src="~/images/x.png"></Image>
-        </StackLayout>
-    </GridLayout>
+	<GridLayout *tkListItemSwipeTemplate columns="auto, *, auto" class="listItemSwipeGridLayout">
+		<StackLayout id="mark-view" class="markViewStackLayout" col="0" (tap)="onLeftSwipeClick($event)">
+			<Label text="mark" verticalAlignment="center" horizontalAlignment="center"></Label>
+		</StackLayout>
+		<StackLayout id="delete-view" class="deleteViewStackLayout" col="2" (tap)="onRightSwipeClick($event)">
+			<!--<Label text="delete" verticalAlignment="center" horizontalAlignment="center"></Label>-->
+			<Image class="img-delete" src="~/images/x.png"></Image>
+		</StackLayout>
+	</GridLayout>
 </RadListView>

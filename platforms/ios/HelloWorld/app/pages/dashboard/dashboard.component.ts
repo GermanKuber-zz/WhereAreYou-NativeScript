@@ -4,7 +4,7 @@ import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
 // import { GroceryListService } from "../../shared/grocery/grocery-list.service";
 import { TextField } from "ui/text-field";
 import { FriendsService } from '../../shared/friends/friends.service';
-import { Friend } from '../../../platforms/ios/HelloWorld/app/shared/friends/friend';
+import { Friend } from '../../shared/friends/friend';
 import frames = require("ui/frame");
 import tabViewModule = require("ui/tab-view");
 @Component({

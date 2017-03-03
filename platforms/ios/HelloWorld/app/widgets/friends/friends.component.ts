@@ -16,12 +16,16 @@ export class FriendsComponent implements OnInit {
   selected: Friend = new Friend();
   public myFriends: Array<Friend>;
   private counter: number;
+  public inviteFriend:string;
   // @ViewChild("listView") listView: ElementRef;
   @ViewChild("listView") listView: ElementRef;
 
   constructor(private friendService: FriendsService) {
 
 
+  }
+  public addFriend(){
+    var a =  this.inviteFriend;
   }
   public getColorItem(friend: Friend): string {
     if (friend.activate)

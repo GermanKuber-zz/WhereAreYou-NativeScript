@@ -2,18 +2,18 @@
   "_args": [
     [
       {
-        "raw": "nativescript-telerik-ui",
+        "raw": "nativescript-telerik-ui@^1.6.1",
         "scope": null,
         "escapedName": "nativescript-telerik-ui",
         "name": "nativescript-telerik-ui",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
+        "rawSpec": "^1.6.1",
+        "spec": ">=1.6.1 <2.0.0",
+        "type": "range"
       },
       "/Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld"
     ]
   ],
-  "_from": "nativescript-telerik-ui@latest",
+  "_from": "nativescript-telerik-ui@>=1.6.1 <2.0.0",
   "_id": "nativescript-telerik-ui@1.6.1",
   "_inCache": true,
   "_location": "/nativescript-telerik-ui",
@@ -29,13 +29,13 @@
   "_npmVersion": "3.10.9",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "nativescript-telerik-ui",
+    "raw": "nativescript-telerik-ui@^1.6.1",
     "scope": null,
     "escapedName": "nativescript-telerik-ui",
     "name": "nativescript-telerik-ui",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "rawSpec": "^1.6.1",
+    "spec": ">=1.6.1 <2.0.0",
+    "type": "range"
   },
   "_requiredBy": [
     "#USER",
@@ -44,7 +44,7 @@
   "_resolved": "https://registry.npmjs.org/nativescript-telerik-ui/-/nativescript-telerik-ui-1.6.1.tgz",
   "_shasum": "3bb40f21212df1fd8ebeb0040ffd7d04be107858",
   "_shrinkwrap": null,
-  "_spec": "nativescript-telerik-ui",
+  "_spec": "nativescript-telerik-ui@^1.6.1",
   "_where": "/Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld",
   "author": {
     "name": "Progress AD"

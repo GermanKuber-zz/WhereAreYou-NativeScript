@@ -86,7 +86,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		BenAJiGLl3m8k+yuW7KqXHfejqE=
+		F3lGhpXC0gt8shF9CcObk8Mof7s=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -885,7 +885,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		QRU6DjgoRPLhAa45yQvcyFGuuWE=
+		skoNNGKv6eOvVlC2sPe/ou9hCOw=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -893,271 +893,11 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		mhzarCVwenTDZbzgFFF/OmbST7c=
+		30F1M4CFToZ/FctfpZ9T+GwVq58=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
-		</data>
-		<key>app/App_Resources/Android/AndroidManifest.xml</key>
-		<data>
-		6QGZR/Rncbg+KSQ3TObl21XpF68=
-		</data>
-		<key>app/App_Resources/Android/app.gradle</key>
-		<data>
-		NnSW4Z/+l3+jdf+FhRMD561LPfw=
-		</data>
-		<key>app/App_Resources/Android/drawable-hdpi/background.png</key>
-		<data>
-		rvoqzNwhYayWFgjG3h5bJp+efoc=
-		</data>
-		<key>app/App_Resources/Android/drawable-hdpi/icon.png</key>
-		<data>
-		RZTQgQ2MnXzVerp/AB+KO+ttm14=
-		</data>
-		<key>app/App_Resources/Android/drawable-hdpi/logo.png</key>
-		<data>
-		JhpBN8DiMwgD2qPBfMm0r5sLpuE=
-		</data>
-		<key>app/App_Resources/Android/drawable-ldpi/background.png</key>
-		<data>
-		BJBUHgIJ1WUIIjLDKPaedWTYblU=
-		</data>
-		<key>app/App_Resources/Android/drawable-ldpi/icon.png</key>
-		<data>
-		k1p5NxHTzLW1nz3MKCFPiXC5o38=
-		</data>
-		<key>app/App_Resources/Android/drawable-ldpi/logo.png</key>
-		<data>
-		nVOBk9UoLh59MOoGa50j9nDsc1k=
-		</data>
-		<key>app/App_Resources/Android/drawable-mdpi/background.png</key>
-		<data>
-		uu3Ie3mhADfMDrOQhIMkagVWdXU=
-		</data>
-		<key>app/App_Resources/Android/drawable-mdpi/icon.png</key>
-		<data>
-		BGgD2CVsQ8RaWwrcvP4c7Nur80I=
-		</data>
-		<key>app/App_Resources/Android/drawable-mdpi/logo.png</key>
-		<data>
-		KJqbWIvOh2L6ucWMIviqYWN0nJY=
-		</data>
-		<key>app/App_Resources/Android/drawable-nodpi/splash_screen.xml</key>
-		<data>
-		9y/cwAzPJVsmaoPJBfAxkAmtPis=
-		</data>
-		<key>app/App_Resources/Android/drawable-xhdpi/background.png</key>
-		<data>
-		3SsPnGEr+SP9agncp4gq30OGYrs=
-		</data>
-		<key>app/App_Resources/Android/drawable-xhdpi/icon.png</key>
-		<data>
-		bKminzv1+OOVyEyZAC2PeE7A33c=
-		</data>
-		<key>app/App_Resources/Android/drawable-xhdpi/logo.png</key>
-		<data>
-		BMRK4Hsa9dm0dP+lUNrLUafCAzU=
-		</data>
-		<key>app/App_Resources/Android/drawable-xxhdpi/background.png</key>
-		<data>
-		Fg4btic9r05h59BIvxFv64tgZwE=
-		</data>
-		<key>app/App_Resources/Android/drawable-xxhdpi/icon.png</key>
-		<data>
-		JveZGbKW6EGxg9V3aRmFR+/KbeY=
-		</data>
-		<key>app/App_Resources/Android/drawable-xxhdpi/logo.png</key>
-		<data>
-		FH0RZeG3JaF1gsvln36uG7GfzWM=
-		</data>
-		<key>app/App_Resources/Android/drawable-xxxhdpi/background.png</key>
-		<data>
-		zAaAbmS+Il/ALwm+oRTsRokKcgU=
-		</data>
-		<key>app/App_Resources/Android/drawable-xxxhdpi/icon.png</key>
-		<data>
-		3tfZOQXwqm3aDGlLsbBXwH1Z2YE=
-		</data>
-		<key>app/App_Resources/Android/drawable-xxxhdpi/logo.png</key>
-		<data>
-		ZxKFHwEPxAG0nkF8zepeio/60nI=
-		</data>
-		<key>app/App_Resources/Android/values-v21/colors.xml</key>
-		<data>
-		f6HzS0TJl6tDlW6Xfv1obDeV4Kw=
-		</data>
-		<key>app/App_Resources/Android/values-v21/styles.xml</key>
-		<data>
-		Izqt76QbbircB4jNlckIgCQfdVY=
-		</data>
-		<key>app/App_Resources/Android/values/colors.xml</key>
-		<data>
-		udSQJADN4d2gevuLM8VnqmmH8DA=
-		</data>
-		<key>app/App_Resources/Android/values/styles.xml</key>
-		<data>
-		jaoiZxqXxhO1+6zLSA6uPASQrfs=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/Contents.json</key>
-		<data>
-		lhDYIlbgX9UNHgtfW5+1F9tf2fs=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29.png</key>
-		<data>
-		3nKajCk4aNyEnXanoXL1Hy/cwt8=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29@2x.png</key>
-		<data>
-		0uMWBQ2ww0RLtNfNkjMMNVtIY88=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29@3x.png</key>
-		<data>
-		Q4fFmqfr5+ah/SpbeV2PbBokbOo=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40.png</key>
-		<data>
-		/2XjeAfC0TX8WKrR3y1bDaKtcf4=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40@2x.png</key>
-		<data>
-		eJC3whlZhFt/txp47Ow3+Udtsis=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40@3x.png</key>
-		<data>
-		00p2AYSQFjSKJ0hGg1cyXUkpzPo=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-50.png</key>
-		<data>
-		+gKbjse5yLldMLir0VhMUMXRfHI=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-50@2x.png</key>
-		<data>
-		EKykxTm5LgAE6EadzP8TG4KOzIY=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-57.png</key>
-		<data>
-		5hdoVdcXBEoIEueyAIg8bM9AAhU=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-57@2x.png</key>
-		<data>
-		/TQIuTxaw8O9VCo2UZvBPxe3c3s=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-60@2x.png</key>
-		<data>
-		9mo7CF8Xfjmb85LTr0hfTABm6NU=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-60@3x.png</key>
-		<data>
-		RCp3FPbpnTVqd9XDyCo1tX/TIgw=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-72.png</key>
-		<data>
-		DAwlriaGheAstyQLfdzP0RFwj8w=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-72@2x.png</key>
-		<data>
-		JveZGbKW6EGxg9V3aRmFR+/KbeY=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-76.png</key>
-		<data>
-		GAVmwlj9qOHPAafevf9nI6kWqA0=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-76@2x.png</key>
-		<data>
-		PShdxJmvtOGDHTv4BSBptGfASLk=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-83.5@2x.png</key>
-		<data>
-		+vANSsuDbXA/ROLi8Y88RsS40mU=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/Contents.json</key>
-		<data>
-		Yk4quB7W9gNQWeYqHrf1Zhl1JW4=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Contents.json</key>
-		<data>
-		/PMCaYf6ukQro5/eYCRYFYJJAYI=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png</key>
-		<data>
-		VmHTptUrPuWY7yNjVc09e8tr7A0=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png</key>
-		<data>
-		Z0H3WvqXNO46fcQRjJd4TG7T9lY=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-736h@3x.png</key>
-		<data>
-		0gSilJHkuDQ3/f588EBoqhtJKLc=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png</key>
-		<data>
-		N9s+iiOZn1HiJY0y0xfJUDEtG7I=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png</key>
-		<data>
-		k21aIUTg02Sq+tQ4Vzubcl4Pb5g=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@3x.png</key>
-		<data>
-		1uvU7ilcauI7R80FIhaEmEkvrB4=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png</key>
-		<data>
-		Zk/jItPuBD1wNNU8b58CfB0SO0c=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png</key>
-		<data>
-		sWmnObyHWHBba7nEKnhZijZEmqo=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default.png</key>
-		<data>
-		UpilHjIdUEDGS/eFgFVyt4X2qF8=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default@2x.png</key>
-		<data>
-		5FwPyf/KfAgLkhx5lgXp74beCKw=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/Contents.json</key>
-		<data>
-		oBER3OVb+zTwA1TWy3Kx2yjAoXA=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/LaunchScreen-AspectFill.png</key>
-		<data>
-		0UGBvimzBtsi3pNvsuxIJkp4igU=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/LaunchScreen-AspectFill@2x.png</key>
-		<data>
-		vAhRSJV0WJwrJ7rgBg0HhWfP06Y=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/Contents.json</key>
-		<data>
-		OP7FevzLwyjrpG6eB0tfOf+byn8=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/LaunchScreen-Center.png</key>
-		<data>
-		1NMaXeZuQnCDEiiQWc1MXoHNf/M=
-		</data>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/LaunchScreen-Center@2x.png</key>
-		<data>
-		EvFQYq0WCWmE9aIsGDd+WwSTK/w=
-		</data>
-		<key>app/App_Resources/iOS/Info.plist</key>
-		<data>
-		XZeb0cv88u/945WLPZjFGApIbp8=
-		</data>
-		<key>app/App_Resources/iOS/LaunchScreen.storyboard</key>
-		<data>
-		RlpE48nZZW3fqeW0VmTjaECkmlU=
-		</data>
-		<key>app/App_Resources/iOS/build.xcconfig</key>
-		<data>
-		RNL/GAS4TOxSHBwCBUOpAd1PTlk=
-		</data>
-		<key>app/README.md</key>
-		<data>
-		CFJEpfTNL3cP6zq5k71qRXAYmHU=
 		</data>
 		<key>app/app.component.js</key>
 		<data>
@@ -1173,11 +913,11 @@
 		</data>
 		<key>app/app.module.js</key>
 		<data>
-		9VxmHp8PPKYUiIPim9K++70cnk0=
+		EtQALJNWSStLyCE3KZzmGgAt6wo=
 		</data>
 		<key>app/app.module.ts</key>
 		<data>
-		s5tbaD4C5Cup3dsNFliXQ17lmi4=
+		bfBkIwkcKOO9PlXPQMH/tsOuu1k=
 		</data>
 		<key>app/app.routing.js</key>
 		<data>
@@ -1187,9 +927,13 @@
 		<data>
 		S8Sw6O8rzRMFg+LZPTMDjKz6XZg=
 		</data>
-		<key>app/images/apple.jpg</key>
+		<key>app/images/friend-marker.png</key>
 		<data>
-		wDOnpIgpZ1tz9dHbU2D/1TpzfgE=
+		8xhYq/krKpRIUAS+cw85jOPfyqc=
+		</data>
+		<key>app/images/x.png</key>
+		<data>
+		Bo3C1ym1ibBbmp+z2M+4ftV0T6Y=
 		</data>
 		<key>app/main.aot.ts</key>
 		<data>
@@ -1213,11 +957,11 @@
 		</data>
 		<key>app/pages/dashboard/dashboard.component.js</key>
 		<data>
-		1eJpypfFf9Mc6zvXr072sCsNoO0=
+		508krf9FyoSNUwKbBF857weYwZw=
 		</data>
 		<key>app/pages/dashboard/dashboard.component.ts</key>
 		<data>
-		gvJwVz9WGQ5k1vGR+6Ax4Pqm3Ck=
+		q2cIGWhTzElGiiJHplV8OxKDzUw=
 		</data>
 		<key>app/pages/dashboard/dashboard.css</key>
 		<data>
@@ -1225,7 +969,7 @@
 		</data>
 		<key>app/pages/dashboard/dashboard.html</key>
 		<data>
-		GsrKEZutb5ND8Dn6BQSqA5195YY=
+		Etc4PqiuzUsAxijvw+hXHYf6bo8=
 		</data>
 		<key>app/pages/dashboard/list.component.js</key>
 		<data>
@@ -1261,19 +1005,27 @@
 		</data>
 		<key>app/shared/friends/friend.js</key>
 		<data>
-		b8n+k2h9coBNnL2RB1N3g6Jc0QA=
+		p3xaWzMBsEIqpiy8RCccFRCgNnM=
 		</data>
 		<key>app/shared/friends/friend.ts</key>
 		<data>
-		C30m3WpzS4uykiWPy3EaLk8rPBY=
+		keklsd6mzNgKTnXAXEm7HravSPY=
+		</data>
+		<key>app/shared/friends/friends-lives.service.js</key>
+		<data>
+		zcVfmWgz7pbRqLhBLGdxIeIqHCw=
+		</data>
+		<key>app/shared/friends/friends-lives.service.ts</key>
+		<data>
+		l3Ak5YReAXcS5OPTuJDRK4bTruE=
 		</data>
 		<key>app/shared/friends/friends.service.js</key>
 		<data>
-		8N5MOf6ylptrMTDC+zCuD1qHAzY=
+		ZGQwsxX3tUFd9F0QJamFGeBkarY=
 		</data>
 		<key>app/shared/friends/friends.service.ts</key>
 		<data>
-		gKvxIU3JTBEahWCTEupmkgCBib0=
+		05nD/bB/WZzunzJAdFOQgj9IGoc=
 		</data>
 		<key>app/shared/friends/user.js</key>
 		<data>
@@ -1298,6 +1050,26 @@
 		<key>app/shared/grocery/grocery.ts</key>
 		<data>
 		vEdodFrT3fM0geEt8A7FGABQ4OU=
+		</data>
+		<key>app/shared/services/map-view.service.js</key>
+		<data>
+		4vUq5bsTqbXS7bwj2FCFIQzhO3w=
+		</data>
+		<key>app/shared/services/map/info-window.xml</key>
+		<data>
+		gyoNuRgl3vCs5sfLgRMyufKynxg=
+		</data>
+		<key>app/shared/services/map/map-style.json</key>
+		<data>
+		fEwnO9Xe68Er1Vsgk0oLDUP1NTw=
+		</data>
+		<key>app/shared/services/map/map-view.service.js</key>
+		<data>
+		IeDjsC/wdpmTEuy+VxAHj26KI6Q=
+		</data>
+		<key>app/shared/services/map/map-view.service.ts</key>
+		<data>
+		pN9SZl34WKIQxGR92u0CWaA2rPA=
 		</data>
 		<key>app/shared/user/user.js</key>
 		<data>
@@ -8937,7 +8709,7 @@
 		</data>
 		<key>app/tns_modules/nativescript-telerik-ui/package.json</key>
 		<data>
-		niyxECoD/01utgpEW6lJFzDObjY=
+		1KGMidGv1+F1Dt2wwj8JJoaydbo=
 		</data>
 		<key>app/tns_modules/nativescript-telerik-ui/references.d.ts</key>
 		<data>
@@ -9526,66 +9298,6 @@
 		<key>app/tns_modules/punycode/punycode.js</key>
 		<data>
 		TnA+lA5GIPHIrDKElhZyh/GbMi8=
-		</data>
-		<key>app/tns_modules/querystring/.History.md.un~</key>
-		<data>
-		GGOYKfeXNeIQAx0XHL3LvYoqCco=
-		</data>
-		<key>app/tns_modules/querystring/.Readme.md.un~</key>
-		<data>
-		7cRjmKd/dlFpPg3K6y/7WscT+Mo=
-		</data>
-		<key>app/tns_modules/querystring/.package.json.un~</key>
-		<data>
-		ALnrlb7uCD9OIrntrKLB3UT2JOc=
-		</data>
-		<key>app/tns_modules/querystring/.travis.yml</key>
-		<data>
-		R19J8qx8pxoYpRH+hUlJGVKpSnE=
-		</data>
-		<key>app/tns_modules/querystring/History.md</key>
-		<data>
-		sZ2Pc1mknEnEFxOJGBqSsg3Qreg=
-		</data>
-		<key>app/tns_modules/querystring/License.md</key>
-		<data>
-		QFGIdUfgcLvh4dLcqzpG9EvurLI=
-		</data>
-		<key>app/tns_modules/querystring/Readme.md</key>
-		<data>
-		nTq74kXJCjjDZeiejL6U8H0aax4=
-		</data>
-		<key>app/tns_modules/querystring/decode.js</key>
-		<data>
-		eME1N65lhSu2sd9FY87Ton+Eg3Y=
-		</data>
-		<key>app/tns_modules/querystring/encode.js</key>
-		<data>
-		vEJEEZLOqd54c5iFDx0wiYBCEBc=
-		</data>
-		<key>app/tns_modules/querystring/index.js</key>
-		<data>
-		y3/Sg19lKTjP5QHz8MIl4mRuuAE=
-		</data>
-		<key>app/tns_modules/querystring/package.json</key>
-		<data>
-		bYVTeyjP/rZJJlxTmWca+v8cnKQ=
-		</data>
-		<key>app/tns_modules/querystring/test/.index.js.un~</key>
-		<data>
-		YkExc8nRQkwJQzBIycUY1X4rpeY=
-		</data>
-		<key>app/tns_modules/querystring/test/common-index.js</key>
-		<data>
-		Y5/ANrsw/4VB9MK937cN28Ym3vg=
-		</data>
-		<key>app/tns_modules/querystring/test/index.js</key>
-		<data>
-		ur8jEe+7lFa6lsQEUH2AukA6jd4=
-		</data>
-		<key>app/tns_modules/querystring/test/tap-index.js</key>
-		<data>
-		8XQUlbhufjWcE7W3zcdy+zKquZo=
 		</data>
 		<key>app/tns_modules/reflect-metadata/.npmignore</key>
 		<data>
@@ -16477,11 +16189,11 @@
 		</data>
 		<key>app/widgets/friends-map/friends-map.component.js</key>
 		<data>
-		6C5790rHzzVJnBs1WkJ1GjWHsKQ=
+		YyysxXhSbfk8Ek+HQPTiag3t6eQ=
 		</data>
 		<key>app/widgets/friends-map/friends-map.component.ts</key>
 		<data>
-		XO1Pknd3TUZ/Kpm4fcqraaXXKHM=
+		1ZRLJXR1La6PlFsYy9uGVz8jI+Y=
 		</data>
 		<key>app/widgets/friends-map/friends-map.css</key>
 		<data>
@@ -16489,7 +16201,7 @@
 		</data>
 		<key>app/widgets/friends-map/friends-map.html</key>
 		<data>
-		iXLL6RWn37jVxe0vBXW9tPI+XbM=
+		CJ/6BL4raqlfKVAU0DEgUHa3cOc=
 		</data>
 		<key>app/widgets/friends-map/friends.component.js</key>
 		<data>
@@ -16499,25 +16211,21 @@
 		<data>
 		8RYDlth/KQSSl6ORdGQJ4kVLWLs=
 		</data>
-		<key>app/widgets/friends-map/map-style.json</key>
-		<data>
-		fEwnO9Xe68Er1Vsgk0oLDUP1NTw=
-		</data>
 		<key>app/widgets/friends/dashboard.component.js</key>
 		<data>
 		nls4vyuxYy8bg4ZW9zdA2t1W+X0=
 		</data>
 		<key>app/widgets/friends/friends-common.css</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		q0FWsATEuT/gYlra5Zm+SJj27gw=
 		</data>
 		<key>app/widgets/friends/friends.component.js</key>
 		<data>
-		fT5lz1j5Q8n1Rbc6xvL3CUaHBk8=
+		OncMjVTph5JwxTiSixq4WR/wwNg=
 		</data>
 		<key>app/widgets/friends/friends.component.ts</key>
 		<data>
-		EvuWull4scYp0BOucirqjZx1Osk=
+		A/b3h3TmczPBlt3Oa9KM45oNKpc=
 		</data>
 		<key>app/widgets/friends/friends.css</key>
 		<data>
@@ -16525,7 +16233,7 @@
 		</data>
 		<key>app/widgets/friends/friends.html</key>
 		<data>
-		9MoiGrYTn6Ne28yFqfLjqXkBY4g=
+		gvCbHI0TR94SECvHNGZITVCGmwk=
 		</data>
 		<key>app/widgets/friends/list.component.js</key>
 		<data>
@@ -16771,11 +16479,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BenAJiGLl3m8k+yuW7KqXHfejqE=
+			F3lGhpXC0gt8shF9CcObk8Mof7s=
 			</data>
 			<key>hash2</key>
 			<data>
-			I85k+sYfZcybRXuTVVVmuylDlL1pLMzsYeeCcxURZPA=
+			WEvOrGRSdi50pl9Umqo58V2997sMurrT0H4+opfo2gM=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -18452,11 +18160,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QRU6DjgoRPLhAa45yQvcyFGuuWE=
+			skoNNGKv6eOvVlC2sPe/ou9hCOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			EhYF1XToFbVJiCAc0pVX/5A1QRnLjeymWINP5FQ0Mic=
+			fO3D1rRZH+/MIPYDuz5xre2nx+57tRKGwtdeeuvJhH4=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -18474,726 +18182,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mhzarCVwenTDZbzgFFF/OmbST7c=
+			30F1M4CFToZ/FctfpZ9T+GwVq58=
 			</data>
 			<key>hash2</key>
 			<data>
-			kLnW1k9YlZOgibZmL9RypwPCnlwdsTPkUNUZLaKG7AI=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/AndroidManifest.xml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6QGZR/Rncbg+KSQ3TObl21XpF68=
-			</data>
-			<key>hash2</key>
-			<data>
-			EBI27rtibyoyw40ojbHA8pelPYSoYk7Fghe/FJtJA5M=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/app.gradle</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NnSW4Z/+l3+jdf+FhRMD561LPfw=
-			</data>
-			<key>hash2</key>
-			<data>
-			NqG8wKu0uuEKFceH7/VJfMGm3eVGC0UNlzsnFvF5hLc=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-hdpi/background.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rvoqzNwhYayWFgjG3h5bJp+efoc=
-			</data>
-			<key>hash2</key>
-			<data>
-			0HqiptMaM4TGfU9+34zaFK6D3GojLz+UzDyvmGLQfFE=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-hdpi/icon.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RZTQgQ2MnXzVerp/AB+KO+ttm14=
-			</data>
-			<key>hash2</key>
-			<data>
-			063mtHcpxPsAp52fexgOKSBr0xrGLlaXV1BtPEV9j/I=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-hdpi/logo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JhpBN8DiMwgD2qPBfMm0r5sLpuE=
-			</data>
-			<key>hash2</key>
-			<data>
-			vMxHoIVItIZ7m/3LoyKYnN0kA7WKTEkR0rt/iJlP7BU=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-ldpi/background.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BJBUHgIJ1WUIIjLDKPaedWTYblU=
-			</data>
-			<key>hash2</key>
-			<data>
-			AvxJpYgryqJao3S5kLyxlzTaTPzdqvmSrl465uyYQTo=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-ldpi/icon.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			k1p5NxHTzLW1nz3MKCFPiXC5o38=
-			</data>
-			<key>hash2</key>
-			<data>
-			K6kxjK9dIe+Dg3mV78PhqM7bsdZGqeyybnWZ4wgacJQ=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-ldpi/logo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nVOBk9UoLh59MOoGa50j9nDsc1k=
-			</data>
-			<key>hash2</key>
-			<data>
-			AkI2G6Rv9uct+KiibYP9q3zWKrQZh5+ggB8WCFx00ug=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-mdpi/background.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uu3Ie3mhADfMDrOQhIMkagVWdXU=
-			</data>
-			<key>hash2</key>
-			<data>
-			rrNq28NOIlKJIQYl1lTliKEkjX5946la+yXOWiN5Xbc=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-mdpi/icon.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BGgD2CVsQ8RaWwrcvP4c7Nur80I=
-			</data>
-			<key>hash2</key>
-			<data>
-			JP+heB/TUgTUB+0mw1eBghi+AMN289T4Cj5wgd2fBaU=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-mdpi/logo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KJqbWIvOh2L6ucWMIviqYWN0nJY=
-			</data>
-			<key>hash2</key>
-			<data>
-			bkwwNTX2+bsUkDfyBq6Vn7sUoBgv1ZvDqTm8R5tp7/I=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-nodpi/splash_screen.xml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9y/cwAzPJVsmaoPJBfAxkAmtPis=
-			</data>
-			<key>hash2</key>
-			<data>
-			71T5tpV8z4mGFombdchiFqF6vzddzhSMRTk9wugVbRg=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-xhdpi/background.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3SsPnGEr+SP9agncp4gq30OGYrs=
-			</data>
-			<key>hash2</key>
-			<data>
-			/069kOB+KQ6qk/sL9xMRMI9xJnQMIjBGY+z8QgvPwNc=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-xhdpi/icon.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bKminzv1+OOVyEyZAC2PeE7A33c=
-			</data>
-			<key>hash2</key>
-			<data>
-			5KYQntqGP5qsgwsyE7JMbuI5tcqs8MOiPvA9jQNu/TY=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-xhdpi/logo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BMRK4Hsa9dm0dP+lUNrLUafCAzU=
-			</data>
-			<key>hash2</key>
-			<data>
-			i/v0xYRukewbFqzdbsabmhA78rEbReUjl9YX+6b4TFE=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-xxhdpi/background.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Fg4btic9r05h59BIvxFv64tgZwE=
-			</data>
-			<key>hash2</key>
-			<data>
-			13J+IrOqgrpLOQqZN//B0ynmzwulkKhkSrElnEeddoY=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-xxhdpi/icon.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JveZGbKW6EGxg9V3aRmFR+/KbeY=
-			</data>
-			<key>hash2</key>
-			<data>
-			6zSAy8Bwf1ndOPadQsV5z8wX+sKeZFyMGcwTo4cQIN4=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-xxhdpi/logo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FH0RZeG3JaF1gsvln36uG7GfzWM=
-			</data>
-			<key>hash2</key>
-			<data>
-			EDMQ8XXxaFklNwRL9DYH0DU/2Klhf/t0TBmd5gGlCJQ=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-xxxhdpi/background.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zAaAbmS+Il/ALwm+oRTsRokKcgU=
-			</data>
-			<key>hash2</key>
-			<data>
-			h0SK/4IUJzOzRL/vOALRYYNTpNibsV3GM/VLrktUHbk=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-xxxhdpi/icon.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3tfZOQXwqm3aDGlLsbBXwH1Z2YE=
-			</data>
-			<key>hash2</key>
-			<data>
-			yNfuYY3S5vHv7NBG8fkOsUb2bCgm9l9JmxLIMeMSmFU=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/drawable-xxxhdpi/logo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZxKFHwEPxAG0nkF8zepeio/60nI=
-			</data>
-			<key>hash2</key>
-			<data>
-			sONWC4SZKbWFb4cWfAmff0LsoerLxv4josrV4nG7Rtk=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/values-v21/colors.xml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			f6HzS0TJl6tDlW6Xfv1obDeV4Kw=
-			</data>
-			<key>hash2</key>
-			<data>
-			7lA+WmsXpRK+ZlW5G8UnB1cIqi3zMri0b2xplpzC5rQ=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/values-v21/styles.xml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Izqt76QbbircB4jNlckIgCQfdVY=
-			</data>
-			<key>hash2</key>
-			<data>
-			eDFs4WI5/KjLOWikvR26h/Oo5kqa/w80NKsLe2bxgso=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/values/colors.xml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			udSQJADN4d2gevuLM8VnqmmH8DA=
-			</data>
-			<key>hash2</key>
-			<data>
-			OuJL7DaRuw1+A7QqE7G8GAsd1m5e2Yp7aFHpbNGPna8=
-			</data>
-		</dict>
-		<key>app/App_Resources/Android/values/styles.xml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jaoiZxqXxhO1+6zLSA6uPASQrfs=
-			</data>
-			<key>hash2</key>
-			<data>
-			/MMUt7IWfNEhzHoZHUnsh4KReAoJcqExpxVsqt3Vuzw=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/Contents.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lhDYIlbgX9UNHgtfW5+1F9tf2fs=
-			</data>
-			<key>hash2</key>
-			<data>
-			Fips0Olvs5aWf4QyaoxdJbyR9EZVQy4rgCIu2Dlbr3Y=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3nKajCk4aNyEnXanoXL1Hy/cwt8=
-			</data>
-			<key>hash2</key>
-			<data>
-			qztrlxwjBCrEkfKudh9qUZz0RF9rP2ihtWsxMNTKD9M=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0uMWBQ2ww0RLtNfNkjMMNVtIY88=
-			</data>
-			<key>hash2</key>
-			<data>
-			VKkZi4NlwAv+kehpWjcgeX8388tfrCb1lUDjkBo/p1g=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Q4fFmqfr5+ah/SpbeV2PbBokbOo=
-			</data>
-			<key>hash2</key>
-			<data>
-			0/S4jKvBFx9W8yuXGTik/OuhuJMfLgjpj5wJ8DJwHiw=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/2XjeAfC0TX8WKrR3y1bDaKtcf4=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ml+7gJHmEEuevSF1rPs1csaSFJ7cgf7RVM40nofrLxc=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eJC3whlZhFt/txp47Ow3+Udtsis=
-			</data>
-			<key>hash2</key>
-			<data>
-			5y9J9GDES92Lf4/HQKl9xE0mLnlUWwS3I1GTb7wGIMw=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			00p2AYSQFjSKJ0hGg1cyXUkpzPo=
-			</data>
-			<key>hash2</key>
-			<data>
-			S8bgpwfghmKGD5xNVyKVpg5p3fl++zKQE86oIwnSpeI=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-50.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+gKbjse5yLldMLir0VhMUMXRfHI=
-			</data>
-			<key>hash2</key>
-			<data>
-			RIWEzCKEwSjRcZBtNmtivjTVS9gJ3kLOBt6apZFFLiM=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-50@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EKykxTm5LgAE6EadzP8TG4KOzIY=
-			</data>
-			<key>hash2</key>
-			<data>
-			rJqwG2N4QdO2+peMWzwbXtWSvO5yEZ5ceTyEAK//BQE=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-57.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5hdoVdcXBEoIEueyAIg8bM9AAhU=
-			</data>
-			<key>hash2</key>
-			<data>
-			SbP9gZhSxs33DS5YAaAHLoO58pse33zx8krPtwl/76g=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-57@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/TQIuTxaw8O9VCo2UZvBPxe3c3s=
-			</data>
-			<key>hash2</key>
-			<data>
-			vnBR4cS5SE0/pNlbad8lEqRm79jK3gCNLM5bt2dZhPE=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-60@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9mo7CF8Xfjmb85LTr0hfTABm6NU=
-			</data>
-			<key>hash2</key>
-			<data>
-			svx9e3uPSdFbkvMBaMSQlmGp3Y3cggGxwvqF6XpFGrA=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-60@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RCp3FPbpnTVqd9XDyCo1tX/TIgw=
-			</data>
-			<key>hash2</key>
-			<data>
-			16NCXSaOizKNwmful9tl9tPaw10MOevmlIG8YgpJKt0=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-72.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DAwlriaGheAstyQLfdzP0RFwj8w=
-			</data>
-			<key>hash2</key>
-			<data>
-			JV82I8z4dBdvx0POvar0yjxRq6u+QK73jq4gv37N5uM=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-72@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JveZGbKW6EGxg9V3aRmFR+/KbeY=
-			</data>
-			<key>hash2</key>
-			<data>
-			6zSAy8Bwf1ndOPadQsV5z8wX+sKeZFyMGcwTo4cQIN4=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-76.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GAVmwlj9qOHPAafevf9nI6kWqA0=
-			</data>
-			<key>hash2</key>
-			<data>
-			MU142MbarTLIgJImqTXHygvWaU3TLTASBcCp41VPTTk=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-76@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PShdxJmvtOGDHTv4BSBptGfASLk=
-			</data>
-			<key>hash2</key>
-			<data>
-			s2xsk69so/tidUuW8HZbpILMVroz4aX6UbLXHFPHW98=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-83.5@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+vANSsuDbXA/ROLi8Y88RsS40mU=
-			</data>
-			<key>hash2</key>
-			<data>
-			HsWmGKr3S4J7XJ5LwI/9Zs70xsg/cy/00QKrM9c2gsQ=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/Contents.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Yk4quB7W9gNQWeYqHrf1Zhl1JW4=
-			</data>
-			<key>hash2</key>
-			<data>
-			ly7B/UIyWHJDjrCFrCnpT1HBB4jsGOxVSUOZUIZsVB0=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Contents.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/PMCaYf6ukQro5/eYCRYFYJJAYI=
-			</data>
-			<key>hash2</key>
-			<data>
-			0U835hi4lom5soVVTgcboLxnZ/pie0vSBmv63h6Csok=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VmHTptUrPuWY7yNjVc09e8tr7A0=
-			</data>
-			<key>hash2</key>
-			<data>
-			VWzYdlTORuAgRRGDMfw4XKZGPuAeRKHMYz6Zm2pPW4U=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Z0H3WvqXNO46fcQRjJd4TG7T9lY=
-			</data>
-			<key>hash2</key>
-			<data>
-			yfCkk1+aBwzYoAdWvMgzM2NtxVdFb+73WPttVxF/3GE=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-736h@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0gSilJHkuDQ3/f588EBoqhtJKLc=
-			</data>
-			<key>hash2</key>
-			<data>
-			gqt89v1Cua6sNMpn30Bf0bskIST5djHbOQ0ctMFLhUU=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			N9s+iiOZn1HiJY0y0xfJUDEtG7I=
-			</data>
-			<key>hash2</key>
-			<data>
-			XWsdkAslYS3BARgeMF0RrMgxckPTSSrqGKucgUprQcs=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			k21aIUTg02Sq+tQ4Vzubcl4Pb5g=
-			</data>
-			<key>hash2</key>
-			<data>
-			3JoNcUCCsvfOzgc8piz3dcmmqNCYEaMDM6Y6+wGB0zk=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1uvU7ilcauI7R80FIhaEmEkvrB4=
-			</data>
-			<key>hash2</key>
-			<data>
-			JRjDn4eHBZ/d4r6sRixI7oMG4hGMUy2e/T0xfjZYCr0=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Zk/jItPuBD1wNNU8b58CfB0SO0c=
-			</data>
-			<key>hash2</key>
-			<data>
-			WGf/kUc7s93zNhcXPk1FTg9usLhBzUuuZGAlVWLa7Tw=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sWmnObyHWHBba7nEKnhZijZEmqo=
-			</data>
-			<key>hash2</key>
-			<data>
-			JNQXmumg5/0ovHIjmVHdBkfgUMBc22iANdEkB9wrxnA=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UpilHjIdUEDGS/eFgFVyt4X2qF8=
-			</data>
-			<key>hash2</key>
-			<data>
-			4/fXWcSPSaxNK8M2ZwIXTlQczAbOtHZIBSF0dfsIWvw=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5FwPyf/KfAgLkhx5lgXp74beCKw=
-			</data>
-			<key>hash2</key>
-			<data>
-			7FhMDIov73IMvT2r+CfasHQVWrA0aSOO2iT/zVNvcUk=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/Contents.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oBER3OVb+zTwA1TWy3Kx2yjAoXA=
-			</data>
-			<key>hash2</key>
-			<data>
-			mjX0iQ0quPZKUB9tzyE6BgBROAyU6sCZHQeYlmSAz/s=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/LaunchScreen-AspectFill.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0UGBvimzBtsi3pNvsuxIJkp4igU=
-			</data>
-			<key>hash2</key>
-			<data>
-			mWimHBH0MQTdCo9NNx89pEI+vw0Oln+577TIizkvCII=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/LaunchScreen-AspectFill@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vAhRSJV0WJwrJ7rgBg0HhWfP06Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			7PfsDMMQq0R96sRVU2g+ZytKOFFUCKt5N5gKfBHYoM0=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/Contents.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OP7FevzLwyjrpG6eB0tfOf+byn8=
-			</data>
-			<key>hash2</key>
-			<data>
-			T7o3F/zUvaAyu8NjlA3CMO1/5ls6l50x7OoWf+W31Oo=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/LaunchScreen-Center.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1NMaXeZuQnCDEiiQWc1MXoHNf/M=
-			</data>
-			<key>hash2</key>
-			<data>
-			bQggqZjiNPY98XPre2e6jvngnRLJeIop+of1NmJxwi8=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/LaunchScreen-Center@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EvFQYq0WCWmE9aIsGDd+WwSTK/w=
-			</data>
-			<key>hash2</key>
-			<data>
-			23G302Ez5C9R53aE2QV8nZ/udiunN9kYqlR8YxsNO9U=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XZeb0cv88u/945WLPZjFGApIbp8=
-			</data>
-			<key>hash2</key>
-			<data>
-			QUClh8lKKBqzkEYWK2p+DVkvXm39HuxXXbsjTEFBAPc=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/LaunchScreen.storyboard</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RlpE48nZZW3fqeW0VmTjaECkmlU=
-			</data>
-			<key>hash2</key>
-			<data>
-			cc5E/rtH3bum32LMk2mAZCenTUcUz6DvRZYdqK66iMU=
-			</data>
-		</dict>
-		<key>app/App_Resources/iOS/build.xcconfig</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RNL/GAS4TOxSHBwCBUOpAd1PTlk=
-			</data>
-			<key>hash2</key>
-			<data>
-			qkKr/0jAqSAoWJnaBowLV4nYITPOZtUND1jJ3PDedII=
-			</data>
-		</dict>
-		<key>app/README.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CFJEpfTNL3cP6zq5k71qRXAYmHU=
-			</data>
-			<key>hash2</key>
-			<data>
-			VHETV9suKvSMWaH5otzIb8DUFVxSESHhn7EEbehva4Q=
+			UguFi0Lq3aYmngPu2SzAWK1OvjIrPRcXJjMyEGOQVok=
 			</data>
 		</dict>
 		<key>app/app.component.js</key>
@@ -19233,22 +18226,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9VxmHp8PPKYUiIPim9K++70cnk0=
+			EtQALJNWSStLyCE3KZzmGgAt6wo=
 			</data>
 			<key>hash2</key>
 			<data>
-			XMacr6qNlu40sBGr8eBvBgpLemJMOzfb0SEfgxfdhGI=
+			fXFq1KqR1+oIrt5Qtx0+GXmsyryLmf9Wbp7mKsG6QZs=
 			</data>
 		</dict>
 		<key>app/app.module.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s5tbaD4C5Cup3dsNFliXQ17lmi4=
+			bfBkIwkcKOO9PlXPQMH/tsOuu1k=
 			</data>
 			<key>hash2</key>
 			<data>
-			lZHwukBQjqqNOLnWC70B3M+RXyhUsSGs4B3v+fx8fBg=
+			7uOFlModoYewI5Fki9HS313EvDIDGx9DG5F4VGUYg3Y=
 			</data>
 		</dict>
 		<key>app/app.routing.js</key>
@@ -19273,15 +18266,26 @@
 			tu0J/lx+6CGjRM52pc+jts58oZFls5rrX5PHfUOs1Fk=
 			</data>
 		</dict>
-		<key>app/images/apple.jpg</key>
+		<key>app/images/friend-marker.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wDOnpIgpZ1tz9dHbU2D/1TpzfgE=
+			8xhYq/krKpRIUAS+cw85jOPfyqc=
 			</data>
 			<key>hash2</key>
 			<data>
-			WY9OwIgKgwvtsvXcQSgKqhhHK8ceSDLqu6UWkuNnruM=
+			a8A2UdllWxKPz+KIu0neBnuG7vJHpIkxwg2/jsxWF80=
+			</data>
+		</dict>
+		<key>app/images/x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Bo3C1ym1ibBbmp+z2M+4ftV0T6Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			xrd8j92jo78K1NZVGnlPxVuQ4WnmT1oEakc8CgGgYko=
 			</data>
 		</dict>
 		<key>app/main.aot.ts</key>
@@ -19343,22 +18347,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1eJpypfFf9Mc6zvXr072sCsNoO0=
+			508krf9FyoSNUwKbBF857weYwZw=
 			</data>
 			<key>hash2</key>
 			<data>
-			+WxrmCPcQZ/FtHHKYewUmJET+yqlNXp0WVp/ySzDZ0k=
+			pwiMAiDZBmuLhxU36QhXnURnhCvinMmlu3cugmvfXvs=
 			</data>
 		</dict>
 		<key>app/pages/dashboard/dashboard.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gvJwVz9WGQ5k1vGR+6Ax4Pqm3Ck=
+			q2cIGWhTzElGiiJHplV8OxKDzUw=
 			</data>
 			<key>hash2</key>
 			<data>
-			UA7qcs8qY6VplPzMPrmA3J06VZj+o/SMns9pgCqRkEg=
+			dreZm9cZPMwVnwa4kQnnCbJVUzUk/2Tis06hxAnABZQ=
 			</data>
 		</dict>
 		<key>app/pages/dashboard/dashboard.css</key>
@@ -19376,11 +18380,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GsrKEZutb5ND8Dn6BQSqA5195YY=
+			Etc4PqiuzUsAxijvw+hXHYf6bo8=
 			</data>
 			<key>hash2</key>
 			<data>
-			nBBqomHVLg7fsF7pTLa+2SPNF1KGwDvccIECgup5e4c=
+			iEifBILOQSJTeoZu+bth2X2cMz2bcsZVhK6dEIcOeCo=
 			</data>
 		</dict>
 		<key>app/pages/dashboard/list.component.js</key>
@@ -19475,44 +18479,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			b8n+k2h9coBNnL2RB1N3g6Jc0QA=
+			p3xaWzMBsEIqpiy8RCccFRCgNnM=
 			</data>
 			<key>hash2</key>
 			<data>
-			r9mJq5idug5nurBDLaPaqwFjhCbWtaZufMDk5zMAn6g=
+			oU0jOh1SgIfb3oWicRUSkYtjSB0bod8Jb0EJtI0t2ws=
 			</data>
 		</dict>
 		<key>app/shared/friends/friend.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C30m3WpzS4uykiWPy3EaLk8rPBY=
+			keklsd6mzNgKTnXAXEm7HravSPY=
 			</data>
 			<key>hash2</key>
 			<data>
-			672TFpz+3v6HuAakvSjGmMQbM++hGzmKKhXVuzEHaiQ=
+			dpVd9WGloqyOZGCR6SO+fzFowopQ6I+W0P6ksknCHQM=
+			</data>
+		</dict>
+		<key>app/shared/friends/friends-lives.service.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zcVfmWgz7pbRqLhBLGdxIeIqHCw=
+			</data>
+			<key>hash2</key>
+			<data>
+			3zNL4bbktYhcAnYwz3tPR+O5yDJZh31W69wLLsFfWoE=
+			</data>
+		</dict>
+		<key>app/shared/friends/friends-lives.service.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			l3Ak5YReAXcS5OPTuJDRK4bTruE=
+			</data>
+			<key>hash2</key>
+			<data>
+			GmxIs14hzw2MetBaiU0orlWb0doKuLiO4X0QbIdZRFM=
 			</data>
 		</dict>
 		<key>app/shared/friends/friends.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8N5MOf6ylptrMTDC+zCuD1qHAzY=
+			ZGQwsxX3tUFd9F0QJamFGeBkarY=
 			</data>
 			<key>hash2</key>
 			<data>
-			dqrbxFnURZJ+CoUF/2saRDW880ntQW9vA986hte+7oE=
+			XlCxGXipvf8f/zy+TJqpxDieBvKAhfnGUnizrShMKNs=
 			</data>
 		</dict>
 		<key>app/shared/friends/friends.service.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gKvxIU3JTBEahWCTEupmkgCBib0=
+			05nD/bB/WZzunzJAdFOQgj9IGoc=
 			</data>
 			<key>hash2</key>
 			<data>
-			f5ISSDre3G0CW+RG/4HY8lGIB/A0TDwyJUS/VamMpp0=
+			0K2DxOWCR4Kinh2d6UmB4Y1oi5tRl4Cll0o+CktGsKY=
 			</data>
 		</dict>
 		<key>app/shared/friends/user.js</key>
@@ -19579,6 +18605,61 @@
 			<key>hash2</key>
 			<data>
 			99MfbqxvKYUMmGv0Wrorv6KyFK+CYCavn1Lz++6piOQ=
+			</data>
+		</dict>
+		<key>app/shared/services/map-view.service.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4vUq5bsTqbXS7bwj2FCFIQzhO3w=
+			</data>
+			<key>hash2</key>
+			<data>
+			Vi2bH9o+RcHL4fzShY7kQAIhDMfQs2lPBBrQgX0LxXs=
+			</data>
+		</dict>
+		<key>app/shared/services/map/info-window.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gyoNuRgl3vCs5sfLgRMyufKynxg=
+			</data>
+			<key>hash2</key>
+			<data>
+			CtOleBKhdIEujhuasO1KhaY2YyY5s9d+PI4wvC7yVBU=
+			</data>
+		</dict>
+		<key>app/shared/services/map/map-style.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fEwnO9Xe68Er1Vsgk0oLDUP1NTw=
+			</data>
+			<key>hash2</key>
+			<data>
+			G07yJAsPzM4dors+12TATaLEuJD6rAFHwTQQpYapSBQ=
+			</data>
+		</dict>
+		<key>app/shared/services/map/map-view.service.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IeDjsC/wdpmTEuy+VxAHj26KI6Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			8l6+1qw81tSYfvdWghlmfMyyvd4gktqaQT7T+rNYVTQ=
+			</data>
+		</dict>
+		<key>app/shared/services/map/map-view.service.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pN9SZl34WKIQxGR92u0CWaA2rPA=
+			</data>
+			<key>hash2</key>
+			<data>
+			RMThZfAU4DJRf6+w8koPjOZMFVzs+17MXR2USVo1E+o=
 			</data>
 		</dict>
 		<key>app/shared/user/user.js</key>
@@ -40584,11 +39665,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			niyxECoD/01utgpEW6lJFzDObjY=
+			1KGMidGv1+F1Dt2wwj8JJoaydbo=
 			</data>
 			<key>hash2</key>
 			<data>
-			bI4XJ9HWYofdXgWmLaAWIOxy1vsvDYqEieq3Z7ZASak=
+			N6Vu0A2tvcxMSVce7Yl3eOFwG2tRy6zaBFw3ed10yZQ=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-telerik-ui/references.d.ts</key>
@@ -42206,171 +41287,6 @@
 			<key>hash2</key>
 			<data>
 			lS+YFo3e41FpFmzniQMdtLQM14TdPUsXEtBMxPdhZ3w=
-			</data>
-		</dict>
-		<key>app/tns_modules/querystring/.History.md.un~</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GGOYKfeXNeIQAx0XHL3LvYoqCco=
-			</data>
-			<key>hash2</key>
-			<data>
-			kjaRPcB6eSIcxz5VlLPx3z6NbzRw5WWQxLcFTVVzwls=
-			</data>
-		</dict>
-		<key>app/tns_modules/querystring/.Readme.md.un~</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7cRjmKd/dlFpPg3K6y/7WscT+Mo=
-			</data>
-			<key>hash2</key>
-			<data>
-			HYwvgoVHDGNxS9OxO0S/ns4ah6BXnoY3ylgUI2gAp70=
-			</data>
-		</dict>
-		<key>app/tns_modules/querystring/.package.json.un~</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ALnrlb7uCD9OIrntrKLB3UT2JOc=
-			</data>
-			<key>hash2</key>
-			<data>
-			twVd6kcrFOO04+9szPKRlbHIQLxL/NJaomVV+HEljsw=
-			</data>
-		</dict>
-		<key>app/tns_modules/querystring/.travis.yml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			R19J8qx8pxoYpRH+hUlJGVKpSnE=
-			</data>
-			<key>hash2</key>
-			<data>
-			Bw3/x9wTvwvjzvvvjznOAVU3rTl6u4EuLK2PHfn0WeE=
-			</data>
-		</dict>
-		<key>app/tns_modules/querystring/History.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sZ2Pc1mknEnEFxOJGBqSsg3Qreg=
-			</data>
-			<key>hash2</key>
-			<data>
-			E3QFMbqBWRYM2o1aiaxxi9rOVFSbwe9pIYpzrnheGAk=
-			</data>
-		</dict>
-		<key>app/tns_modules/querystring/License.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QFGIdUfgcLvh4dLcqzpG9EvurLI=
-			</data>
-			<key>hash2</key>
-			<data>
-			y3LZcU3cIedY1j9CO+DK3fkJ0jzLsQovUgGocIGOT1c=
-			</data>
-		</dict>
-		<key>app/tns_modules/querystring/Readme.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nTq74kXJCjjDZeiejL6U8H0aax4=
-			</data>
-			<key>hash2</key>
-			<data>
-			VpKoe70Navr9nyUrZbswMSVHFh463nhE+ndLiTMzJ4M=
-			</data>
-		</dict>
-		<key>app/tns_modules/querystring/decode.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eME1N65lhSu2sd9FY87Ton+Eg3Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			j3G67AodaJhmG6GZGXLWyOLiOaSNPvVkqMXQMMuq1kk=
-			</data>
-		</dict>
-		<key>app/tns_modules/querystring/encode.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vEJEEZLOqd54c5iFDx0wiYBCEBc=
-			</data>
-			<key>hash2</key>
-			<data>
-			F+XN90JKmCSoCSDOlN4QT9yvGWBX7yFAOYVPN9x1kDs=
-			</data>
-		</dict>
-		<key>app/tns_modules/querystring/index.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			y3/Sg19lKTjP5QHz8MIl4mRuuAE=
-			</data>
-			<key>hash2</key>
-			<data>
-			FdRQFVLUkEG5uHh3c8da5O1rzAUihW05GGNw3TzGiIU=
-			</data>
-		</dict>
-		<key>app/tns_modules/querystring/package.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bYVTeyjP/rZJJlxTmWca+v8cnKQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			qb6uADxloSB4hDAB8jAr8Yi+xd0Hnp5LqQtoLivByYI=
-			</data>
-		</dict>
-		<key>app/tns_modules/querystring/test/.index.js.un~</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YkExc8nRQkwJQzBIycUY1X4rpeY=
-			</data>
-			<key>hash2</key>
-			<data>
-			YgMbU30Zs3ccd8n8cjUz7RcKLgz/U2mNBApI9sjBXyg=
-			</data>
-		</dict>
-		<key>app/tns_modules/querystring/test/common-index.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Y5/ANrsw/4VB9MK937cN28Ym3vg=
-			</data>
-			<key>hash2</key>
-			<data>
-			tByv/QoNT+Su8V6JCU5tGj7anJt3xx8uhyxRDVK77rg=
-			</data>
-		</dict>
-		<key>app/tns_modules/querystring/test/index.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ur8jEe+7lFa6lsQEUH2AukA6jd4=
-			</data>
-			<key>hash2</key>
-			<data>
-			NNCweTAITlNDViXff8s4Bh4S6COMXjVHvNDfbY1yOs0=
-			</data>
-		</dict>
-		<key>app/tns_modules/querystring/test/tap-index.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8XQUlbhufjWcE7W3zcdy+zKquZo=
-			</data>
-			<key>hash2</key>
-			<data>
-			atZBDbowvQRRRfRDBxWQCmEWe4YgCJswT59geJwuOoY=
 			</data>
 		</dict>
 		<key>app/tns_modules/reflect-metadata/.npmignore</key>
@@ -61319,22 +60235,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6C5790rHzzVJnBs1WkJ1GjWHsKQ=
+			YyysxXhSbfk8Ek+HQPTiag3t6eQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			9rpdnPF9UJAAc+HajhP0C7+Wcl6Ytr9MemUQOxTgwxs=
+			Yec9zXZ9ybBckiivHuaGes0nInt5WR0rI8nL+EB64ik=
 			</data>
 		</dict>
 		<key>app/widgets/friends-map/friends-map.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XO1Pknd3TUZ/Kpm4fcqraaXXKHM=
+			1ZRLJXR1La6PlFsYy9uGVz8jI+Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			2nZfm6YVt3KQWnxINuniqcuHjSjQJXDWS0p6UIJnbKM=
+			yK2AB3D4yNSDBJLgDdo7XwFyvmKM1evwtpOPRWPTlps=
 			</data>
 		</dict>
 		<key>app/widgets/friends-map/friends-map.css</key>
@@ -61352,11 +60268,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iXLL6RWn37jVxe0vBXW9tPI+XbM=
+			CJ/6BL4raqlfKVAU0DEgUHa3cOc=
 			</data>
 			<key>hash2</key>
 			<data>
-			lqcBCne6Pmy+Xz5FurVD+G8FKsYg7bX45UTU/wTLpjA=
+			eaNv9qX/Wmkkzkzbx30rxBDRe7OmCFWyOOZLv1dFkvo=
 			</data>
 		</dict>
 		<key>app/widgets/friends-map/friends.component.js</key>
@@ -61381,17 +60297,6 @@
 			jPJ2OL78mdPUvNc9QE4iPTdeDeA1QJ9AZC5U9xrBLv4=
 			</data>
 		</dict>
-		<key>app/widgets/friends-map/map-style.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fEwnO9Xe68Er1Vsgk0oLDUP1NTw=
-			</data>
-			<key>hash2</key>
-			<data>
-			G07yJAsPzM4dors+12TATaLEuJD6rAFHwTQQpYapSBQ=
-			</data>
-		</dict>
 		<key>app/widgets/friends/dashboard.component.js</key>
 		<dict>
 			<key>hash</key>
@@ -61407,33 +60312,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+			q0FWsATEuT/gYlra5Zm+SJj27gw=
 			</data>
 			<key>hash2</key>
 			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			7ZoGO1OwjBGGw4cfgDAutpiDNOxPnuAJ5jjcoiqeTZM=
 			</data>
 		</dict>
 		<key>app/widgets/friends/friends.component.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fT5lz1j5Q8n1Rbc6xvL3CUaHBk8=
+			OncMjVTph5JwxTiSixq4WR/wwNg=
 			</data>
 			<key>hash2</key>
 			<data>
-			K6kux9YZ6B7EUnxCORcPN3sEzPcPsGNXiYG+ohhiPg4=
+			n/dEfzz/KBGbxwADHkVgSwAf72uKxFMRbm4oN0qR4y8=
 			</data>
 		</dict>
 		<key>app/widgets/friends/friends.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EvuWull4scYp0BOucirqjZx1Osk=
+			A/b3h3TmczPBlt3Oa9KM45oNKpc=
 			</data>
 			<key>hash2</key>
 			<data>
-			osasq69xgZoxhHoGlWnvYXhWu/yrdopzjcIxfo9p6SU=
+			1/4BDykO/MgfhlF+b4e2p2s02/W/QnLJaSpKi6LZZ9E=
 			</data>
 		</dict>
 		<key>app/widgets/friends/friends.css</key>
@@ -61451,11 +60356,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9MoiGrYTn6Ne28yFqfLjqXkBY4g=
+			gvCbHI0TR94SECvHNGZITVCGmwk=
 			</data>
 			<key>hash2</key>
 			<data>
-			JL6alnffWITNG5dvJMvXmDp1YqVdDqt0DNGD5vviT40=
+			nNDceo9NK5EnNC40GAFdbABk2ODzVikisbVoSjbHD4U=
 			</data>
 		</dict>
 		<key>app/widgets/friends/list.component.js</key>
