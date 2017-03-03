@@ -12,6 +12,7 @@ import { FriendsService } from './shared/friends/friends.service';
 import { NativeScriptUIListViewModule } from 'nativescript-telerik-ui/listview/angular/listview-directives';
 import { HttpModule, JsonpModule, Http } from '@angular/http';
 import { NativeScriptHttpModule } from "nativescript-angular/http";
+import { MarkManagerService } from './shared/services/map/mark-manager.service';
 var application = require("application");
 declare var GMSServices: any;
 if (application.ios) {
@@ -27,7 +28,8 @@ if (application.ios) {
     SIDEDRAWER_DIRECTIVES
   ],
   providers: [
-    FriendsService
+    FriendsService,
+    MarkManagerService
   ],
   bootstrap: [
     AppComponent

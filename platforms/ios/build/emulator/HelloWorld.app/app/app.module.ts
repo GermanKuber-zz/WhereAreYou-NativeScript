@@ -10,6 +10,8 @@ import { FriendsComponent } from './widgets/friends/friends.component';
 import { SIDEDRAWER_DIRECTIVES } from "nativescript-telerik-ui/sidedrawer/angular";
 import { FriendsService } from './shared/friends/friends.service';
 import { NativeScriptUIListViewModule } from 'nativescript-telerik-ui/listview/angular/listview-directives';
+import { HttpModule, JsonpModule, Http } from '@angular/http';
+import { NativeScriptHttpModule } from "nativescript-angular/http";
 var application = require("application");
 declare var GMSServices: any;
 if (application.ios) {
@@ -34,9 +36,11 @@ if (application.ios) {
     NativeScriptModule,
     NativeScriptUIListViewModule,
     NativeScriptRouterModule,
-    NativeScriptRouterModule.forRoot(routes)],
-  schemas: [
-    NO_ERRORS_SCHEMA
+    NativeScriptRouterModule.forRoot(routes),
+    NativeScriptHttpModule
   ],
+  schemas: [
+      NO_ERRORS_SCHEMA
+    ],
 })
 export class AppModule { }

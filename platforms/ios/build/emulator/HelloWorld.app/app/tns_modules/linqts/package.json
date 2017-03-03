@@ -1,0 +1,138 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "linqts",
+        "scope": null,
+        "escapedName": "linqts",
+        "name": "linqts",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld"
+    ]
+  ],
+  "_from": "linqts@latest",
+  "_id": "linqts@1.8.0",
+  "_inCache": true,
+  "_location": "/linqts",
+  "_nodeVersion": "7.6.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/linqts-1.8.0.tgz_1488185813524_0.5909325343091041"
+  },
+  "_npmUser": {
+    "name": "kutyel",
+    "email": "flaviocorpa@gmail.com"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "linqts",
+    "scope": null,
+    "escapedName": "linqts",
+    "name": "linqts",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/linqts/-/linqts-1.8.0.tgz",
+  "_shasum": "29089650b41d8b4d10f8f23f6c88699aa3ff0c03",
+  "_shrinkwrap": null,
+  "_spec": "linqts",
+  "_where": "/Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld",
+  "author": {
+    "name": "Flavio Corpa",
+    "email": "flaviocorpa@gmail.com",
+    "url": "https://github.com/kutyel"
+  },
+  "bugs": {
+    "url": "https://github.com/kutyel/linq.ts/issues"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run validate"
+    },
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "typescript": "^2.1.4"
+  },
+  "description": "LinQ + TypeScript",
+  "devDependencies": {
+    "ava": "^0.18.0",
+    "commitizen": "^2.8.6",
+    "coveralls": "^2.11.14",
+    "cz-conventional-changelog": "^2.0.0",
+    "ghooks": "^2.0.0",
+    "npm-run-all": "^4.0.0",
+    "nyc": "^10.0.0",
+    "rimraf": "^2.5.4",
+    "semantic-release": "^6.3.2",
+    "ts-loader": "^2.0.0",
+    "ts-node": "^2.0.0",
+    "tslint": "^4.0.2",
+    "typedoc": "^0.5.0",
+    "webpack": "^2.2.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "29089650b41d8b4d10f8f23f6c88699aa3ff0c03",
+    "tarball": "https://registry.npmjs.org/linqts/-/linqts-1.8.0.tgz"
+  },
+  "files": [
+    "dist",
+    "readme.md"
+  ],
+  "gitHead": "5762a0d784e7517f4e764d8b5d285099c66f01ae",
+  "homepage": "https://github.com/kutyel/linq.ts#readme",
+  "keywords": [
+    "linq",
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "dist/linq.js",
+  "maintainers": [
+    {
+      "name": "kutyel",
+      "email": "flaviocorpa@gmail.com"
+    }
+  ],
+  "name": "linqts",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kutyel/linq.ts.git"
+  },
+  "scripts": {
+    "build": "npm-run-all --parallel build:*",
+    "build:main": "tsc linq.ts -t es3 -m commonjs -d --outDir dist",
+    "build:umd": "webpack --output-filename linq.umd.js",
+    "check-coverage": "nyc check-coverage --statements 100 --branches 90 --functions 100 --lines 100",
+    "commit": "git-cz",
+    "cover": "nyc --reporter=lcov npm t",
+    "docs": "typedoc --out ../docs/ linq.ts -m commonjs -t ES6",
+    "nyan": "ava --tap | tap-nyan",
+    "prebuild": "rimraf dist",
+    "pretest": "tsc",
+    "report-coverage": "nyc report --reporter=text-lcov | coveralls",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "start": "tsc -w",
+    "test": "nyc ava",
+    "validate": "npm run cover && npm run check-coverage"
+  },
+  "typescript": {
+    "definition": "dist/linq.d.ts"
+  },
+  "typings": "dist/linq.d.ts",
+  "umd:main": "dist/linq.umd.js",
+  "version": "1.8.0"
+}

@@ -6,8 +6,9 @@ import { RadSideDrawerComponent, SideDrawerType } from 'nativescript-telerik-ui/
 import { FriendsLiveService } from '../../shared/friends/friends-lives.service';
 import { Observable } from '../../../platforms/ios/build/emulator/HelloWorld.app/app/tns_modules/rxjs/src/Observable';
 import { FriendPosition, Friend } from '../../shared/friends/friend';
-import { MapViewService, AddMarkerArgs } from '../../shared/services/map/map-view.service';
+import { MapViewService } from '../../shared/services/map/map-view.service';
 import { FriendsService } from '../../shared/friends/friends.service';
+import { AddMarkerArgs } from '../../shared/services/map/core/MarkContainer';
 
 
 registerElement('MapView', () => MapView);
@@ -33,6 +34,10 @@ export class FriendsMapComponent implements OnInit {
     if (!event.object) return;
     this.mapViewService.onMapReady(event, () => this.mapReadyNotify());
 
+  }
+
+  mapTapped(event){
+     this.mapViewService.mapTapped(event);
   }
   private mapReadyNotify() {
 
@@ -67,7 +72,7 @@ export class FriendsMapComponent implements OnInit {
       for (var item of friendsPosition) {
         var newMarkFriend = this.createMark(item);
         if (newMarkFriend != null)
-          this.mapViewService.addCommonMark(newMarkFriend[0], newMarkFriend[1].id);
+          this.mapViewService.addFriendnMark(newMarkFriend[0], newMarkFriend[1].id);
       }
     });
   }
