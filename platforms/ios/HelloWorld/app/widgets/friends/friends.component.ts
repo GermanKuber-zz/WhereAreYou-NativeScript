@@ -24,12 +24,14 @@ export class FriendsComponent implements OnInit {
 
 
   }
-  public addFriend() {
-    var a = this.inviteFriend;
-  }
+
   public getColorItem(friend: Friend): string {
-    if (friend != null && friend.activate)
-      return "friend-enable";
+    if (friend != null && friend.activate) {
+      if (friend.drawWaytToMe)
+        return "friend-follow ";
+      else
+        return "friend-enable";
+    }
     else
       return "friend-disable";
   }
@@ -41,8 +43,9 @@ export class FriendsComponent implements OnInit {
     swipeLimits.left = leftItem.getMeasuredWidth();
     swipeLimits.right = rightItem.getMeasuredWidth();
     swipeLimits.threshold = leftItem.getMeasuredWidth() / 2;
+    this.swipeLimits = swipeLimits;
   }
-
+  private swipeLimits;
   public onSwipeCellFinished(args: ListViewEventData) {
     if (args.data.x > 200) {
       console.log("Perform left action");

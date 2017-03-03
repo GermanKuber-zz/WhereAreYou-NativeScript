@@ -5,6 +5,9 @@
 .friend-disable {
     background-color: #F0B7BD;
 }
+.friend-follow {
+    background-color: #9CE0F9;
+}
 .list-friends{
     height: 900px;
 }

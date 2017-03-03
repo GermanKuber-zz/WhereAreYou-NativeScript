@@ -10,7 +10,7 @@ import { Marker, Position } from 'nativescript-google-maps-sdk';
 @Injectable()
 export class MarkManagerService {
     private meId: number = -99999999;
-    private markList: List<MarkContainer> = new List<MarkContainer>();
+    private markFriendsList: List<MarkContainer> = new List<MarkContainer>();
     private _me: MarkContainer;
     get me(): Marker {
         if (this._me != null)
@@ -26,12 +26,12 @@ export class MarkManagerService {
     }
     //Public Methods
     public getMarkContainer(markId: number): MarkContainer {
-        return this.markList.Where(x => x.markId == markId).FirstOrDefault();
+        return this.markFriendsList.Where(x => x.markId == markId).FirstOrDefault();
     }
     public addFriendMark(markInfo: AddMarkerArgs, markId: number): MarkContainer {
-        if (!this.markList.Any(x => x.markId == markId)) {
+        if (!this.markFriendsList.Any(x => x.markId == markId)) {
             var markContainer = new MarkContainer(markInfo, markId, MarkWrapperTypeEnum.Friend);
-            this.markList.Add(markContainer);
+            this.markFriendsList.Add(markContainer);
             return markContainer;
         } else {
             throw new Error("Esta intentando agregar una Mark con un Id repetido");
@@ -51,20 +51,21 @@ export class MarkManagerService {
         }
         return markContainer;
     }
-    public removeMark(markId: number): void {
-        var markContainer = this.markList.Where(x => x.markId == markId).FirstOrDefault();
+    public removeFriendMark(markId: number): MarkContainer {
+        var markContainer = this.markFriendsList.Where(x => x.markId == markId).FirstOrDefault();
         if (markContainer != null) {
-            this.markList.Remove(markContainer);
+            this.markFriendsList.Remove(markContainer);
         }
+        return markContainer;
     }
     public enableDrawWayToMe(markId: number): void {
-        var markContainer = this.markList.Where(x => x.markId == markId).FirstOrDefault();
+        var markContainer = this.markFriendsList.Where(x => x.markId == markId).FirstOrDefault();
         if (markContainer != null) {
             markContainer.addMarkDrawWay(this._me.markwrapper)
-        } 
+        }
     }
     public disableDrawWayToMe(markId: number): void {
-        var markContainer = this.markList.Where(x => x.markId == markId).FirstOrDefault();
+        var markContainer = this.markFriendsList.Where(x => x.markId == markId).FirstOrDefault();
         if (markContainer != null) {
             markContainer.removeMarkDrawWay(this._me.markwrapper)
         }

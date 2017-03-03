@@ -22,7 +22,7 @@ export class ExternalMapService {
             .map(x => {
                 var data: google.maps.DirectionsResult = this.extractData(x);
                 var returnList = new List<Position>();
-                for (var item of data.routes[0].legs) {
+                for (var item of data.routes[0].legs[0].steps) {
                     var newPStartosition = new Position();
                     newPStartosition.latitude = (<any>item).start_location.lat;
                     newPStartosition.longitude = (<any>item).start_location.lng;

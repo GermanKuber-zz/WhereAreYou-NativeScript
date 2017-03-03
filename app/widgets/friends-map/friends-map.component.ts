@@ -52,7 +52,7 @@ export class FriendsMapComponent implements OnInit {
   //Private Methods
   private mapReadyNotify() {
 
-    this.getFriendsPositions();
+    // this.getFriendsPositions();
     this.subscribeFriendLocationUpdate();
   }
   private addAllFriends(friends: Array<Friend>) {
@@ -61,7 +61,7 @@ export class FriendsMapComponent implements OnInit {
       this.myFriends.Add(item);
       if (item.drawWaytToMe) {
         this.mapViewService.enableDrawWayToMe(item.id);
-      }else{
+      } else {
         this.mapViewService.disableDrawWayToMe(item.id);
       }
     }
@@ -71,6 +71,8 @@ export class FriendsMapComponent implements OnInit {
     var newMarkFriend = this.createMarkerArgs(friend);
     if (newMarkFriend != null)
       this.mapViewService.updateFriendMark(newMarkFriend[0], newMarkFriend[1].id);
+    else
+      this.mapViewService.removeFriendMark(friend.id);
   }
   private subscribeFriendLocationUpdate() {
     //Me suscribo al metodo de actualizacion para obtener actualizacion de ubicacion de mis amigos
@@ -79,16 +81,16 @@ export class FriendsMapComponent implements OnInit {
     });
 
   }
-  private getFriendsPositions(): void {
-    //Obtengo todos los amigos conectados por grupo y los dibujo en el mapa
-    this.friendsLiveService.getFriendsByGroup(1).subscribe(friendsPosition => {
-      for (var item of friendsPosition) {
-        var newMarkFriend = this.createMarkerArgs(item);
-        if (newMarkFriend != null)
-          this.mapViewService.addFriendnMark(newMarkFriend[0], newMarkFriend[1].id);
-      }
-    });
-  }
+  // private getFriendsPositions(): void {
+  //   //Obtengo todos los amigos conectados por grupo y los dibujo en el mapa
+  //   this.friendsLiveService.getFriendsByGroup(1).subscribe(friendsPosition => {
+  //     for (var item of friendsPosition) {
+  //       var newMarkFriend = this.createMarkerArgs(item);
+  //       if (newMarkFriend != null)
+  //         this.mapViewService.addFriendnMark(newMarkFriend[0], newMarkFriend[1].id);
+  //     }
+  //   });
+  // }
 
   private createMarkerArgs(position: FriendPosition): [AddMarkerArgs, Friend] {
     var mark = new AddMarkerArgs();
