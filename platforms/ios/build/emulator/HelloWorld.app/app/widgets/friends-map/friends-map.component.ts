@@ -9,6 +9,7 @@ import { FriendPosition, Friend } from '../../shared/friends/friend';
 import { MapViewService } from '../../shared/services/map/map-view.service';
 import { FriendsService } from '../../shared/friends/friends.service';
 import { AddMarkerArgs } from '../../shared/services/map/core/MarkContainer';
+import { List } from 'linqts';
 
 
 registerElement('MapView', () => MapView);
@@ -22,7 +23,7 @@ registerElement('MapView', () => MapView);
 export class FriendsMapComponent implements OnInit {
   //#Amigos
   // public friends: Array<FriendPosition>;
-  private myFriends: Array<Friend>;
+  private myFriends: List<Friend> = new List<Friend>();;
 
   constructor(private friendsService: FriendsService,
     private friendsLiveService: FriendsLiveService,
@@ -31,12 +32,11 @@ export class FriendsMapComponent implements OnInit {
   }
   //Events
   ngOnInit() {
-    this.friendsService.friendUpdate$.subscribe(x => {
-      this.myFriends = x;
+    this.friendsService.friendUpdate$.subscribe(f => {
+      this.addAllFriends(f);
     });
-    this.myFriends = new Array<Friend>();
-    this.friendsService.getAllFriends().subscribe(x => {
-      this.myFriends = x;
+    this.friendsService.getAllFriends().subscribe(f => {
+      this.addAllFriends(f);
     });
   }
 
@@ -55,7 +55,17 @@ export class FriendsMapComponent implements OnInit {
     this.getFriendsPositions();
     this.subscribeFriendLocationUpdate();
   }
-
+  private addAllFriends(friends: Array<Friend>) {
+    this.myFriends = new List<Friend>();
+    for (var item of friends) {
+      this.myFriends.Add(item);
+      if (item.drawWaytToMe) {
+        this.mapViewService.enableDrawWayToMe(item.id);
+      }else{
+        this.mapViewService.disableDrawWayToMe(item.id);
+      }
+    }
+  }
 
   private updateFriendLocation(friend: FriendPosition): void {
     var newMarkFriend = this.createMarkerArgs(friend);

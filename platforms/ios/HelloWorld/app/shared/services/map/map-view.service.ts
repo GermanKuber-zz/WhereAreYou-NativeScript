@@ -13,8 +13,9 @@ import { FriendsService } from '../../../shared/friends/friends.service';
 import { Http, Response } from '@angular/http';
 import { routes } from '../../../app.routing';
 import { List } from 'linqts';
-import { MarkWrapper, MarkWrapperTypeEnum, AddMarkerArgs, AddLineArgs, MarkContainer } from './core/MarkContainer';
+import { MarkWrapper, MarkWrapperTypeEnum, AddMarkerArgs, AddLineArgs, MarkContainer, MarkWrapperConfiguration } from './core/MarkContainer';
 import { MarkManagerService } from './mark-manager.service';
+import { ExternalMapService, WayModeEnum } from './external-map.service';
 @Injectable()
 export class MapViewService {
     //#Mapa 
@@ -28,7 +29,7 @@ export class MapViewService {
     centeredOnLocation: boolean = false;
 
     constructor(private markManagerService: MarkManagerService,
-        private http: Http) {
+        private externalMapService: ExternalMapService) {
         if (!geolocation.isEnabled()) {
             geolocation.enableLocationRequest();
         }
@@ -45,7 +46,18 @@ export class MapViewService {
         this.mapView.addMarker(markContainer.mark);
     }
     public updateFriendMark(markInfo: AddMarkerArgs, markId: number): void {
-        this.markManagerService.updateMark(markInfo, markId);
+        var container = this.markManagerService.updateMark(markInfo, markId);
+        if (container.isEnableDraw) {
+
+            //si tiene activada la opcion de dibujar
+            container.markDrawWayList.ForEach(x => {
+                this.externalMapService.getWayPositions([x.markWrapper.mark.position.latitude, x.markWrapper.mark.position.longitude],
+                    [container.mark.position.latitude, container.mark.position.longitude],
+                    WayModeEnum.driving).subscribe(points => {
+                        this.drawWay(x, points);
+                    });
+            });
+        }
     }
     public removeCommonMark(markInfo: AddMarkerArgs, markId: number): void {
         this.markManagerService.removeMark(markId);
@@ -106,9 +118,8 @@ export class MapViewService {
             }, this.error);
     };
 
-    //TODO: Asignarle Tipo a Events
-    public mapTapped(event) {
 
+    public mapTapped(event) {
         console.log('Map Tapped');
     };
     //Map Events - Private Methods
@@ -122,7 +133,7 @@ export class MapViewService {
         if (this.mapView && position && !this.firstConfigurationMap) {
             this.mapView.latitude = position.latitude;
             this.mapView.longitude = position.longitude;
-            this.mapView.zoom = 2;
+            this.mapView.zoom = 13;
             this.centeredOnLocation = true;
             this.firstConfigurationMap = true;
         }
@@ -172,44 +183,22 @@ export class MapViewService {
 
 
     //Test
-    private first = true;
-    getHeroes(): Observable<Response> {
-        return this.http.get("https://maps.googleapis.com/maps/api/directions/json?origin=Toronto&destination=Montreal&avoid=highways&mode=driving&key=AIzaSyC1ZzjAD91N4cf6CKon2aiNAFoju9V6R3I")
-            .catch(this.handleError);
-    }
-    private handleError(error: Response | any): any {
-        // In a real world app, we might use a remote logging infrastructure
-        let errMsg: string;
-        if (error instanceof Response) {
-            const body = error.json() || '';
-            const err = (<any>body).error || JSON.stringify(body);
-            errMsg = `${error.status} - ${error.statusText || ''} ${err}`;
-        } else {
-            errMsg = error.message ? error.message : error.toString();
-        }
-        console.error(errMsg);
-        return Observable.throw(errMsg);
-    }
-    private extractData(res: Response): any {
-        let body = res.json();
-        return (<any>body).data || {};
-    }
-
     //dibuja un camino, con las positions que recibe como parametro
-    private drawWay(positions: Array<Position>): void {
-        var poli: Polyline;
-        for (var item of positions) {
-
-            poli = this.addPointToLine({
+    private drawWay(markWrapperConfiguration: MarkWrapperConfiguration, positions: List<Position>): void {
+        if (markWrapperConfiguration.polyline != null)
+            markWrapperConfiguration.polyline.removeAllPoints();
+            
+        positions.ForEach(item => {
+            markWrapperConfiguration.polyline = this.addPointToLine({
                 color: new Color('Pink'),
-                line: poli,
+                line: markWrapperConfiguration.polyline,
                 location: item,
                 geodesic: true,
                 width: 10
             });
-
-        }
+        });
     }
-
 }
+
+
 

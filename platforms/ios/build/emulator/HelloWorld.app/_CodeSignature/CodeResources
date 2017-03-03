@@ -1169,11 +1169,11 @@
 		</data>
 		<key>app/app.module.js</key>
 		<data>
-		SM139MY9TaaEiQH+tOtq2aRDlmo=
+		CjSB0n07KEL6S+N0axhhwuQK7+8=
 		</data>
 		<key>app/app.module.ts</key>
 		<data>
-		OX292Em4vq8e2/CzUBf7/AsUWLo=
+		uJlrheP0TRVHbJ37RYokuHFpk3w=
 		</data>
 		<key>app/app.routing.js</key>
 		<data>
@@ -1273,27 +1273,27 @@
 		</data>
 		<key>app/shared/friends/friend.js</key>
 		<data>
-		Ap7b3BIlRRT6oJxQajT7l+L9X18=
+		rZGR7crll3fWH6iT7j+n10GrMuw=
 		</data>
 		<key>app/shared/friends/friend.ts</key>
 		<data>
-		T4IF361QEzgyxlJvQzd9kZBvd6s=
+		z3X1yrZKro76xra3UJvrtvRqhKo=
 		</data>
 		<key>app/shared/friends/friends-lives.service.js</key>
 		<data>
-		zcVfmWgz7pbRqLhBLGdxIeIqHCw=
+		TSxtIzkQIQL0AY2HCwShHU0+Trg=
 		</data>
 		<key>app/shared/friends/friends-lives.service.ts</key>
 		<data>
-		l3Ak5YReAXcS5OPTuJDRK4bTruE=
+		QBsQEIx/qRppb1v2ZaoclyNpfA0=
 		</data>
 		<key>app/shared/friends/friends.service.js</key>
 		<data>
-		ZGQwsxX3tUFd9F0QJamFGeBkarY=
+		8TVToGdPkvPlcUUVsmQfiu3KKEw=
 		</data>
 		<key>app/shared/friends/friends.service.ts</key>
 		<data>
-		05nD/bB/WZzunzJAdFOQgj9IGoc=
+		Uz8Vfe7sZFrpHuAwwkjjeOxQZ/E=
 		</data>
 		<key>app/shared/friends/user.js</key>
 		<data>
@@ -1325,11 +1325,19 @@
 		</data>
 		<key>app/shared/services/map/core/MarkContainer.js</key>
 		<data>
-		DVirntd8LjGPBlFxS1WOM/c//us=
+		zoGipvCe82W+HOQaLViJW7aQSzg=
 		</data>
 		<key>app/shared/services/map/core/MarkContainer.ts</key>
 		<data>
-		Z4RxdPtHHD6+baQRfdddIkBQNKQ=
+		ZqZS9Sof7YsXosncqPYUCAvq2Nc=
+		</data>
+		<key>app/shared/services/map/external-map.service.js</key>
+		<data>
+		Wi6j1RYpT9+ejBiCL/1FMi1m8xM=
+		</data>
+		<key>app/shared/services/map/external-map.service.ts</key>
+		<data>
+		3nltoK3IqVrJ7gfrW1kYf0jUCGI=
 		</data>
 		<key>app/shared/services/map/info-window.xml</key>
 		<data>
@@ -1339,21 +1347,25 @@
 		<data>
 		fEwnO9Xe68Er1Vsgk0oLDUP1NTw=
 		</data>
+		<key>app/shared/services/map/map-view.service.1.js</key>
+		<data>
+		Xe3On9owYYIdBc+wTRz0CLushxs=
+		</data>
 		<key>app/shared/services/map/map-view.service.js</key>
 		<data>
-		s0ocCaZk6a4A0kepY5SF8E24Jls=
+		GtNaoFsSwIgiYhR6UvyVtMmbfxk=
 		</data>
 		<key>app/shared/services/map/map-view.service.ts</key>
 		<data>
-		M98rwB1o+GPoinwry+IMzsQ9FYw=
+		mcUTAQSLwdqN7SmsECdQ/36TMrw=
 		</data>
 		<key>app/shared/services/map/mark-manager.service.js</key>
 		<data>
-		fxWD2lsiKzo8IhD9OSAygSj23bc=
+		bbz21N08g8rbBd8jpplPokvQ1hM=
 		</data>
 		<key>app/shared/services/map/mark-manager.service.ts</key>
 		<data>
-		h77BkzaeCvEEiGDmRbZr0z6hQFg=
+		oM3JV/nkzGgPzh2pgCNmD1dp3bg=
 		</data>
 		<key>app/shared/user/user.js</key>
 		<data>
@@ -17230,11 +17242,11 @@
 		</data>
 		<key>app/widgets/friends-map/friends-map.component.js</key>
 		<data>
-		72XgTmEFhPXV+DyUTxT4g4VgZbE=
+		trVgfmgpcIeXcuW/FXqTSVWzf5k=
 		</data>
 		<key>app/widgets/friends-map/friends-map.component.ts</key>
 		<data>
-		JI7SKYovLl0lbdou/zsFi0CJlUs=
+		xGvB/xIQG13L3LSPp2YQyUsTnmA=
 		</data>
 		<key>app/widgets/friends-map/friends-map.css</key>
 		<data>
@@ -17274,7 +17286,7 @@
 		</data>
 		<key>app/widgets/friends/friends.html</key>
 		<data>
-		bjx4FHKBAG380OPLkXtyWAYMP5Y=
+		0BA8V6PpTZZjBAlIEGOyTXSKewE=
 		</data>
 		<key>app/widgets/friends/list.component.js</key>
 		<data>
@@ -19971,22 +19983,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SM139MY9TaaEiQH+tOtq2aRDlmo=
+			CjSB0n07KEL6S+N0axhhwuQK7+8=
 			</data>
 			<key>hash2</key>
 			<data>
-			mAiVhmD0DCq3/QLaXJSmSQZPWurl8trs+J6m5Yjl730=
+			Js/cWe9WWFgVwciExgEfwSJFjY4MkoTl+KFz5x8qy98=
 			</data>
 		</dict>
 		<key>app/app.module.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OX292Em4vq8e2/CzUBf7/AsUWLo=
+			uJlrheP0TRVHbJ37RYokuHFpk3w=
 			</data>
 			<key>hash2</key>
 			<data>
-			4CtuuotixOrYbqqpKTWJJc5GSbeUAGYcsPb0l0E1GVg=
+			f6R0E5oaJvUWJ12KeIJ0qOI6ubJHHOQOeU8rFdG8whM=
 			</data>
 		</dict>
 		<key>app/app.routing.js</key>
@@ -20257,66 +20269,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ap7b3BIlRRT6oJxQajT7l+L9X18=
+			rZGR7crll3fWH6iT7j+n10GrMuw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8I6j7/QQpDqHVOxB0RQGxzdXaXuKguqGi82djNR4bsE=
+			zY0SPc4lDLkL2zjmnP2lti48vttruH8dZIzMQImbbSE=
 			</data>
 		</dict>
 		<key>app/shared/friends/friend.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T4IF361QEzgyxlJvQzd9kZBvd6s=
+			z3X1yrZKro76xra3UJvrtvRqhKo=
 			</data>
 			<key>hash2</key>
 			<data>
-			kPod4v7QVSK1CM7QOdvtLde1UdaIcPalTmr1/msn38g=
+			n/09fznqLDg7b9Dd8NW4V5qBX4zFlF6j+fdlFaoAPjw=
 			</data>
 		</dict>
 		<key>app/shared/friends/friends-lives.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zcVfmWgz7pbRqLhBLGdxIeIqHCw=
+			TSxtIzkQIQL0AY2HCwShHU0+Trg=
 			</data>
 			<key>hash2</key>
 			<data>
-			3zNL4bbktYhcAnYwz3tPR+O5yDJZh31W69wLLsFfWoE=
+			Akt1YUL7ldIaNv2PVTAsp6BhmcxNkOX2Yv79U/j2Mmw=
 			</data>
 		</dict>
 		<key>app/shared/friends/friends-lives.service.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			l3Ak5YReAXcS5OPTuJDRK4bTruE=
+			QBsQEIx/qRppb1v2ZaoclyNpfA0=
 			</data>
 			<key>hash2</key>
 			<data>
-			GmxIs14hzw2MetBaiU0orlWb0doKuLiO4X0QbIdZRFM=
+			8NFpxVZUqe0eDMlP4uIhc9z/VCFUdhmZ2tw4uiPr4nk=
 			</data>
 		</dict>
 		<key>app/shared/friends/friends.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZGQwsxX3tUFd9F0QJamFGeBkarY=
+			8TVToGdPkvPlcUUVsmQfiu3KKEw=
 			</data>
 			<key>hash2</key>
 			<data>
-			XlCxGXipvf8f/zy+TJqpxDieBvKAhfnGUnizrShMKNs=
+			Pt2GqJ0YbaUjVmXijAJZirzLvdnyvmuue3HJhB2x70M=
 			</data>
 		</dict>
 		<key>app/shared/friends/friends.service.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			05nD/bB/WZzunzJAdFOQgj9IGoc=
+			Uz8Vfe7sZFrpHuAwwkjjeOxQZ/E=
 			</data>
 			<key>hash2</key>
 			<data>
-			0K2DxOWCR4Kinh2d6UmB4Y1oi5tRl4Cll0o+CktGsKY=
+			Z/NIsnb0rhUaeA6rDB4HuAefgywc+08O01+NOy2NuWo=
 			</data>
 		</dict>
 		<key>app/shared/friends/user.js</key>
@@ -20400,22 +20412,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DVirntd8LjGPBlFxS1WOM/c//us=
+			zoGipvCe82W+HOQaLViJW7aQSzg=
 			</data>
 			<key>hash2</key>
 			<data>
-			fvj1TTa/V/psaNO0KNXynKibR2q7Ko5y8QpMIaG6KkA=
+			S5a75FJZI8GXPIrEwFHoYtjzp4U4RQUuAl3iTkne/N0=
 			</data>
 		</dict>
 		<key>app/shared/services/map/core/MarkContainer.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z4RxdPtHHD6+baQRfdddIkBQNKQ=
+			ZqZS9Sof7YsXosncqPYUCAvq2Nc=
 			</data>
 			<key>hash2</key>
 			<data>
-			0rEgTv1UAVuWHvMwBurBMU0TtqT7eYuYD4emU8tCIvg=
+			RJtuvLxwyP91h1476iHQlitSNQxXNbrEIBqUf+y4TJQ=
+			</data>
+		</dict>
+		<key>app/shared/services/map/external-map.service.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Wi6j1RYpT9+ejBiCL/1FMi1m8xM=
+			</data>
+			<key>hash2</key>
+			<data>
+			ztxYWgPWFiHdNKWEf5E0GizxvNJGY/GCvNCRIol2MPY=
+			</data>
+		</dict>
+		<key>app/shared/services/map/external-map.service.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3nltoK3IqVrJ7gfrW1kYf0jUCGI=
+			</data>
+			<key>hash2</key>
+			<data>
+			AbwWgZ2EYlU1B6rjAqFlTfrQn1O6Fv64d4n3tLL6luQ=
 			</data>
 		</dict>
 		<key>app/shared/services/map/info-window.xml</key>
@@ -20440,48 +20474,59 @@
 			G07yJAsPzM4dors+12TATaLEuJD6rAFHwTQQpYapSBQ=
 			</data>
 		</dict>
+		<key>app/shared/services/map/map-view.service.1.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Xe3On9owYYIdBc+wTRz0CLushxs=
+			</data>
+			<key>hash2</key>
+			<data>
+			03CGhOvqqWUnALHlQkYOkhlOX7zvrbMWuSXNzix0Dck=
+			</data>
+		</dict>
 		<key>app/shared/services/map/map-view.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s0ocCaZk6a4A0kepY5SF8E24Jls=
+			GtNaoFsSwIgiYhR6UvyVtMmbfxk=
 			</data>
 			<key>hash2</key>
 			<data>
-			7xrBuOnSs+2Spb9Auukg/B/tJ9FpBgO8jc+WOlHjzu0=
+			Ow3mn2G7hGFyx3HiFu7Z8/xxudEmvsSbztYPBFW04So=
 			</data>
 		</dict>
 		<key>app/shared/services/map/map-view.service.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M98rwB1o+GPoinwry+IMzsQ9FYw=
+			mcUTAQSLwdqN7SmsECdQ/36TMrw=
 			</data>
 			<key>hash2</key>
 			<data>
-			9Fx2pLe33DcevVGsFuPZqw1W398zYwr2IjfyYqeFTMQ=
+			vcIQ4zyPDXWZeL8ceh0PhTgsSpIFq4l44hILO4Aft4w=
 			</data>
 		</dict>
 		<key>app/shared/services/map/mark-manager.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fxWD2lsiKzo8IhD9OSAygSj23bc=
+			bbz21N08g8rbBd8jpplPokvQ1hM=
 			</data>
 			<key>hash2</key>
 			<data>
-			vl2AhIKNiveCEo2Q/NnjQlyKZLjHCFe0S+Z3Dhnt3Fk=
+			lLsLQvFfGTi0XiuMesg7GbfXhtE4sKPL0FdvFB3BEbg=
 			</data>
 		</dict>
 		<key>app/shared/services/map/mark-manager.service.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			h77BkzaeCvEEiGDmRbZr0z6hQFg=
+			oM3JV/nkzGgPzh2pgCNmD1dp3bg=
 			</data>
 			<key>hash2</key>
 			<data>
-			xJjiEvRNv56mshj5DCB8lSBz+IIv0Cr9F9/844eiKyo=
+			Y52RrvLtz3a3d/ButJBXpsz1dNTMnbZq0SKc0Rw6IRw=
 			</data>
 		</dict>
 		<key>app/shared/user/user.js</key>
@@ -64127,22 +64172,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			72XgTmEFhPXV+DyUTxT4g4VgZbE=
+			trVgfmgpcIeXcuW/FXqTSVWzf5k=
 			</data>
 			<key>hash2</key>
 			<data>
-			NHpqINL6SC0FhsuoIuFHRyQfLgfFggV/cz/kVdQRqQY=
+			el8EGJQKeFy+3kbwjtbBIDXlGgTqUQuv6/1R7t1mNY0=
 			</data>
 		</dict>
 		<key>app/widgets/friends-map/friends-map.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JI7SKYovLl0lbdou/zsFi0CJlUs=
+			xGvB/xIQG13L3LSPp2YQyUsTnmA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zy+tFORVbqH/0EWtBoXSKr8yV5bN292spX29hEFtSxQ=
+			nFDaQdlyk5kTzpe/7Q9gTYv9eSMJ+9sEqV09a0v8sp4=
 			</data>
 		</dict>
 		<key>app/widgets/friends-map/friends-map.css</key>
@@ -64248,11 +64293,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bjx4FHKBAG380OPLkXtyWAYMP5Y=
+			0BA8V6PpTZZjBAlIEGOyTXSKewE=
 			</data>
 			<key>hash2</key>
 			<data>
-			F5+u2mAh+x4LvhghnfoasjBjyvh1dU0gLTi7ZSIbFvw=
+			AOa2yqMb6/q7u1Y3lDifZ4rxv4aem3AvBNM1teiN+xI=
 			</data>
 		</dict>
 		<key>app/widgets/friends/list.component.js</key>

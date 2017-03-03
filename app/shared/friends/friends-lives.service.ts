@@ -42,7 +42,7 @@ export class FriendsLiveService {
       var friend = this.generateRanonMove();
       observer.next(friend);;
       this.autoCall(observer);
-    }, 300);
+    }, 500);
   }
   //TODO: Metodo mock donde simulto el movimiento de un amigo Demo eliminar
   private generateRanonMove(): FriendPosition {

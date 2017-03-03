@@ -25,7 +25,7 @@ export class MarkManagerService {
             return false;
     }
     //Public Methods
-    public getMarkWrapper(markId: number): MarkContainer {
+    public getMarkContainer(markId: number): MarkContainer {
         return this.markList.Where(x => x.markId == markId).FirstOrDefault();
     }
     public addFriendMark(markInfo: AddMarkerArgs, markId: number): MarkContainer {
@@ -44,11 +44,12 @@ export class MarkManagerService {
         this._me = new MarkContainer(markInfo, this.meId, MarkWrapperTypeEnum.Me);
         return this._me;
     }
-    public updateMark(markInfo: AddMarkerArgs, markId: number): void {
-        var markWrapper = this.getMarkWrapper(markId);
-        if (markWrapper != null) {
-            markWrapper.mark.position = markInfo.location;
+    public updateMark(markInfo: AddMarkerArgs, markId: number): MarkContainer {
+        var markContainer = this.getMarkContainer(markId);
+        if (markContainer != null) {
+            markContainer.mark.position = markInfo.location;
         }
+        return markContainer;
     }
     public removeMark(markId: number): void {
         var markContainer = this.markList.Where(x => x.markId == markId).FirstOrDefault();
@@ -60,16 +61,12 @@ export class MarkManagerService {
         var markContainer = this.markList.Where(x => x.markId == markId).FirstOrDefault();
         if (markContainer != null) {
             markContainer.addMarkDrawWay(this._me.markwrapper)
-        } else {
-            throw new Error(`Esta intentando activar la opcion de DrawWayToMe sobre el MarkId=${markId} que no existe`)
-        }
+        } 
     }
     public disableDrawWayToMe(markId: number): void {
         var markContainer = this.markList.Where(x => x.markId == markId).FirstOrDefault();
         if (markContainer != null) {
             markContainer.removeMarkDrawWay(this._me.markwrapper)
-        } else {
-            throw new Error(`Esta intentando desctivar la opcion de DrawWayToMe sobre el MarkId=${markId} que no existe`)
         }
     }
     public moveMe(lat: number, long: number): void {

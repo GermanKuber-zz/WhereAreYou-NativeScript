@@ -13,6 +13,9 @@ import { NativeScriptUIListViewModule } from 'nativescript-telerik-ui/listview/a
 import { HttpModule, JsonpModule, Http } from '@angular/http';
 import { NativeScriptHttpModule } from "nativescript-angular/http";
 import { MarkManagerService } from './shared/services/map/mark-manager.service';
+import { ExternalMapService } from './shared/services/map/external-map.service';
+import { MapViewService } from './shared/services/map/map-view.service';
+
 var application = require("application");
 declare var GMSServices: any;
 if (application.ios) {
@@ -29,6 +32,8 @@ if (application.ios) {
   ],
   providers: [
     FriendsService,
+    MapViewService,
+    ExternalMapService,
     MarkManagerService
   ],
   bootstrap: [

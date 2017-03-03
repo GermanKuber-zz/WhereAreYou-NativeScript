@@ -21,7 +21,7 @@ export class MarkWrapper {
 
 }
 export class MarkContainer {
-    private markDrawWayList: List<MarkWrapper> = new List<MarkWrapper>();
+    private _markDrawWayList: List<MarkWrapperConfiguration> = new List<MarkWrapperConfiguration>();
     private enableDraw: boolean = false;
     private markWrapper: MarkWrapper;
     get markId(): number {
@@ -32,6 +32,12 @@ export class MarkContainer {
     }
     get markwrapper(): MarkWrapper {
         return this.markWrapper;
+    }
+    get isEnableDraw(): boolean {
+        return this.enableDraw;
+    }
+    get markDrawWayList(): List<MarkWrapperConfiguration> {
+        return this._markDrawWayList;
     }
     public constructor(markInfo: AddMarkerArgs, markId: number, markType: MarkWrapperTypeEnum) {
         //Creo un MarkWrapper el cual relaciona el Marker con el id del usuario dibujado
@@ -64,20 +70,35 @@ export class MarkContainer {
     addMarkDrawWay(markWrapper: MarkWrapper) {
         //Activo el modo de Draw
         this.enableDraw = true;
-        if (!this.markDrawWayList.Any(x => x.markId == markWrapper.markId)) {
-            this.markDrawWayList.Add(markWrapper);
+        if (!this.markDrawWayList.Any(x => x.markWrapper.markId == markWrapper.markId)) {
+            var markConf = new MarkWrapperConfiguration(markWrapper);
+            this.markDrawWayList.Add(markConf);
         }
     }
     removeMarkDrawWay(markWrapper: MarkWrapper) {
         //Desactivo el modo de Draw
-        if (!this.markDrawWayList.Any(x => x.markId == markWrapper.markId)) {
-            this.markDrawWayList.Remove(markWrapper);
+        var markConf = this.markDrawWayList.Where(x=> x.markWrapper.markId == markWrapper.markId).FirstOrDefault();
+        if (markConf != null) {
+            //Limpio el camino dibujado
+            markConf.polyline.removeAllPoints();
+            this.markDrawWayList.Remove(markConf);
         }
         //En caso de que no haya mas mark para dibujar desactivo la funcionalidad
         if (this.markDrawWayList.Count() == 0)
             this.enableDraw = false;
 
     }
+}
+export class MarkWrapperConfiguration {
+    private _polyline: Polyline;
+    get polyline(): Polyline {
+        return this._polyline;
+    }
+    set polyline(polyline: Polyline) {
+        this._polyline = polyline;
+    }
+    constructor(public markWrapper: MarkWrapper) { }
+
 }
 export enum MarkWrapperTypeEnum {
     Friend,
