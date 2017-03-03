@@ -22,12 +22,16 @@ export class MarkWrapper {
 }
 export class MarkContainer {
     private markDrawWayList: List<MarkWrapper> = new List<MarkWrapper>();
+    private enableDraw: boolean = false;
     private markWrapper: MarkWrapper;
     get markId(): number {
         return this.markWrapper.markId;
     }
     get mark(): Marker {
         return this.markWrapper.mark;
+    }
+    get markwrapper(): MarkWrapper {
+        return this.markWrapper;
     }
     public constructor(markInfo: AddMarkerArgs, markId: number, markType: MarkWrapperTypeEnum) {
         //Creo un MarkWrapper el cual relaciona el Marker con el id del usuario dibujado
@@ -57,10 +61,22 @@ export class MarkContainer {
         mark.icon = image;
         return mark;
     };
-    addMarkDrawWay(mark: MarkWrapper) {
-        if (!this.markDrawWayList.Any(x => x.markId == mark.markId)) {
-            this.markDrawWayList.Add(mark);
+    addMarkDrawWay(markWrapper: MarkWrapper) {
+        //Activo el modo de Draw
+        this.enableDraw = true;
+        if (!this.markDrawWayList.Any(x => x.markId == markWrapper.markId)) {
+            this.markDrawWayList.Add(markWrapper);
         }
+    }
+    removeMarkDrawWay(markWrapper: MarkWrapper) {
+        //Desactivo el modo de Draw
+        if (!this.markDrawWayList.Any(x => x.markId == markWrapper.markId)) {
+            this.markDrawWayList.Remove(markWrapper);
+        }
+        //En caso de que no haya mas mark para dibujar desactivo la funcionalidad
+        if (this.markDrawWayList.Count() == 0)
+            this.enableDraw = false;
+
     }
 }
 export enum MarkWrapperTypeEnum {

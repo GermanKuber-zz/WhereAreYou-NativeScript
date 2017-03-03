@@ -29,21 +29,7 @@ export class FriendsMapComponent implements OnInit {
     private mapViewService: MapViewService) {
 
   }
-
-  onMapReady(event) {
-    if (!event.object) return;
-    this.mapViewService.onMapReady(event, () => this.mapReadyNotify());
-
-  }
-
-  mapTapped(event){
-     this.mapViewService.mapTapped(event);
-  }
-  private mapReadyNotify() {
-
-    this.getFriendsPositions();
-    this.subscribeFriendLocationUpdate();
-  }
+  //Events
   ngOnInit() {
     this.friendsService.friendUpdate$.subscribe(x => {
       this.myFriends = x;
@@ -54,10 +40,27 @@ export class FriendsMapComponent implements OnInit {
     });
   }
 
+  //Map Events
+  onMapReady(event) {
+    if (!event.object) return;
+    this.mapViewService.onMapReady(event, () => this.mapReadyNotify());
+
+  }
+  mapTapped(event) {
+    this.mapViewService.mapTapped(event);
+  }
+  //Private Methods
+  private mapReadyNotify() {
+
+    this.getFriendsPositions();
+    this.subscribeFriendLocationUpdate();
+  }
+
+
   private updateFriendLocation(friend: FriendPosition): void {
-    var newMarkFriend = this.createMark(friend);
+    var newMarkFriend = this.createMarkerArgs(friend);
     if (newMarkFriend != null)
-      this.mapViewService.updateCommonMark(newMarkFriend[0], newMarkFriend[1].id);
+      this.mapViewService.updateFriendMark(newMarkFriend[0], newMarkFriend[1].id);
   }
   private subscribeFriendLocationUpdate() {
     //Me suscribo al metodo de actualizacion para obtener actualizacion de ubicacion de mis amigos
@@ -70,14 +73,14 @@ export class FriendsMapComponent implements OnInit {
     //Obtengo todos los amigos conectados por grupo y los dibujo en el mapa
     this.friendsLiveService.getFriendsByGroup(1).subscribe(friendsPosition => {
       for (var item of friendsPosition) {
-        var newMarkFriend = this.createMark(item);
+        var newMarkFriend = this.createMarkerArgs(item);
         if (newMarkFriend != null)
           this.mapViewService.addFriendnMark(newMarkFriend[0], newMarkFriend[1].id);
       }
     });
   }
 
-  private createMark(position: FriendPosition): [AddMarkerArgs, Friend] {
+  private createMarkerArgs(position: FriendPosition): [AddMarkerArgs, Friend] {
     var mark = new AddMarkerArgs();
     var friend = this.friendsService.getFriendById(position.id);
     if (friend != null && friend.activate) {

@@ -9,6 +9,7 @@ import { FriendPosition, Friend } from '../../shared/friends/friend';
 import { MapViewService } from '../../shared/services/map/map-view.service';
 import { FriendsService } from '../../shared/friends/friends.service';
 import { AddMarkerArgs } from '../../shared/services/map/core/MarkContainer';
+import { List } from 'linqts';
 
 
 registerElement('MapView', () => MapView);
@@ -22,40 +23,52 @@ registerElement('MapView', () => MapView);
 export class FriendsMapComponent implements OnInit {
   //#Amigos
   // public friends: Array<FriendPosition>;
-  private myFriends: Array<Friend>;
+  private myFriends: List<Friend> = new List<Friend>();;
 
   constructor(private friendsService: FriendsService,
     private friendsLiveService: FriendsLiveService,
     private mapViewService: MapViewService) {
 
   }
+  //Events
+  ngOnInit() {
+    this.friendsService.friendUpdate$.subscribe(f => {
+      this.addAllFriends(f);
+    });
+    this.friendsService.getAllFriends().subscribe(f => {
+      this.addAllFriends(f);
+    });
+  }
 
+  //Map Events
   onMapReady(event) {
     if (!event.object) return;
     this.mapViewService.onMapReady(event, () => this.mapReadyNotify());
 
   }
-
-  mapTapped(event){
-     this.mapViewService.mapTapped(event);
+  mapTapped(event) {
+    this.mapViewService.mapTapped(event);
   }
+  //Private Methods
   private mapReadyNotify() {
 
     this.getFriendsPositions();
     this.subscribeFriendLocationUpdate();
   }
-  ngOnInit() {
-    this.friendsService.friendUpdate$.subscribe(x => {
-      this.myFriends = x;
-    });
-    this.myFriends = new Array<Friend>();
-    this.friendsService.getAllFriends().subscribe(x => {
-      this.myFriends = x;
-    });
+  private addAllFriends(friends: Array<Friend>) {
+    this.myFriends = new List<Friend>();
+    for (var item of friends) {
+      this.myFriends.Add(item);
+      if (item.drawWaytToMe) {
+        this.mapViewService.enableDrawWayToMe(item.id);
+      }else{
+        this.mapViewService.disableDrawWayToMe(item.id);
+      }
+    }
   }
 
   private updateFriendLocation(friend: FriendPosition): void {
-    var newMarkFriend = this.createMark(friend);
+    var newMarkFriend = this.createMarkerArgs(friend);
     if (newMarkFriend != null)
       this.mapViewService.updateFriendMark(newMarkFriend[0], newMarkFriend[1].id);
   }
@@ -70,14 +83,14 @@ export class FriendsMapComponent implements OnInit {
     //Obtengo todos los amigos conectados por grupo y los dibujo en el mapa
     this.friendsLiveService.getFriendsByGroup(1).subscribe(friendsPosition => {
       for (var item of friendsPosition) {
-        var newMarkFriend = this.createMark(item);
+        var newMarkFriend = this.createMarkerArgs(item);
         if (newMarkFriend != null)
           this.mapViewService.addFriendnMark(newMarkFriend[0], newMarkFriend[1].id);
       }
     });
   }
 
-  private createMark(position: FriendPosition): [AddMarkerArgs, Friend] {
+  private createMarkerArgs(position: FriendPosition): [AddMarkerArgs, Friend] {
     var mark = new AddMarkerArgs();
     var friend = this.friendsService.getFriendById(position.id);
     if (friend != null && friend.activate) {

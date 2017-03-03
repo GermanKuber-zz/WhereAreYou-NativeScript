@@ -27,8 +27,7 @@ export class MapViewService {
     gpsMarker: MarkContainer;
     centeredOnLocation: boolean = false;
 
-    constructor(private friendService: FriendsService,
-        private markManagerService: MarkManagerService,
+    constructor(private markManagerService: MarkManagerService,
         private http: Http) {
         if (!geolocation.isEnabled()) {
             geolocation.enableLocationRequest();
@@ -40,8 +39,6 @@ export class MapViewService {
 
     }
 
-
-
     //Public Methods
     public addFriendnMark(markInfo: AddMarkerArgs, markId: number): void {
         var markContainer = this.markManagerService.addFriendMark(markInfo, markId);
@@ -52,6 +49,14 @@ export class MapViewService {
     }
     public removeCommonMark(markInfo: AddMarkerArgs, markId: number): void {
         this.markManagerService.removeMark(markId);
+    }
+    public enableDrawWayToMe(markId: number): void {
+        //Activa la opcion de dibujar camino desde la markId hasta la position de Me
+        this.markManagerService.enableDrawWayToMe(markId);
+    }
+    public disableDrawWayToMe(markId: number): void {
+        //Activa la opcion de dibujar camino desde la markId hasta la position de Me
+        this.markManagerService.disableDrawWayToMe(markId);
     }
     //Private Methods
     private enableLocation() {

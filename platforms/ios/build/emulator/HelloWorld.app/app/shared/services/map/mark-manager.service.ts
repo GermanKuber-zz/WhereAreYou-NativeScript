@@ -13,16 +13,26 @@ export class MarkManagerService {
     private markList: List<MarkContainer> = new List<MarkContainer>();
     private _me: MarkContainer;
     get me(): Marker {
-        return this._me.mark;
+        if (this._me != null)
+            return this._me.mark;
+        else
+            return null;
+    }
+    get hasMe(): boolean {
+        if (this._me != null)
+            return true;
+        else
+            return false;
     }
     //Public Methods
     public getMarkWrapper(markId: number): MarkContainer {
         return this.markList.Where(x => x.markId == markId).FirstOrDefault();
     }
-    public addFriendMark(markInfo: AddMarkerArgs, markId: number) {
+    public addFriendMark(markInfo: AddMarkerArgs, markId: number): MarkContainer {
         if (!this.markList.Any(x => x.markId == markId)) {
             var markContainer = new MarkContainer(markInfo, markId, MarkWrapperTypeEnum.Friend);
             this.markList.Add(markContainer);
+            return markContainer;
         } else {
             throw new Error("Esta intentando agregar una Mark con un Id repetido");
         }
@@ -44,6 +54,22 @@ export class MarkManagerService {
         var markContainer = this.markList.Where(x => x.markId == markId).FirstOrDefault();
         if (markContainer != null) {
             this.markList.Remove(markContainer);
+        }
+    }
+    public enableDrawWayToMe(markId: number): void {
+        var markContainer = this.markList.Where(x => x.markId == markId).FirstOrDefault();
+        if (markContainer != null) {
+            markContainer.addMarkDrawWay(this._me.markwrapper)
+        } else {
+            throw new Error(`Esta intentando activar la opcion de DrawWayToMe sobre el MarkId=${markId} que no existe`)
+        }
+    }
+    public disableDrawWayToMe(markId: number): void {
+        var markContainer = this.markList.Where(x => x.markId == markId).FirstOrDefault();
+        if (markContainer != null) {
+            markContainer.removeMarkDrawWay(this._me.markwrapper)
+        } else {
+            throw new Error(`Esta intentando desctivar la opcion de DrawWayToMe sobre el MarkId=${markId} que no existe`)
         }
     }
     public moveMe(lat: number, long: number): void {

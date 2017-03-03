@@ -82,7 +82,8 @@ mockListFriend.push(<Friend>{
   lastName: "Apellido 1",
   displayName: "Display Name 1",
   groupId: 1,
-  activate: true
+  activate: true,
+  drawWaytToMe:false
 })
 mockListFriend.push(<Friend>{
   id: 2,
@@ -91,7 +92,8 @@ mockListFriend.push(<Friend>{
   lastName: "Apellido 1",
   displayName: "Display Name 2",
   groupId: 1,
-  activate: false
+  activate: false,
+  drawWaytToMe:false
 })
 mockListFriend.push(<Friend>{
   id: 3,
@@ -100,7 +102,8 @@ mockListFriend.push(<Friend>{
   lastName: "Apellido 1",
   displayName: "Display Name 3",
   groupId: 1,
-  activate: true
+  activate: true,
+  drawWaytToMe:false
 })
 mockListFriend.push(<Friend>{
   id: 4,
@@ -109,7 +112,8 @@ mockListFriend.push(<Friend>{
   lastName: "Apellido 1",
   displayName: "Display Name 4",
   groupId: 1,
-  activate: true
+  activate: true,
+  drawWaytToMe:false
 })
 mockListFriend.push(<Friend>{
   id: 5,
@@ -118,7 +122,8 @@ mockListFriend.push(<Friend>{
   lastName: "Apellido 1",
   displayName: "Display Name 5",
   groupId: 1,
-  activate: true
+  activate: true,
+  drawWaytToMe:false
 })
 mockListFriend.push(<Friend>{
   id: 6,
@@ -127,7 +132,8 @@ mockListFriend.push(<Friend>{
   lastName: "Apellido 1",
   displayName: "Display Name 6",
   groupId: 1,
-  activate: true
+  activate: true,
+  drawWaytToMe:false
 })
 mockListFriend.push(<Friend>{
   id: 7,
@@ -136,7 +142,8 @@ mockListFriend.push(<Friend>{
   lastName: "Apellido 1",
   displayName: "Display Name 7",
   groupId: 1,
-  activate: true
+  activate: true,
+  drawWaytToMe:false
 })
 mockListFriend.push(<Friend>{
   id: 8,
@@ -145,7 +152,8 @@ mockListFriend.push(<Friend>{
   lastName: "Apellido 1",
   displayName: "Display Name 7",
   groupId: 1,
-  activate: true
+  activate: true,
+  drawWaytToMe:false
 })
 mockListFriend.push(<Friend>{
   id: 9,
@@ -154,7 +162,8 @@ mockListFriend.push(<Friend>{
   lastName: "Apellido 1",
   displayName: "Display Name 7",
   groupId: 1,
-  activate: true
+  activate: true,
+  drawWaytToMe:false
 })
 mockListFriend.push(<Friend>{
   id: 10,
@@ -163,5 +172,6 @@ mockListFriend.push(<Friend>{
   lastName: "Apellido 1",
   displayName: "Display Name 7",
   groupId: 1,
-  activate: true
+  activate: true,
+  drawWaytToMe:false
 })

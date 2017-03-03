@@ -56,6 +56,18 @@ export class MarkManagerService {
             this.markList.Remove(markContainer);
         }
     }
+    public enableDrawWayToMe(markId: number): void {
+        var markContainer = this.markList.Where(x => x.markId == markId).FirstOrDefault();
+        if (markContainer != null) {
+            markContainer.addMarkDrawWay(this._me.markwrapper)
+        } 
+    }
+    public disableDrawWayToMe(markId: number): void {
+        var markContainer = this.markList.Where(x => x.markId == markId).FirstOrDefault();
+        if (markContainer != null) {
+            markContainer.removeMarkDrawWay(this._me.markwrapper)
+        }
+    }
     public moveMe(lat: number, long: number): void {
         this._me.mark.position.latitude = lat;
         this._me.mark.position.longitude = long;

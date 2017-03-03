@@ -1,10 +1,9 @@
-<!--<RadListView #listView [items]="myFriends" class="list-group list-friends" (itemSelected)="onItemTap($event)">-->
 <GridLayout columns="2*, *" rows="40" [class]="getColorItem(item)">
 	<TextView col="0" [(ngModel)]="inviteFriend"></TextView>
 	<Button col="1" text="+" (tap)="addFriend($event)"></Button>
 </GridLayout>
 <RadListView id="listView" [items]="myFriends" class="list-group list-friends" selectionBehavior="None" (itemSwipeProgressEnded)="onSwipeCellFinished($event)"
-	(itemTap)="onItemSelected($event)" (itemSwipeProgressStarted)="onSwipeCellStarted($event)" (itemSwipeProgressChanged)="onCellSwiping($event)"
+	(itemTap)="onItemSelected($event)"  (itemSwipeProgressStarted)="onSwipeCellStarted($event)" (itemSwipeProgressChanged)="onCellSwiping($event)"
 	itemSwipe="true">
 	<!--(itemSelected)="onItemSelected($event)"
 	(itemDeselected)="onItemDeselected($event)">-->
@@ -19,9 +18,12 @@
 		<StackLayout id="mark-view" class="markViewStackLayout" col="0" (tap)="onLeftSwipeClick($event)">
 			<Label text="mark" verticalAlignment="center" horizontalAlignment="center"></Label>
 		</StackLayout>
-		<StackLayout id="delete-view" class="deleteViewStackLayout" col="2" (tap)="onRightSwipeClick($event)">
+		<StackLayout id="config-view" orientation="horizontal" class="deleteViewStackLayout" col="2">
 			<!--<Label text="delete" verticalAlignment="center" horizontalAlignment="center"></Label>-->
-			<Image class="img-delete" src="~/images/x.png"></Image>
+			<Image class="img-config-action" [hidden]="!drawWaytToMe" (tap)="wayToMe($event)" src="~/images/way-to-me.png"></Image>
+			<Image class="img-config-action" [hidden]="drawWaytToMe" (tap)="disableWayToMe($event)" src="~/images/way-to-me-activate.png"></Image>	
+			<!--<Image class="img-config-action" (tap)="delete($event)" src="~/images/x.png"></Image>-->
 		</StackLayout>
 	</GridLayout>
+
 </RadListView>

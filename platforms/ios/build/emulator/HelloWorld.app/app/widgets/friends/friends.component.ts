@@ -16,7 +16,7 @@ export class FriendsComponent implements OnInit {
   selected: Friend = new Friend();
   public myFriends: Array<Friend>;
   private counter: number;
-  public inviteFriend:string;
+  public inviteFriend: string;
   // @ViewChild("listView") listView: ElementRef;
   @ViewChild("listView") listView: ElementRef;
 
@@ -24,11 +24,11 @@ export class FriendsComponent implements OnInit {
 
 
   }
-  public addFriend(){
-    var a =  this.inviteFriend;
+  public addFriend() {
+    var a = this.inviteFriend;
   }
   public getColorItem(friend: Friend): string {
-    if (friend.activate)
+    if (friend != null && friend.activate)
       return "friend-enable";
     else
       return "friend-disable";
@@ -37,7 +37,7 @@ export class FriendsComponent implements OnInit {
     var swipeLimits = args.data.swipeLimits;
     var swipeView = args['object'];
     var leftItem = swipeView.getViewById('mark-view');
-    var rightItem = swipeView.getViewById('delete-view');
+    var rightItem = swipeView.getViewById('config-view');
     swipeLimits.left = leftItem.getMeasuredWidth();
     swipeLimits.right = rightItem.getMeasuredWidth();
     swipeLimits.threshold = leftItem.getMeasuredWidth() / 2;
@@ -79,17 +79,25 @@ export class FriendsComponent implements OnInit {
     console.log("Left swipe click");
   }
 
-  public onRightSwipeClick(args) {
-    var removeFriend = <Friend>args.object.bindingContext;
-    this.friendService.deleteFriend(removeFriend);
+  public wayToMe(args) {
+    var updateFriend = <Friend>args.object.bindingContext;
+    updateFriend.drawWaytToMe = true;
+    this.friendService.updateFriend(updateFriend);
+  }
+  public disableWayToMe(args) {
+    var updateFriend = <Friend>args.object.bindingContext;
+    updateFriend.drawWaytToMe = false;
+    this.friendService.updateFriend(updateFriend);
   }
 
   public onItemTap(args) {
     let listView: ListView = this.listView.nativeElement;
     var itemSelected = <Friend>this.myFriends[args.index];
     for (var item of this.myFriends)
-      if (item.id == itemSelected.id)
+      if (item.id == itemSelected.id) {
+        //TODO: Se debe agregar un boton especial para activar el seuimiento
         item.activate = !item.activate;
+      }
 
     this.friendService.updateFriend(itemSelected);
     listView.refresh();

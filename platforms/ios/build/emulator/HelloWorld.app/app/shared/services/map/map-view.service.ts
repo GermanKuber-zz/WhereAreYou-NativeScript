@@ -27,8 +27,7 @@ export class MapViewService {
     gpsMarker: MarkContainer;
     centeredOnLocation: boolean = false;
 
-    constructor(private friendService: FriendsService,
-        private markManagerService: MarkManagerService,
+    constructor(private markManagerService: MarkManagerService,
         private http: Http) {
         if (!geolocation.isEnabled()) {
             geolocation.enableLocationRequest();
@@ -40,17 +39,24 @@ export class MapViewService {
 
     }
 
-
-
     //Public Methods
     public addFriendnMark(markInfo: AddMarkerArgs, markId: number): void {
-        this.markManagerService.addFriendMark(markInfo, markId);
+        var markContainer = this.markManagerService.addFriendMark(markInfo, markId);
+        this.mapView.addMarker(markContainer.mark);
     }
-    public updateCommonMark(markInfo: AddMarkerArgs, markId: number): void {
+    public updateFriendMark(markInfo: AddMarkerArgs, markId: number): void {
         this.markManagerService.updateMark(markInfo, markId);
     }
     public removeCommonMark(markInfo: AddMarkerArgs, markId: number): void {
         this.markManagerService.removeMark(markId);
+    }
+    public enableDrawWayToMe(markId: number): void {
+        //Activa la opcion de dibujar camino desde la markId hasta la position de Me
+        this.markManagerService.enableDrawWayToMe(markId);
+    }
+    public disableDrawWayToMe(markId: number): void {
+        //Activa la opcion de dibujar camino desde la markId hasta la position de Me
+        this.markManagerService.disableDrawWayToMe(markId);
     }
     //Private Methods
     private enableLocation() {
@@ -64,18 +70,19 @@ export class MapViewService {
 
     private getLocation() {
         if (geolocation.isEnabled()) {
-            var location = geolocation.getCurrentLocation({
-                desiredAccuracy: 10,
-                updateDistance: 10,
-                minimumUpdateTime: 1000,
-                maximumAge: 10000
-            })
+            var location = geolocation.getCurrentLocation(this.getLocationObjectParameter());
             return location;
         }
         return Promise.reject('Geolocation not enabled.');
     }
 
-
+    private getLocationObjectParameter() {
+        return {
+            desiredAccuracy: 10,
+            updateDistance: 10,
+            minimumUpdateTime: 1000
+        };
+    }
     //Map events
     //Map Events - Public Methods
     public onMapReady(event, mapReadyNotify: () => void) {
@@ -94,17 +101,14 @@ export class MapViewService {
                 var location = this.getLocation();
             })
             .then(() => {
-                this.watchId = geolocation.watchLocation((p) => { this.locationReceived(p) }, this.error, {
-                    desiredAccuracy: 50,
-                    updateDistance: 50,
-                    minimumUpdateTime: 10000,
-                    maximumAge: 60000
-                });
+                this.watchId = geolocation.watchLocation((p) => { this.locationReceived(p) }, this.error,
+                    this.getLocationObjectParameter());
             }, this.error);
     };
 
     //TODO: Asignarle Tipo a Events
     public mapTapped(event) {
+
         console.log('Map Tapped');
     };
     //Map Events - Private Methods
@@ -122,7 +126,7 @@ export class MapViewService {
             this.centeredOnLocation = true;
             this.firstConfigurationMap = true;
         }
-        if (this.markManagerService.me == null) {
+        if (!this.markManagerService.hasMe) {
             var markContainer = this.markManagerService.addMeMark(position.latitude, position.longitude);
             this.mapView.addMarker(markContainer.mark)
         } else {
