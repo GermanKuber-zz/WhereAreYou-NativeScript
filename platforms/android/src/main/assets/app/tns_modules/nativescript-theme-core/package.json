@@ -14,13 +14,13 @@
     ]
   ],
   "_from": "nativescript-theme-core@>=1.0.2 <1.1.0",
-  "_id": "nativescript-theme-core@1.0.2",
+  "_id": "nativescript-theme-core@1.0.3",
   "_inCache": true,
   "_location": "/nativescript-theme-core",
   "_nodeVersion": "6.9.1",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/nativescript-theme-core-1.0.2.tgz_1480997973309_0.2053509196266532"
+    "tmp": "tmp/nativescript-theme-core-1.0.3.tgz_1488352707954_0.5508268822450191"
   },
   "_npmUser": {
     "name": "walkerrunpdx",
@@ -40,8 +40,8 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/nativescript-theme-core/-/nativescript-theme-core-1.0.2.tgz",
-  "_shasum": "712e80b702316abaa4e7d738825573f9e6bae658",
+  "_resolved": "https://registry.npmjs.org/nativescript-theme-core/-/nativescript-theme-core-1.0.3.tgz",
+  "_shasum": "2d77dd6f1a1095d2a4968426c5bb33d8f825d7cd",
   "_shrinkwrap": null,
   "_spec": "nativescript-theme-core@~1.0.2",
   "_where": "/Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld",
@@ -57,8 +57,8 @@
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "712e80b702316abaa4e7d738825573f9e6bae658",
-    "tarball": "https://registry.npmjs.org/nativescript-theme-core/-/nativescript-theme-core-1.0.2.tgz"
+    "shasum": "2d77dd6f1a1095d2a4968426c5bb33d8f825d7cd",
+    "tarball": "https://registry.npmjs.org/nativescript-theme-core/-/nativescript-theme-core-1.0.3.tgz"
   },
   "homepage": "https://www.nativescript.org",
   "license": "Apache-2.0",
@@ -90,5 +90,5 @@
     "url": "git+https://github.com/NativeScript/theme.git"
   },
   "scripts": {},
-  "version": "1.0.2"
+  "version": "1.0.3"
 }

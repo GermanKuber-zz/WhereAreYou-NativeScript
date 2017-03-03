@@ -17,7 +17,7 @@ export class MapViewService {
     gpsLine: Polyline;
     tapLine: Polyline;
     tapMarker: any;
-    gpsMarker: any;
+    gpsMarker: MarkWrapper;
     centeredOnLocation: boolean = false;
     private markList: Array<MarkWrapper> = new Array<MarkWrapper>();
     constructor(private friendService: FriendsService) {
@@ -28,18 +28,10 @@ export class MapViewService {
 
     ngOnInit() {
 
-        // this.groceryListService.load()
-        // .subscribe(loadedGroceries => {
-        //   loadedGroceries.forEach((groceryObject) => {
-        //     this.groceryList.unshift(groceryObject);
-        //   });
-        //   this.isLoading = false;
-        //   this.listLoaded = true;
-        // });
     }
 
     //Private Methods
-    public createMarkWrapper(markInfo: AddMarkerArgs, markId: number): MarkWrapper {
+    public createMarkWrapper(markInfo: AddMarkerArgs, markId: number, markType: MarkWrapperTypeEnum): MarkWrapper {
         //Creo un MarkWrapper el cual relaciona el Marker con el id del usuario dibujado
         var mark = new AddMarkerArgs();
         mark.title = markInfo.title;
@@ -47,10 +39,13 @@ export class MapViewService {
         mark.location.latitude = markInfo.location.latitude;
         mark.location.longitude = markInfo.location.longitude;
 
-        var mapMark: Marker = this.addMarker(mark);
-        var markWrapper = new MarkWrapper();
+        var mapMark: Marker = null;
+        if (markType == MarkWrapperTypeEnum.Me)
+            mapMark = this.createMark(mark, "~/images/me-marker.png");
+        else
+            mapMark = this.createMark(mark);
+        var markWrapper = new MarkWrapper(mapMark, markType);
         markWrapper.markId = markId;
-        markWrapper.mark = mapMark;
         return markWrapper;
     }
     private getMarkWrapper(markId: number): MarkWrapper {
@@ -62,24 +57,19 @@ export class MapViewService {
     }
     //Public Methods
     public addCommonMark(markInfo: AddMarkerArgs, markId: number): void {
-        var markWrapper = this.createMarkWrapper(markInfo, markId);
+        var markWrapper = this.createMarkWrapper(markInfo, markId, MarkWrapperTypeEnum.Friend);
         this.markList.push(markWrapper);
         this.mapView.addMarker(markWrapper.mark);
-        var marker = new mapsModule.Marker();
-        marker.position = mapsModule.Position.positionFromLatLng(-33.66, 151.20);
-        marker.infoWindowTemplate = '~/info-window';
-        marker.title = "Seeeeeeeeeeee";
-        this.mapView.addMarker(marker);
-        marker.showInfoWindow();
+
 
     }
     public updateCommonMark(markInfo: AddMarkerArgs, markId: number): void {
         var markWrapper = this.getMarkWrapper(markId);
         if (markWrapper != null) {
-            this.mapView.removeMarker(markWrapper.mark);
+            // this.mapView.removeMarker(markWrapper.mark);
             markWrapper.mark.position = markInfo.location;
-            this.mapView.addMarker(markWrapper.mark);
-            markWrapper.mark.showInfoWindow();
+            // this.mapView.addMarker(markWrapper.mark);
+
         }
     }
     public removeCommonMark(markInfo: AddMarkerArgs, markId: number): void {
@@ -113,57 +103,66 @@ export class MapViewService {
     //Map events
     public onMapReady(event, mapReadyNotify: () => void) {
         if (this.mapView || !event.object) return;
-
- var mapView = event.object.android;
- 
-    var gMap = mapView.getMap();
-
-
         this.mapView = event.object;
         this.mapView.setStyle(style);
-
         //Notifico cuando el mapa esta listo
         this.mapView.notifyMapReady = () => {
             mapReadyNotify();
         }
         // this.mapView.markerSelect = this.onMarkerSelect;
         // this.mapView.cameraChanged = this.onCameraChanged;
-
         this.enableLocation()
             .then(() => {
                 var location = this.getLocation();
             })
             .then(() => {
-                this.watchId = geolocation.watchLocation(this.locationReceived, this.error, {
-                    desiredAccuracy: 10,
-                    updateDistance: 10,
+                this.watchId = geolocation.watchLocation((p) => { this.locationReceived(p) }, this.error, {
+                    desiredAccuracy: 50,
+                    updateDistance: 50,
                     minimumUpdateTime: 10000,
                     maximumAge: 60000
                 });
             }, this.error);
-
-
-
     };
 
     private mapTapped = (event) => {
-
     };
-
+    //Flag primera configuracion
+    private firstConfigurationMap = false;
     private locationReceived = (position: Position) => {
-        console.log('GPS Update Received');
-
-        if (this.mapView && position) {
+        if (this.mapView && position && !this.firstConfigurationMap) {
             this.mapView.latitude = position.latitude;
             this.mapView.longitude = position.longitude;
-            this.mapView.zoom = 2;
+            this.mapView.zoom = 16;
             this.centeredOnLocation = true;
+
+            this.firstConfigurationMap = true;
         }
-        this.removeMarker(this.gpsMarker);
-        this.gpsMarker = this.addMarker({
-            location: position,
-            title: 'GPS Location'
-        });
+        if (this.gpsMarker == null) {
+
+
+            var mark = this.createMark({
+                location: position,
+                title: 'GPS Location'
+            }, "~/images/me-marker.png");
+            var markInfo = new AddMarkerArgs();
+            markInfo.title = "Principal";
+            markInfo.location = position;
+            var wrp = this.createMarkWrapper(markInfo, 1234, MarkWrapperTypeEnum.Me);
+            this.markList.push(wrp);
+            this.gpsMarker = wrp;
+            this.mapView.addMarker(wrp.mark)
+
+        } else {
+            this.mapView.latitude = position.latitude;
+            this.mapView.longitude = position.longitude;
+            var wrp = this.getMarkWrapper(1234);
+            this.mapView.removeMarker(wrp.mark);
+            wrp.mark.position.latitude = position.latitude;
+            wrp.mark.position.longitude = position.longitude;
+            this.mapView.addMarker(wrp.mark)
+
+        }
     };
 
     private addPointToLine(args: AddLineArgs) {
@@ -183,21 +182,22 @@ export class MapViewService {
 
         return line;
     }
-    private addMarker(args: AddMarkerArgs): Marker {
+    private createMark(args: AddMarkerArgs, imgSrc: string = "~/images/friend-marker.png"): Marker {
         if (!this.mapView || !args || !args.location) return;
 
-        let marker = new Marker();
-        marker.position = Position.positionFromLatLng(args.location.latitude, args.location.longitude);
-        marker.title = args.title;
-        marker.snippet = args.title;
+        let mark = new Marker();
+        mark.position = Position.positionFromLatLng(args.location.latitude, args.location.longitude);
+        mark.title = args.title;
+        mark.snippet = args.title;
         var image = new Image();
-        image.src = "~/images/friend-marker.png";
+        image.src = imgSrc;
         image.width = 10;
         image.height = 10;
-        marker.icon = image;
+        mark.icon = image;
 
-        (<any>marker).infoWindowTemplate = '~/shared/services/map/info-window';
-        this.mapView.addMarker(marker);
+        // (<any>mark).infoWindowTemplate = '~/shared/services/map/info-window';
+        // this.mapView.addMarker(mark);
+        //mark.showInfoWindow();
 
         //   var  markers = new mapsModule.Marker();
         //     markers.position = mapsModule.Position.positionFromLatLng(-33.66, 151.20);
@@ -206,7 +206,7 @@ export class MapViewService {
         //      this.mapView.addMarker(markers);
         //     markers.showInfoWindow();
 
-        return marker;
+        return mark;
     };
 
     private clearGpsLine() {
@@ -263,6 +263,11 @@ export class AddMarkerArgs {
 }
 
 class MarkWrapper {
-    mark: Marker;
     markId: number;
+    constructor(public mark: Marker, private markType: MarkWrapperTypeEnum) { }
+}
+enum MarkWrapperTypeEnum {
+    Friend,
+    Me,
+    Group
 }

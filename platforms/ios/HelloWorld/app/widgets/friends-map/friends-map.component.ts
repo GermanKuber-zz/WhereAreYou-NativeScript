@@ -34,6 +34,10 @@ export class FriendsMapComponent implements OnInit {
     this.mapViewService.onMapReady(event, () => this.mapReadyNotify());
 
   }
+
+  mapTapped(event){
+     this.mapViewService.mapTapped(event);
+  }
   private mapReadyNotify() {
 
     this.getFriendsPositions();

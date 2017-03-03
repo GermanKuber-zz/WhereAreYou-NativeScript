@@ -7,13 +7,13 @@ export const routes = [
   //   component: LoginComponent
   // },
   //TODO : Volver login como primera pagina
-    {
+  {
     path: "",
     component: DashboardComponent
   },
   { path: "dashboard", component: DashboardComponent }
 ];
-  console.log("Constructor!!!");
+console.log("Constructor!!!");
 export const navigatableComponents = [
   LoginComponent, DashboardComponent
 ];

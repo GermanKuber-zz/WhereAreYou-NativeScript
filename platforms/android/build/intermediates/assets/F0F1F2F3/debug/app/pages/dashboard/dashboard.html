@@ -1,0 +1,11 @@
+<TabView [(ngModel)]="tabSelectedIndex" selectedColor="#FF0000">
+	<StackLayout *tabItem="{title: 'Friends', iconSource: '~/icon.png'}">-->
+		<friends></friends>
+	</StackLayout>
+	<StackLayout *tabItem="{title: 'Map'}">
+		<friends-map></friends-map>
+	</StackLayout>
+	<StackLayout *tabItem="{title: 'Settings'}">
+		<Button text="This is Button!" (tap)="buttonTap()"></Button>
+	</StackLayout>
+</TabView>

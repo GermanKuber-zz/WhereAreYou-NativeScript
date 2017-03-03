@@ -2,6 +2,7 @@ import { Injectable } from "@angular/core";
 import { Observable } from "rxjs/Rx";
 import "rxjs/add/operator/do";
 import "rxjs/add/operator/map";
+import 'rxjs/add/operator/catch';
 import { Image } from "ui/image";
 import { MapView, Marker, Polyline, Position } from 'nativescript-google-maps-sdk';
 var mapsModule = require("nativescript-google-maps-sdk");
@@ -9,21 +10,27 @@ let geolocation = require('nativescript-geolocation');
 var style = require('./map-style.json');
 import { Color } from 'color';
 import { FriendsService } from '../../../shared/friends/friends.service';
+import { Http, Response } from '@angular/http';
+import { routes } from '../../../app.routing';
 @Injectable()
 export class MapViewService {
     //#Mapa 
     private mapView: MapView = null;
     watchId: number = null;
     gpsLine: Polyline;
+    testLine: Polyline;
     tapLine: Polyline;
     tapMarker: any;
     gpsMarker: MarkWrapper;
     centeredOnLocation: boolean = false;
     private markList: Array<MarkWrapper> = new Array<MarkWrapper>();
-    constructor(private friendService: FriendsService) {
+    constructor(private friendService: FriendsService,
+        private http: Http) {
         if (!geolocation.isEnabled()) {
             geolocation.enableLocationRequest();
+
         }
+
     }
 
     ngOnInit() {
@@ -69,8 +76,57 @@ export class MapViewService {
             // this.mapView.removeMarker(markWrapper.mark);
             markWrapper.mark.position = markInfo.location;
             // this.mapView.addMarker(markWrapper.mark);
+            if (this.first) {
+                this.first = false;
+                this.getHeroes().subscribe(x => {
+                    var response: google.maps.DirectionsResult = x.json();
 
+                    for (var item of response.routes[0].legs[0].steps) {
+                        var start: any = item.start_location;
+                        var end: any = item.end_location;
+                        var position = Position.positionFromLatLng(start.lat, start.lng);
+                        this.gpsLine = this.addPointToLine({
+                            color: new Color('Pink'),
+                            line: this.gpsLine,
+                            location: position,
+                            geodesic: true,
+                            width: 10
+                        });
+                        position = Position.positionFromLatLng(end.lat, end.lng);
+                        this.gpsLine = this.addPointToLine({
+                            color: new Color('Pink'),
+                            line: this.gpsLine,
+                            location: position,
+                            geodesic: true,
+                            width: 10
+                        });
+
+                    }
+                });
+            }
         }
+    }
+    private first = true;
+    getHeroes(): Observable<Response> {
+        return this.http.get("https://maps.googleapis.com/maps/api/directions/json?origin=Toronto&destination=Montreal&avoid=highways&mode=driving&key=AIzaSyC1ZzjAD91N4cf6CKon2aiNAFoju9V6R3I")
+            .catch(this.handleError);
+    }
+    private handleError(error: Response | any): any {
+        // In a real world app, we might use a remote logging infrastructure
+        let errMsg: string;
+        if (error instanceof Response) {
+            const body = error.json() || '';
+            const err = (<any>body).error || JSON.stringify(body);
+            errMsg = `${error.status} - ${error.statusText || ''} ${err}`;
+        } else {
+            errMsg = error.message ? error.message : error.toString();
+        }
+        console.error(errMsg);
+        return Observable.throw(errMsg);
+    }
+    private extractData(res: Response): any {
+        let body = res.json();
+        return (<any>body).data || {};
     }
     public removeCommonMark(markInfo: AddMarkerArgs, markId: number): void {
         var markWrapper = this.getMarkWrapper(markId);
@@ -111,6 +167,7 @@ export class MapViewService {
         }
         // this.mapView.markerSelect = this.onMarkerSelect;
         // this.mapView.cameraChanged = this.onCameraChanged;
+
         this.enableLocation()
             .then(() => {
                 var location = this.getLocation();
@@ -124,8 +181,36 @@ export class MapViewService {
                 });
             }, this.error);
     };
+    getDistance(loc1, loc2) {
+        console.log("Distance between loc1 and loc2 is: " + geolocation.distance(loc1, loc2));
+    }
+    mapTapped = (event) => {
+        console.log('Map Tapped');
 
-    private mapTapped = (event) => {
+        this.tapLine = this.addPointToLine({
+            color: new Color('Red'),
+            line: this.tapLine,
+            location: event.position,
+            geodesic: true,
+            width: 10
+        });
+
+        this.removeMarker(this.tapMarker);
+        this.tapMarker = this.addMarker({
+            location: event.position,
+            title: 'Tap Location'
+        });
+    };
+    addMarker(args: AddMarkerArgs) {
+        if (!this.mapView || !args || !args.location) return;
+
+        let marker = new Marker();
+        marker.position = Position.positionFromLatLng(args.location.latitude, args.location.longitude);
+        marker.title = args.title;
+        marker.snippet = args.title;
+        this.mapView.addMarker(marker);
+
+        return marker;
     };
     //Flag primera configuracion
     private firstConfigurationMap = false;
@@ -139,8 +224,6 @@ export class MapViewService {
             this.firstConfigurationMap = true;
         }
         if (this.gpsMarker == null) {
-
-
             var mark = this.createMark({
                 location: position,
                 title: 'GPS Location'
@@ -161,6 +244,15 @@ export class MapViewService {
             wrp.mark.position.latitude = position.latitude;
             wrp.mark.position.longitude = position.longitude;
             this.mapView.addMarker(wrp.mark)
+            // this.gpsLine = this.addPointToLine({
+            //     color: new Color('Green'),
+            //     line: this.gpsLine,
+            //     location: position,
+            //     geodesic: true,
+            //     width: 10
+            // });
+
+            this.getDistance(this.markList[0].mark.position, wrp.mark.position);
 
         }
     };
