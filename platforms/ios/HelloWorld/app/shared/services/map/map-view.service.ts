@@ -80,28 +80,16 @@ export class MapViewService {
                 this.first = false;
                 this.getHeroes().subscribe(x => {
                     var response: google.maps.DirectionsResult = x.json();
-
+                    var positions: Array<Position> = new Array<Position>();
                     for (var item of response.routes[0].legs[0].steps) {
                         var start: any = item.start_location;
                         var end: any = item.end_location;
-                        var position = Position.positionFromLatLng(start.lat, start.lng);
-                        this.gpsLine = this.addPointToLine({
-                            color: new Color('Pink'),
-                            line: this.gpsLine,
-                            location: position,
-                            geodesic: true,
-                            width: 10
-                        });
-                        position = Position.positionFromLatLng(end.lat, end.lng);
-                        this.gpsLine = this.addPointToLine({
-                            color: new Color('Pink'),
-                            line: this.gpsLine,
-                            location: position,
-                            geodesic: true,
-                            width: 10
-                        });
-
+                        var positionStart = Position.positionFromLatLng(start.lat, start.lng);
+                        positions.push(positionStart);
+                        var positionEnd = Position.positionFromLatLng(end.lat, end.lng);
+                        positions.push(positionEnd);
                     }
+                    this.drawWay(positions)
                 });
             }
         }
@@ -127,6 +115,22 @@ export class MapViewService {
     private extractData(res: Response): any {
         let body = res.json();
         return (<any>body).data || {};
+    }
+
+    //dibuja un camino, con las positions que recibe como parametro
+    private drawWay(positions: Array<Position>): void {
+        var poli: Polyline;
+        for (var item of positions) {
+
+            poli = this.addPointToLine({
+                color: new Color('Pink'),
+                line: poli,
+                location: item,
+                geodesic: true,
+                width: 10
+            });
+
+        }
     }
     public removeCommonMark(markInfo: AddMarkerArgs, markId: number): void {
         var markWrapper = this.getMarkWrapper(markId);
@@ -218,7 +222,7 @@ export class MapViewService {
         if (this.mapView && position && !this.firstConfigurationMap) {
             this.mapView.latitude = position.latitude;
             this.mapView.longitude = position.longitude;
-            this.mapView.zoom = 16;
+            this.mapView.zoom = 2;
             this.centeredOnLocation = true;
 
             this.firstConfigurationMap = true;
@@ -259,9 +263,7 @@ export class MapViewService {
 
     private addPointToLine(args: AddLineArgs) {
         if (!this.mapView || !args || !args.location) return;
-
         let line = args.line;
-
         if (!line) {
             line = new Polyline();
             line.visible = true;
@@ -356,7 +358,11 @@ export class AddMarkerArgs {
 
 class MarkWrapper {
     markId: number;
+    private markDrawWayList: Array<MarkWrapper> = new Array<MarkWrapper>();
     constructor(public mark: Marker, private markType: MarkWrapperTypeEnum) { }
+    addMarkDrawWay(mark :MarkWrapper){
+
+    }
 }
 enum MarkWrapperTypeEnum {
     Friend,
