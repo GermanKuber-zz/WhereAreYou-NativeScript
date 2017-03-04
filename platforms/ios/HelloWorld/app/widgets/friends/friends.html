@@ -1,7 +1,7 @@
-<GridLayout columns="2*, *" rows="40" [class]="getColorItem(item)">
+<!--<GridLayout columns="2*, *" rows="40" [class]="getColorItem(item)">
 	<TextView col="0" [(ngModel)]="inviteFriend"></TextView>
 	<Button col="1" text="+" (tap)="addFriend($event)"></Button>
-</GridLayout>
+</GridLayout>-->
 <RadListView id="listView" [items]="myFriends" class="list-group list-friends" selectionBehavior="None" (itemSwipeProgressEnded)="onSwipeCellFinished($event)"
 	(itemTap)="onItemSelected($event)"  (itemSwipeProgressStarted)="onSwipeCellStarted($event)" (itemSwipeProgressChanged)="onCellSwiping($event)"
 	itemSwipe="true">

@@ -47,8 +47,8 @@ export class FriendsLiveService {
   //TODO: Metodo mock donde simulto el movimiento de un amigo Demo eliminar
   private generateRanonMove(): FriendPosition {
     var friend = this.mockListFriend[this.getRandomInt(0, 3)]
-    var test = (Math.random() * (0.00002000 - 0.00055120) + 0.00055120).toFixed(4);
-    var test2 = (Math.random() * (0.00004000 - 0.00079120) + 0.00079120).toFixed(4);
+    var test = (Math.random() * (0.00002000 - 0.00255120) + 0.00255120).toFixed(4);
+    var test2 = (Math.random() * (0.00004000 - 0.00279120) + 0.00279120).toFixed(4);
     friend.latitude = friend.latitude + +test;
     friend.longitude = friend.longitude + +test2;
     return friend;

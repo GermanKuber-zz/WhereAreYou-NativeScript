@@ -77,15 +77,24 @@ export class MarkContainer {
     }
     removeMarkDrawWay(markWrapper: MarkWrapper) {
         //Desactivo el modo de Draw
-        var markConf = this.markDrawWayList.Where(x=> x.markWrapper.markId == markWrapper.markId).FirstOrDefault();
+        var markConf = this.markDrawWayList.Where(x => x.markWrapper.markId == markWrapper.markId).FirstOrDefault();
         if (markConf != null) {
             //Limpio el camino dibujado
-            markConf.polyline.removeAllPoints();
+            this.clearPoints(markConf);
             this.markDrawWayList.Remove(markConf);
         }
         //En caso de que no haya mas mark para dibujar desactivo la funcionalidad
         if (this.markDrawWayList.Count() == 0)
             this.enableDraw = false;
+
+    }
+
+    //Private Methods
+    private clearPoints(markConf: MarkWrapperConfiguration) {
+        markConf.polyline.removeAllPoints();
+        markConf.polyline.addPoint(Position.positionFromLatLng(0, 0));
+        markConf.polyline.addPoint(Position.positionFromLatLng(0, 0));
+          markConf.polyline.addPoint(Position.positionFromLatLng(0, 0));
 
     }
 }

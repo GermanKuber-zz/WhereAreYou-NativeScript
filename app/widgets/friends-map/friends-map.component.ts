@@ -79,18 +79,8 @@ export class FriendsMapComponent implements OnInit {
     this.friendsLiveService.getFriendsLocations().subscribe(f => {
       this.updateFriendLocation(f);
     });
-
   }
-  // private getFriendsPositions(): void {
-  //   //Obtengo todos los amigos conectados por grupo y los dibujo en el mapa
-  //   this.friendsLiveService.getFriendsByGroup(1).subscribe(friendsPosition => {
-  //     for (var item of friendsPosition) {
-  //       var newMarkFriend = this.createMarkerArgs(item);
-  //       if (newMarkFriend != null)
-  //         this.mapViewService.addFriendnMark(newMarkFriend[0], newMarkFriend[1].id);
-  //     }
-  //   });
-  // }
+
 
   private createMarkerArgs(position: FriendPosition): [AddMarkerArgs, Friend] {
     var mark = new AddMarkerArgs();

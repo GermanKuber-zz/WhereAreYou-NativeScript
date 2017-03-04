@@ -1,4 +1,4 @@
-import { Injectable } from "@angular/core";
+import { Injectable, ViewChild } from '@angular/core';
 import { Observable } from "rxjs/Rx";
 import "rxjs/add/operator/do";
 import "rxjs/add/operator/map";
@@ -16,30 +16,40 @@ import { List } from 'linqts';
 import { MarkWrapper, MarkWrapperTypeEnum, AddMarkerArgs, AddLineArgs, MarkContainer, MarkWrapperConfiguration } from './core/MarkContainer';
 import { MarkManagerService } from './mark-manager.service';
 import { ExternalMapService, WayModeEnum } from './external-map.service';
+import { RadSideDrawerComponent, SideDrawerType } from 'nativescript-telerik-ui/sidedrawer/angular';
 @Injectable()
 export class MapViewService {
     //#Mapa 
     private mapView: MapView = null;
     watchId: number = null;
     gpsLine: Polyline;
-    testLine: Polyline;
-    tapLine: Polyline;
     tapMarker: any;
-    gpsMarker: MarkContainer;
     centeredOnLocation: boolean = false;
-    private zoom: number = 11;
+    private zoom: number = 12;
     constructor(private markManagerService: MarkManagerService,
         private externalMapService: ExternalMapService) {
         if (!geolocation.isEnabled()) {
             geolocation.enableLocationRequest();
         }
-
     }
 
     ngOnInit() {
 
     }
+    @ViewChild(RadSideDrawerComponent) public drawerComponent: RadSideDrawerComponent;
+    private drawer: SideDrawerType;
 
+    ngAfterViewInit() {
+        this.drawer = this.drawerComponent.sideDrawer;
+    }
+
+    openDrawer() {
+        this.drawer.showDrawer();
+    }
+
+    closeDrawer() {
+        this.drawer.closeDrawer();
+    }
     //Public Methods
     public addFriendnMark(markInfo: AddMarkerArgs, markId: number): MarkContainer {
         var markContainer = this.markManagerService.addFriendMark(markInfo, markId);
@@ -165,12 +175,14 @@ export class MapViewService {
         let line = args.line;
         if (!line) {
             line = new Polyline();
+
             line.visible = true;
             line.width = args.width || 10;
             line.color = args.color || new Color('Red');
             line.geodesic = args.geodesic != undefined ? args.geodesic : true;
             this.mapView.addPolyline(line);
         }
+
         line.addPoint(Position.positionFromLatLng(args.location.latitude, args.location.longitude));
         return line;
     }
@@ -188,6 +200,7 @@ export class MapViewService {
     }
 
     private drawWay(markWrapperConfiguration: MarkWrapperConfiguration, positions: List<Position>): void {
+        ++this.count;
         if (markWrapperConfiguration.polyline != null)
             markWrapperConfiguration.polyline.removeAllPoints();
 
@@ -200,7 +213,10 @@ export class MapViewService {
                 width: 10
             });
         });
+
+
     }
+    private count = 0;
 }
 
 
