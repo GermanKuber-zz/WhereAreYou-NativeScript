@@ -3,7 +3,7 @@ import { Observable } from "rxjs/Rx";
 import "rxjs/add/operator/do";
 import "rxjs/add/operator/map";
 import 'rxjs/add/operator/catch';
-import { MarkContainer, MarkWrapperTypeEnum, AddMarkerArgs } from './core/MarkContainer';
+import { MarkContainer, MarkWrapperTypeEnum, AddMarkerArgs, MarkWrapper } from './core/MarkContainer';
 import { List } from 'linqts';
 import { Marker, Position } from 'nativescript-google-maps-sdk';
 import { Friend } from '../../friends/friend';
@@ -25,6 +25,17 @@ export class MarkManagerService {
         else
             return false;
     }
+    get marksFriends(): MarkWrapper[] {
+        var returnData = new Array<MarkWrapper>();
+        this.markFriendsList.ForEach(x => {
+            returnData.push(x.markwrapper);
+        });
+        return returnData;
+
+    }
+
+
+
     //Public Methods
     public getMarkContainer(markId: number): MarkContainer {
         return this.markFriendsList.Where(x => x.markId == markId).FirstOrDefault();

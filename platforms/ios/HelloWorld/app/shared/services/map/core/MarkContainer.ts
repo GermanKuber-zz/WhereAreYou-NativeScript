@@ -67,6 +67,14 @@ export class MarkContainer {
         mark.icon = image;
         return mark;
     };
+    private createMarkWithOutImage(args: AddMarkerArgs): Marker {
+
+        let mark = new Marker();
+        mark.position = Position.positionFromLatLng(args.location.latitude, args.location.longitude);
+        mark.title = args.title;
+        mark.snippet = args.title;
+        return mark;
+    };
     addMarkDrawWay(markWrapper: MarkWrapper) {
         //Activo el modo de Draw
         this.enableDraw = true;
