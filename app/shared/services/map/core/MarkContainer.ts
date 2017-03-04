@@ -92,9 +92,10 @@ export class MarkContainer {
     //Private Methods
     private clearPoints(markConf: MarkWrapperConfiguration) {
         markConf.polyline.removeAllPoints();
+        //Se ejecuta 3 veces ya que si no no, se limpia el camino previamente dibujado
         markConf.polyline.addPoint(Position.positionFromLatLng(0, 0));
         markConf.polyline.addPoint(Position.positionFromLatLng(0, 0));
-          markConf.polyline.addPoint(Position.positionFromLatLng(0, 0));
+        markConf.polyline.addPoint(Position.positionFromLatLng(0, 0));
 
     }
 }

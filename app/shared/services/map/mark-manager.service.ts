@@ -6,6 +6,7 @@ import 'rxjs/add/operator/catch';
 import { MarkContainer, MarkWrapperTypeEnum, AddMarkerArgs } from './core/MarkContainer';
 import { List } from 'linqts';
 import { Marker, Position } from 'nativescript-google-maps-sdk';
+import { Friend } from '../../friends/friend';
 
 @Injectable()
 export class MarkManagerService {

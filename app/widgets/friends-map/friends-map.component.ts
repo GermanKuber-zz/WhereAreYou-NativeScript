@@ -96,17 +96,6 @@ export class FriendsMapComponent implements OnInit {
     }
 
   }
-  // @ViewChild(RadSideDrawerComponent) public drawerComponent: RadSideDrawerComponent;
-  // private drawer: SideDrawerType;
-
-
-  // openDrawer() {
-  //   this.drawer.showDrawer();
-  // }
-
-  // closeDrawer() {
-  //   this.drawer.closeDrawer();
-  // }
 
 }
 
