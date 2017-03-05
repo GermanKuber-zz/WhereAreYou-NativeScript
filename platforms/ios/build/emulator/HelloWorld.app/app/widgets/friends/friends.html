@@ -1,7 +1,7 @@
-<GridLayout columns="2*, *" rows="40" [class]="getColorItem(item)">
+<!--<GridLayout columns="2*, *" rows="40" [class]="getColorItem(item)">
 	<TextView col="0" [(ngModel)]="inviteFriend"></TextView>
 	<Button col="1" text="+" (tap)="addFriend($event)"></Button>
-</GridLayout>
+</GridLayout>-->
 <RadListView id="listView" [items]="myFriends" class="list-group list-friends" selectionBehavior="None" (itemSwipeProgressEnded)="onSwipeCellFinished($event)"
 	(itemTap)="onItemSelected($event)"  (itemSwipeProgressStarted)="onSwipeCellStarted($event)" (itemSwipeProgressChanged)="onCellSwiping($event)"
 	itemSwipe="true">
@@ -20,8 +20,8 @@
 		</StackLayout>
 		<StackLayout id="config-view" orientation="horizontal" class="deleteViewStackLayout" col="2">
 			<!--<Label text="delete" verticalAlignment="center" horizontalAlignment="center"></Label>-->
-			<Image class="img-config-action" [hidden]="!drawWaytToMe" (tap)="wayToMe($event)" src="~/images/way-to-me.png"></Image>
-			<Image class="img-config-action" [hidden]="drawWaytToMe" (tap)="disableWayToMe($event)" src="~/images/way-to-me-activate.png"></Image>	
+			<Image class="img-config-action" (tap)="wayToMe($event)" src="~/images/way-to-me.png"></Image>
+			<Image class="img-config-action"  (tap)="disableWayToMe($event)" src="~/images/way-to-me-activate.png"></Image>	
 			<!--<Image class="img-config-action" (tap)="delete($event)" src="~/images/x.png"></Image>-->
 		</StackLayout>
 	</GridLayout>

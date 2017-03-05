@@ -4,7 +4,6 @@ import { MapView, Marker, Polyline, Position } from 'nativescript-google-maps-sd
 import sideDrawerModule = require('nativescript-telerik-ui/sidedrawer');
 import { RadSideDrawerComponent, SideDrawerType } from 'nativescript-telerik-ui/sidedrawer/angular';
 import { FriendsLiveService } from '../../shared/friends/friends-lives.service';
-import { Observable } from '../../../platforms/ios/build/emulator/HelloWorld.app/app/tns_modules/rxjs/src/Observable';
 import { FriendPosition, Friend } from '../../shared/friends/friend';
 import { MapViewService } from '../../shared/services/map/map-view.service';
 import { FriendsService } from '../../shared/friends/friends.service';

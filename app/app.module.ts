@@ -15,7 +15,11 @@ import { NativeScriptHttpModule } from "nativescript-angular/http";
 import { MarkManagerService } from './shared/services/map/mark-manager.service';
 import { ExternalMapService } from './shared/services/map/external-map.service';
 import { MapViewService } from './shared/services/map/map-view.service';
-
+import { ConfigService } from './shared/services/map/config.service';
+import { FriendsAddComponent } from './widgets/friends-add/friends-add.component';
+import { NativeScriptFormsModule } from "nativescript-angular/forms";
+import { FriendPreviewComponent } from './widgets/friend-preview/friend-preview.component';
+import { LoggedService } from './shared/user/logged.service';
 var application = require("application");
 declare var GMSServices: any;
 if (application.ios) {
@@ -27,14 +31,18 @@ if (application.ios) {
     LoginComponent,
     DashboardComponent,
     FriendsComponent,
+    FriendsAddComponent,
     FriendsMapComponent,
+    FriendPreviewComponent,
     SIDEDRAWER_DIRECTIVES
   ],
   providers: [
     FriendsService,
     MapViewService,
     ExternalMapService,
-    MarkManagerService
+    LoggedService,
+    MarkManagerService,
+    ConfigService
   ],
   bootstrap: [
     AppComponent
@@ -44,10 +52,11 @@ if (application.ios) {
     NativeScriptUIListViewModule,
     NativeScriptRouterModule,
     NativeScriptRouterModule.forRoot(routes),
-    NativeScriptHttpModule
+    NativeScriptHttpModule,
+    NativeScriptFormsModule
   ],
   schemas: [
-      NO_ERRORS_SCHEMA
-    ],
+    NO_ERRORS_SCHEMA
+  ],
 })
 export class AppModule { }

@@ -1,4 +1,4 @@
-import { Injectable } from "@angular/core";
+import { Injectable, ViewChild } from '@angular/core';
 import { Observable } from "rxjs/Rx";
 import "rxjs/add/operator/do";
 import "rxjs/add/operator/map";
@@ -16,39 +16,51 @@ import { List } from 'linqts';
 import { MarkWrapper, MarkWrapperTypeEnum, AddMarkerArgs, AddLineArgs, MarkContainer, MarkWrapperConfiguration } from './core/MarkContainer';
 import { MarkManagerService } from './mark-manager.service';
 import { ExternalMapService, WayModeEnum } from './external-map.service';
+import { RadSideDrawerComponent, SideDrawerType } from 'nativescript-telerik-ui/sidedrawer/angular';
 @Injectable()
 export class MapViewService {
     //#Mapa 
     private mapView: MapView = null;
     watchId: number = null;
     gpsLine: Polyline;
-    testLine: Polyline;
-    tapLine: Polyline;
     tapMarker: any;
-    gpsMarker: MarkContainer;
     centeredOnLocation: boolean = false;
-
+    private zoom: number = 12;
     constructor(private markManagerService: MarkManagerService,
         private externalMapService: ExternalMapService) {
         if (!geolocation.isEnabled()) {
             geolocation.enableLocationRequest();
         }
-
     }
 
     ngOnInit() {
 
     }
+    @ViewChild(RadSideDrawerComponent) public drawerComponent: RadSideDrawerComponent;
+    private drawer: SideDrawerType;
 
+    ngAfterViewInit() {
+        this.drawer = this.drawerComponent.sideDrawer;
+    }
+
+    openDrawer() {
+        this.drawer.showDrawer();
+    }
+
+    closeDrawer() {
+        this.drawer.closeDrawer();
+    }
     //Public Methods
-    public addFriendnMark(markInfo: AddMarkerArgs, markId: number): void {
+    public addFriendnMark(markInfo: AddMarkerArgs, markId: number): MarkContainer {
         var markContainer = this.markManagerService.addFriendMark(markInfo, markId);
         this.mapView.addMarker(markContainer.mark);
+        return markContainer;
     }
     public updateFriendMark(markInfo: AddMarkerArgs, markId: number): void {
         var container = this.markManagerService.updateMark(markInfo, markId);
+        if (container == null)
+            container = this.addFriendnMark(markInfo, markId);
         if (container.isEnableDraw) {
-
             //si tiene activada la opcion de dibujar
             container.markDrawWayList.ForEach(x => {
                 this.externalMapService.getWayPositions([x.markWrapper.mark.position.latitude, x.markWrapper.mark.position.longitude],
@@ -59,8 +71,10 @@ export class MapViewService {
             });
         }
     }
-    public removeCommonMark(markInfo: AddMarkerArgs, markId: number): void {
-        this.markManagerService.removeMark(markId);
+    public removeFriendMark(markId: number): void {
+        var markContainer = this.markManagerService.removeFriendMark(markId);
+        if (markContainer != null)
+            this.mapView.removeMarker(markContainer.mark);
     }
     public enableDrawWayToMe(markId: number): void {
         //Activa la opcion de dibujar camino desde la markId hasta la position de Me
@@ -127,16 +141,9 @@ export class MapViewService {
         if (!this.mapView || !mark || !mark.position) return;
         this.mapView.addMarker(mark);
     };
-    //Flag primera configuracion
-    private firstConfigurationMap = false;
+
     private locationReceived = (position: Position) => {
-        if (this.mapView && position && !this.firstConfigurationMap) {
-            this.mapView.latitude = position.latitude;
-            this.mapView.longitude = position.longitude;
-            this.mapView.zoom = 15;
-            this.centeredOnLocation = true;
-            this.firstConfigurationMap = true;
-        }
+        this.locationReceivedFirstMapBehavior(position);
         if (!this.markManagerService.hasMe) {
             var markContainer = this.markManagerService.addMeMark(position.latitude, position.longitude);
             this.mapView.addMarker(markContainer.mark)
@@ -150,18 +157,32 @@ export class MapViewService {
         this.mapView.latitude = this.markManagerService.me.position.latitude;
         this.mapView.longitude = this.markManagerService.me.position.longitude;
     }
+    //Flag primera configuracion
+    private firstConfigurationMap = false;
+    private locationReceivedFirstMapBehavior(position: Position): void {
+        //TODO: Este metodo debe de ser customizado para que el comportamiento dependa de si fue o no tocado el mapa
+        if (this.mapView && position && !this.firstConfigurationMap) {
+            this.mapView.latitude = position.latitude;
+            this.mapView.longitude = position.longitude;
+            this.mapView.zoom = this.zoom;
+            this.centeredOnLocation = true;
+            this.firstConfigurationMap = true;
+        }
+    }
 
     private addPointToLine(args: AddLineArgs) {
         if (!this.mapView || !args || !args.location) return;
         let line = args.line;
         if (!line) {
             line = new Polyline();
+
             line.visible = true;
             line.width = args.width || 10;
             line.color = args.color || new Color('Red');
             line.geodesic = args.geodesic != undefined ? args.geodesic : true;
             this.mapView.addPolyline(line);
         }
+
         line.addPoint(Position.positionFromLatLng(args.location.latitude, args.location.longitude));
         return line;
     }
@@ -178,26 +199,24 @@ export class MapViewService {
         console.log('Camera changed: ' + JSON.stringify(event.camera));
     }
 
-
-
-
-
-    //Test
-    //dibuja un camino, con las positions que recibe como parametro
     private drawWay(markWrapperConfiguration: MarkWrapperConfiguration, positions: List<Position>): void {
+        ++this.count;
         if (markWrapperConfiguration.polyline != null)
             markWrapperConfiguration.polyline.removeAllPoints();
-            
+
         positions.ForEach(item => {
             markWrapperConfiguration.polyline = this.addPointToLine({
-                color: new Color('Pink'),
+                color: new Color(57, 191, 242, 1),
                 line: markWrapperConfiguration.polyline,
                 location: item,
                 geodesic: true,
                 width: 10
             });
         });
+
+
     }
+    private count = 0;
 }
 
 

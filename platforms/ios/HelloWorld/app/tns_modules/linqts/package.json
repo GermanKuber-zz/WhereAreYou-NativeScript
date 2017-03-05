@@ -2,18 +2,18 @@
   "_args": [
     [
       {
-        "raw": "linqts",
+        "raw": "linqts@^1.8.0",
         "scope": null,
         "escapedName": "linqts",
         "name": "linqts",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
+        "rawSpec": "^1.8.0",
+        "spec": ">=1.8.0 <2.0.0",
+        "type": "range"
       },
       "/Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld"
     ]
   ],
-  "_from": "linqts@latest",
+  "_from": "linqts@>=1.8.0 <2.0.0",
   "_id": "linqts@1.8.0",
   "_inCache": true,
   "_location": "/linqts",
@@ -29,22 +29,21 @@
   "_npmVersion": "4.1.2",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "linqts",
+    "raw": "linqts@^1.8.0",
     "scope": null,
     "escapedName": "linqts",
     "name": "linqts",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "rawSpec": "^1.8.0",
+    "spec": ">=1.8.0 <2.0.0",
+    "type": "range"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/linqts/-/linqts-1.8.0.tgz",
   "_shasum": "29089650b41d8b4d10f8f23f6c88699aa3ff0c03",
   "_shrinkwrap": null,
-  "_spec": "linqts",
+  "_spec": "linqts@^1.8.0",
   "_where": "/Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld",
   "author": {
     "name": "Flavio Corpa",

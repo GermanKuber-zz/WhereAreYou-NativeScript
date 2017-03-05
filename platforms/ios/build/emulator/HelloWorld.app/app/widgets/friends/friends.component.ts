@@ -3,6 +3,8 @@ import { FriendsService } from '../../shared/friends/friends.service';
 import { Friend } from '../../shared/friends/friend';
 import { ListView } from 'ui/list-view';
 import { ListViewEventData, RadListView } from 'Nativescript-telerik-ui/listview/index';
+import { ExternalMapService } from '../../shared/services/map/external-map.service';
+import { ConfigService } from '../../shared/services/map/config.service';
 import listViewModule = require("ui/list-view");
 import frameModule = require("ui/frame");
 import labelModule = require("ui/label");
@@ -20,16 +22,24 @@ export class FriendsComponent implements OnInit {
   // @ViewChild("listView") listView: ElementRef;
   @ViewChild("listView") listView: ElementRef;
 
-  constructor(private friendService: FriendsService) {
-
-
+  constructor(private friendService: FriendsService,
+    private configService: ConfigService) {
+    this.updateFriedDistance();
   }
-  public addFriend() {
-    var a = this.inviteFriend;
+
+  private updateFriedDistance() {
+    setTimeout(() => {
+      if (this.configService.calculateDistanceToFriends)
+        this.friendService.updateDistanceAllFriends();
+    }, 5000);
   }
   public getColorItem(friend: Friend): string {
-    if (friend != null && friend.activate)
-      return "friend-enable";
+    if (friend != null && friend.activate) {
+      if (friend.drawWaytToMe)
+        return "friend-follow ";
+      else
+        return "friend-enable";
+    }
     else
       return "friend-disable";
   }
@@ -41,8 +51,9 @@ export class FriendsComponent implements OnInit {
     swipeLimits.left = leftItem.getMeasuredWidth();
     swipeLimits.right = rightItem.getMeasuredWidth();
     swipeLimits.threshold = leftItem.getMeasuredWidth() / 2;
+    this.swipeLimits = swipeLimits;
   }
-
+  private swipeLimits;
   public onSwipeCellFinished(args: ListViewEventData) {
     if (args.data.x > 200) {
       console.log("Perform left action");

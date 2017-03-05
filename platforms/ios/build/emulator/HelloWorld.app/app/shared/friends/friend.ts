@@ -6,10 +6,13 @@ export class Friend {
   groupId: number;
   displayName: string;
   activate: boolean;
+  image: string;
+  distanceToMe: number;
   //Si esta en true se dibujara el camino desde la posicion del este amigo hasta la posicion de Me
   drawWaytToMe: boolean = false;
-  constructor(){
+  constructor() {
     this.drawWaytToMe = false;
+    this.distanceToMe = 0;
   }
 }
 export class FriendPosition {

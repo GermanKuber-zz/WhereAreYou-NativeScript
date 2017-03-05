@@ -1,0 +1,44 @@
+<!--<GridLayout columns="2*, *" rows="40" [class]="getColorItem(item)">
+	<TextView col="0" [(ngModel)]="inviteFriend"></TextView>
+	<Button col="1" text="+" (tap)="addFriend($event)"></Button>
+</GridLayout>-->
+<StackLayout>
+	<label text="Ingrese el Email de su Amigo"></label>
+	<StackLayout orientation="horizontal">
+		<GridLayout columns="3*,*" rows="40">
+			<TextField col="0" [(ngModel)]="email" hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none"></TextField>
+			<Button col="1" (tap)="searchFriend()" text="Buscar"></Button>
+		</GridLayout>
+	</StackLayout>
+	<ActivityIndicator busy="{{ isLoading }}"></ActivityIndicator>
+	<label text="El amigo que busca no se encuentra" *ngIf="!doesNotFound"></label>
+	<label text="Amigo agregado correctamente" *ngIf="isAdded"></label>
+	<label text="Error al agregar un amigo" *ngIf="addFriendError"></label>
+	<!--<Image [hidden]="!isLoading" class="img-add-friend" src="~/images/friend-add.png" stretch="none"></Image>-->
+	<Button (tap)="addFriend()" *ngIf="friendFound" text="Agregar"></Button>
+	<friend-preview *ngIf="friendFound" [friend]="friendPreview"></friend-preview>
+</StackLayout>
+<!--<RadListView id="listView" [items]="myFriends" class="list-group list-friends" selectionBehavior="None" (itemSwipeProgressEnded)="onSwipeCellFinished($event)"
+	(itemTap)="onItemSelected($event)" (itemSwipeProgressStarted)="onSwipeCellStarted($event)" (itemSwipeProgressChanged)="onCellSwiping($event)"
+	itemSwipe="true">
+
+	<template tkListItemTemplate let-item="item" let-odd="odd" let-even="even">
+		<GridLayout columns="50, auto, *" rows="50" [class]="getColorItem(item)">
+			<Label col="0" [text]="item.id" class="list-group-item"></Label>
+			<Label col="1" [text]="item.name" class="list-group-item"></Label>
+			<Label col="2" [text]="item.email" class="list-group-item"></Label>
+		</GridLayout>
+	</template>
+	<GridLayout *tkListItemSwipeTemplate columns="auto, *, auto" class="listItemSwipeGridLayout">
+		<StackLayout id="mark-view" class="markViewStackLayout" col="0" (tap)="onLeftSwipeClick($event)">
+			<Label text="mark" verticalAlignment="center" horizontalAlignment="center"></Label>
+		</StackLayout>
+		<StackLayout id="config-view" orientation="horizontal" class="deleteViewStackLayout" col="2">
+			
+			<Image class="img-config-action" (tap)="wayToMe($event)" src="~/images/way-to-me.png"></Image>
+			<Image class="img-config-action" (tap)="disableWayToMe($event)" src="~/images/way-to-me-activate.png"></Image>
+			
+		</StackLayout>
+	</GridLayout>
+
+</RadListView>-->

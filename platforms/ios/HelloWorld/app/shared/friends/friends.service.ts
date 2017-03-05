@@ -8,6 +8,7 @@ import { Observer } from 'rxjs/src/Observer';
 import { Subject } from 'rxjs/Subject';
 import { ExternalMapService, GetDistanceRequest, DistanceRequestWrapper, WayModeEnum } from '../services/map/external-map.service';
 import { MarkManagerService } from '../services/map/mark-manager.service';
+import { LoggedService } from '../user/logged.service';
 
 
 @Injectable()
@@ -15,22 +16,24 @@ export class FriendsService {
   friendUpdate$: Subject<Array<Friend>> = new Subject<Array<Friend>>();
 
   constructor(private externalMapService: ExternalMapService,
-    private markManagerService: MarkManagerService) {
+    private markManagerService: MarkManagerService,
+    private loggedService: LoggedService) {
     this.friendUpdate$.next(mockListFriend);
 
   }
 
-
-
-  // Observable string sources
-  private friendsP = new Subject<Friend>();
-
-  // Observable string streams
-  friends$: Observable<Friend> = this.friendsP.asObservable();
-
   // Service message commands
-  addFriend(mission: Friend) {
-    this.friendsP.next(mission);
+  addFriend(friend: Friend): Observable<boolean> {
+    let source = Observable.create(observer => {
+      var me = this.loggedService.me;
+      if (friend.id == 0 || friend.id == null)
+        friend.id = mockListFriend[mockListFriend.length - 1].id + 1;
+      friend.invitationSended = true;
+      mockListFriend.push(friend);
+      this.friendUpdate$.next(mockListFriend);
+      observer.next(true);
+    });
+    return source;
   }
 
   getFriendsByGroup(id: number): Observable<Array<Friend>> {
@@ -65,6 +68,20 @@ export class FriendsService {
         return friend;
     }
   }
+  getFriendByIEmail(email: string): Observable<Friend> {
+    let source = Observable.create(observer => {
+      var find = false;
+      for (var friend of mockListFriend) {
+        if (friend.email.toUpperCase() == email.toUpperCase()) {
+          find = true;
+          observer.next(friend);
+        }
+      }
+      if (!find)
+        observer.error("No se encontro ningun amigo con ese nombre")
+    });
+    return source;
+  }
   handleErrors(error: Response) {
     console.log(JSON.stringify(error.json()));
     return Observable.throw(error);
@@ -77,6 +94,7 @@ export class FriendsService {
         var newItem = new DistanceRequestWrapper(x.markId, x.mark.position);
         getDistance.destination.push(newItem);
       });
+
       this.externalMapService.getDistance(getDistance, WayModeEnum.driving)
         .subscribe(x => {
           x.destination.forEach(x => {
@@ -99,7 +117,8 @@ var mockListFriend = new Array<Friend>();
 
 mockListFriend.push(<Friend>{
   id: 1,
-  email: "primero@gmail.com",
+  email: "p@p.p",
+  image: "https://pbs.twimg.com/profile_images/1717956431/BP-headshot-fb-profile-photo_400x400.jpg",
   name: "Nombre 1",
   lastName: "Apellido 1",
   displayName: "Display Name 1",

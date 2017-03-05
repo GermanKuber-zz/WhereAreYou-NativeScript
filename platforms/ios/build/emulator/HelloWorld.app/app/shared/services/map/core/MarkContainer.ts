@@ -67,6 +67,14 @@ export class MarkContainer {
         mark.icon = image;
         return mark;
     };
+    private createMarkWithOutImage(args: AddMarkerArgs): Marker {
+
+        let mark = new Marker();
+        mark.position = Position.positionFromLatLng(args.location.latitude, args.location.longitude);
+        mark.title = args.title;
+        mark.snippet = args.title;
+        return mark;
+    };
     addMarkDrawWay(markWrapper: MarkWrapper) {
         //Activo el modo de Draw
         this.enableDraw = true;
@@ -77,13 +85,25 @@ export class MarkContainer {
     }
     removeMarkDrawWay(markWrapper: MarkWrapper) {
         //Desactivo el modo de Draw
-        var markConf = this.markDrawWayList.Where(x=> x.markWrapper.markId == markWrapper.markId).FirstOrDefault();
+        var markConf = this.markDrawWayList.Where(x => x.markWrapper.markId == markWrapper.markId).FirstOrDefault();
         if (markConf != null) {
+            //Limpio el camino dibujado
+            this.clearPoints(markConf);
             this.markDrawWayList.Remove(markConf);
         }
         //En caso de que no haya mas mark para dibujar desactivo la funcionalidad
         if (this.markDrawWayList.Count() == 0)
             this.enableDraw = false;
+
+    }
+
+    //Private Methods
+    private clearPoints(markConf: MarkWrapperConfiguration) {
+        markConf.polyline.removeAllPoints();
+        //Se ejecuta 3 veces ya que si no no, se limpia el camino previamente dibujado
+        markConf.polyline.addPoint(Position.positionFromLatLng(0, 0));
+        markConf.polyline.addPoint(Position.positionFromLatLng(0, 0));
+        markConf.polyline.addPoint(Position.positionFromLatLng(0, 0));
 
     }
 }

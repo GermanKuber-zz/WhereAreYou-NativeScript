@@ -1,0 +1,13 @@
+<StackLayout>
+	<label text="Preview Friend"></label>
+	
+	<StackLayout [hidden]="!doesNotFound">
+		<Image class="img-preview-friend" [src]="friend.image"></Image>
+		<label text="Nombre"></label>
+		<label [text]="friend.name"></label>
+		<label text="Apellido"></label>
+		<label [text]="friend.lastName"></label>
+		<label text="Email"></label>
+		<label [text]="friend.email"></label>
+	</StackLayout>
+</StackLayout>

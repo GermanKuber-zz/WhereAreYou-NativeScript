@@ -86,7 +86,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		miAfdrpKAnK4/CAexUQ0umjOLao=
+		l0i0MqByJBgjkxjnOzLzfPCmwFc=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -885,7 +885,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		4dgtH0RccyzG1NkDExlXNtwyo9A=
+		1jMa0vOre0ZzNYSYvRGPkBP4+XE=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -893,7 +893,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		40/b9PhGmiUcSpgpYMjGURprsD8=
+		xpPMnHJZT/0FUOIMG32DF2yFYa0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -1169,11 +1169,11 @@
 		</data>
 		<key>app/app.module.js</key>
 		<data>
-		CjSB0n07KEL6S+N0axhhwuQK7+8=
+		Jobtx4EOQ8lE8wm90vwG0kXje8A=
 		</data>
 		<key>app/app.module.ts</key>
 		<data>
-		uJlrheP0TRVHbJ37RYokuHFpk3w=
+		O28AOWs1eXijvYE0blXhlcHaN8Y=
 		</data>
 		<key>app/app.routing.js</key>
 		<data>
@@ -1182,6 +1182,14 @@
 		<key>app/app.routing.ts</key>
 		<data>
 		4tvbyefv8FXoLrqk9vCuOJEtFFA=
+		</data>
+		<key>app/images/VisualStudio2017Launchand20thAnniversaryEventWebDevelopment.ics</key>
+		<data>
+		NtLkjJXIuH/OzfYnUl2In1sCiUk=
+		</data>
+		<key>app/images/friend-add.png</key>
+		<data>
+		D7hf6D6mQbnLXgR3CJ7kn4SIB00=
 		</data>
 		<key>app/images/friend-marker.png</key>
 		<data>
@@ -1237,7 +1245,7 @@
 		</data>
 		<key>app/pages/dashboard/dashboard.html</key>
 		<data>
-		Etc4PqiuzUsAxijvw+hXHYf6bo8=
+		jTLpYomIvoEOhbKgsh/rw4C3kjU=
 		</data>
 		<key>app/pages/dashboard/list.component.js</key>
 		<data>
@@ -1273,27 +1281,27 @@
 		</data>
 		<key>app/shared/friends/friend.js</key>
 		<data>
-		rZGR7crll3fWH6iT7j+n10GrMuw=
+		mwvp5mXgIKX9PEYag+smAKFbuWo=
 		</data>
 		<key>app/shared/friends/friend.ts</key>
 		<data>
-		z3X1yrZKro76xra3UJvrtvRqhKo=
+		4q/YR/e0GCLERO+F+yR1AnkwioI=
 		</data>
 		<key>app/shared/friends/friends-lives.service.js</key>
 		<data>
-		TSxtIzkQIQL0AY2HCwShHU0+Trg=
+		L3DO7mLy/w/m3KBf7b9uDzR5kNA=
 		</data>
 		<key>app/shared/friends/friends-lives.service.ts</key>
 		<data>
-		QBsQEIx/qRppb1v2ZaoclyNpfA0=
+		24sW22PZSS8+E0LLkEDHNMO9MVc=
 		</data>
 		<key>app/shared/friends/friends.service.js</key>
 		<data>
-		8TVToGdPkvPlcUUVsmQfiu3KKEw=
+		GY27BCCc9hhPUcSPE48A10GCUGA=
 		</data>
 		<key>app/shared/friends/friends.service.ts</key>
 		<data>
-		Uz8Vfe7sZFrpHuAwwkjjeOxQZ/E=
+		gM2pKgq5J8hYpzW0Acc4bxxP/iQ=
 		</data>
 		<key>app/shared/friends/user.js</key>
 		<data>
@@ -1323,21 +1331,29 @@
 		<data>
 		4vUq5bsTqbXS7bwj2FCFIQzhO3w=
 		</data>
+		<key>app/shared/services/map/config.service.js</key>
+		<data>
+		53GxYuHaAXjTqMwWMAjOS0dPiaQ=
+		</data>
+		<key>app/shared/services/map/config.service.ts</key>
+		<data>
+		98zV4p8XtBCNcC9gwp+ABRdP9EE=
+		</data>
 		<key>app/shared/services/map/core/MarkContainer.js</key>
 		<data>
-		zoGipvCe82W+HOQaLViJW7aQSzg=
+		0K1YVi+ouzDuv71EZOX48UDvmcI=
 		</data>
 		<key>app/shared/services/map/core/MarkContainer.ts</key>
 		<data>
-		ZqZS9Sof7YsXosncqPYUCAvq2Nc=
+		3dFs04WHAwAztLmUI7gkSZ8r0Rg=
 		</data>
 		<key>app/shared/services/map/external-map.service.js</key>
 		<data>
-		Wi6j1RYpT9+ejBiCL/1FMi1m8xM=
+		UqsveH22/iK5YomZfybkeulWuiw=
 		</data>
 		<key>app/shared/services/map/external-map.service.ts</key>
 		<data>
-		3nltoK3IqVrJ7gfrW1kYf0jUCGI=
+		m0RRT0SdWbMJ5Scpk2zftrpnseg=
 		</data>
 		<key>app/shared/services/map/info-window.xml</key>
 		<data>
@@ -1353,19 +1369,35 @@
 		</data>
 		<key>app/shared/services/map/map-view.service.js</key>
 		<data>
-		GtNaoFsSwIgiYhR6UvyVtMmbfxk=
+		Lp/1L6dzGs8Ak9eSBXCZTZUKON4=
 		</data>
 		<key>app/shared/services/map/map-view.service.ts</key>
 		<data>
-		mcUTAQSLwdqN7SmsECdQ/36TMrw=
+		F5QQfcqcBhSrQ8hiIRU24HCvJ8o=
 		</data>
 		<key>app/shared/services/map/mark-manager.service.js</key>
 		<data>
-		bbz21N08g8rbBd8jpplPokvQ1hM=
+		4wHYcvdLcoOGcqPJXg1h+NNtHig=
 		</data>
 		<key>app/shared/services/map/mark-manager.service.ts</key>
 		<data>
-		oM3JV/nkzGgPzh2pgCNmD1dp3bg=
+		4iJHN28k+fcRZiWHO9dFPUM8A+U=
+		</data>
+		<key>app/shared/user/logged.service.js</key>
+		<data>
+		gAo+mtWRsGukE3dMHoWFY/sbRnE=
+		</data>
+		<key>app/shared/user/logged.service.ts</key>
+		<data>
+		RhD8+orTc14to3aXfxdoTxOB7dg=
+		</data>
+		<key>app/shared/user/me.js</key>
+		<data>
+		/U3w58fJ0z0vbhnPaKk6lfoQt4Y=
+		</data>
+		<key>app/shared/user/me.ts</key>
+		<data>
+		G9Ia1wLzITlL1jSr8KZCPFDB0qY=
 		</data>
 		<key>app/shared/user/user.js</key>
 		<data>
@@ -8111,9 +8143,201 @@
 		<data>
 		T8IwOpi280G9erphMza8gZeGxa0=
 		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/.mailmap</key>
+		<data>
+		jIkt6SqVEEhC7IxCLNZ4FFiBBL4=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/.npmignore</key>
+		<data>
+		0+fxpIowm+Ab9Kj2LeE5SGBtcmE=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/AUTHORS.md</key>
+		<data>
+		L1+7eq+j00mgX7FqWz5MRdEGmFo=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/CONTRIBUTING.md</key>
+		<data>
+		BB5JveXnvMeY7Fz681L5s2UMK4c=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/CopyrightNotice.txt</key>
+		<data>
+		yQwcZvkr+xFwl7JHMlma+rQuLHM=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/LICENSE.txt</key>
+		<data>
+		VXzkwfLRSAvvH+PbnBRhXjshOpk=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/README.md</key>
+		<data>
+		VKGjxGLvOaRdiiKNA/JoppcNaII=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/ThirdPartyNoticeText.txt</key>
+		<data>
+		B7uXU2wr2PaFaoXwRle7n+mPgCc=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/bin/tsc</key>
+		<data>
+		gDRyKxSgyN61qdHK1ixuiNmQTv0=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/bin/tsserver</key>
+		<data>
+		ABCBKygOQuv3kvkin2NQloS31Ko=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/README.md</key>
+		<data>
+		UEluXMc95oydi5NeN26D5wd+Qmg=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/cancellationToken.js</key>
+		<data>
+		szeb68sbg1aWR8CK1hkKY0yZnwg=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.d.ts</key>
+		<data>
+		WRKEF2PSK3yMhS50If98U+veDK4=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.dom.d.ts</key>
+		<data>
+		p9XzNjgQGTkUMfqbUAi9nhXTSEo=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.dom.iterable.d.ts</key>
+		<data>
+		QdE1c1Pwquj1joWbyW/0F0JSJpI=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.collection.d.ts</key>
+		<data>
+		IZ6zZO3IMpykfclZkgTcdnpDa5U=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.core.d.ts</key>
+		<data>
+		ayEnjutlzba/7OOaUlGn5tU7Phw=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.d.ts</key>
+		<data>
+		gPuRXjMHUVZdtaKM4G0OmY/pyqA=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.generator.d.ts</key>
+		<data>
+		k58+EMAkhhL4aKdUFhxx7ZTki3E=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.iterable.d.ts</key>
+		<data>
+		cDpQVHgk81UeuE1fYSwPizGlM5I=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.promise.d.ts</key>
+		<data>
+		OWiqoe0uT6WIkvuwv7kHDDjjlu4=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.proxy.d.ts</key>
+		<data>
+		Dlpokzv5dh9ob2ZxB5J2V16aOnk=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.reflect.d.ts</key>
+		<data>
+		mVn/EtobASfpfddD6VlLkf7oVj4=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.symbol.d.ts</key>
+		<data>
+		rN6dwfBorR9apalaA/aUac6PMiI=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts</key>
+		<data>
+		2hTGbyRT7VSlfQyd53UbjF5vENA=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2016.array.include.d.ts</key>
+		<data>
+		rfnpEeAnEjGKtjoqyb9xJ2M3jNA=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2016.d.ts</key>
+		<data>
+		AB9xI08ACghF5zXzPaTwT0zWK6M=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2017.d.ts</key>
+		<data>
+		V+f2YzF2l9HHAfvUVmwBY9WN+H8=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2017.object.d.ts</key>
+		<data>
+		LLCt+Ko9KXGHSO4do1XqSJAzKKw=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts</key>
+		<data>
+		b4wUyPvt0UmEI6spuxOZH73mrsY=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2017.string.d.ts</key>
+		<data>
+		F0ZJGmzdThUJc6avcZrDSugY4VE=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es5.d.ts</key>
+		<data>
+		Lg1r3MY4QyYAJ5p1o5e+KCF/vuQ=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es6.d.ts</key>
+		<data>
+		MMX5SyqSajqac76IzUvAQklg2Qc=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.scripthost.d.ts</key>
+		<data>
+		PduVy46IyARJK6shipGe/Ge6euw=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.webworker.d.ts</key>
+		<data>
+		viTrGnuzD/eL6Wq8XcNypevmNcs=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/protocol.d.ts</key>
+		<data>
+		3WwflZBz12rgeFGfuC/wlRhu34c=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/tsc.js</key>
+		<data>
+		P4FBe0tm86Cp1DxnRo9VI1Dv/Kg=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/tsserver.js</key>
+		<data>
+		Kt0RPuI4ZW0dmMbd/J/7EJmNF/I=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/tsserverlibrary.d.ts</key>
+		<data>
+		rSp3DCkIJSiAn2LiVewl8Klpa88=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/tsserverlibrary.js</key>
+		<data>
+		tlhMKHCANAwX+BIzqvyBG7JVEeU=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/typescript.d.ts</key>
+		<data>
+		7nxQ6ZZYm6OMqpqWaLeigWkvO1k=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/typescript.js</key>
+		<data>
+		N+scyxFDTAvO5RL3z5+yFjNPIGg=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/typescriptServices.d.ts</key>
+		<data>
+		JrZHsNk8iaA0Gadgovhb0KUJK9w=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/typescriptServices.js</key>
+		<data>
+		N+scyxFDTAvO5RL3z5+yFjNPIGg=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/typingsInstaller.js</key>
+		<data>
+		eTQNYWEnjlBcc3tFWSs1xnsFpGM=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/watchGuard.js</key>
+		<data>
+		5I0/KVRV3WspVfC0RU4l+Z4c9Bo=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/package.json</key>
+		<data>
+		lcrSd9mZ1jiaJxeBqzclql1v02c=
+		</data>
+		<key>app/tns_modules/linqts/node_modules/typescript/test.config</key>
+		<data>
+		aaM5wlcmUDSrJmTNxPb/yLOynr4=
+		</data>
 		<key>app/tns_modules/linqts/package.json</key>
 		<data>
-		tu5DV/8/cxLHqe5LVaRMa4fIxcc=
+		t9hIIDczgoAI7j7ooAaJb7zuT3E=
 		</data>
 		<key>app/tns_modules/linqts/readme.md</key>
 		<data>
@@ -8390,50 +8614,6 @@
 		<key>app/tns_modules/nativescript-angular/nativescript.module.metadata.json</key>
 		<data>
 		MIx3aqS/SXIGgh6jLzNM8ijc7sk=
-		</data>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/.travis.yml</key>
-		<data>
-		R19J8qx8pxoYpRH+hUlJGVKpSnE=
-		</data>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/History.md</key>
-		<data>
-		sZ2Pc1mknEnEFxOJGBqSsg3Qreg=
-		</data>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/License.md</key>
-		<data>
-		QFGIdUfgcLvh4dLcqzpG9EvurLI=
-		</data>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/Readme.md</key>
-		<data>
-		nTq74kXJCjjDZeiejL6U8H0aax4=
-		</data>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/decode.js</key>
-		<data>
-		eME1N65lhSu2sd9FY87Ton+Eg3Y=
-		</data>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/encode.js</key>
-		<data>
-		vEJEEZLOqd54c5iFDx0wiYBCEBc=
-		</data>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/index.js</key>
-		<data>
-		y3/Sg19lKTjP5QHz8MIl4mRuuAE=
-		</data>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/package.json</key>
-		<data>
-		qIq3X3f1CUBu4612hAgC515QtkM=
-		</data>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/test/common-index.js</key>
-		<data>
-		Y5/ANrsw/4VB9MK937cN28Ym3vg=
-		</data>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/test/index.js</key>
-		<data>
-		ur8jEe+7lFa6lsQEUH2AukA6jd4=
-		</data>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/test/tap-index.js</key>
-		<data>
-		8XQUlbhufjWcE7W3zcdy+zKquZo=
 		</data>
 		<key>app/tns_modules/nativescript-angular/package.json</key>
 		<data>
@@ -15729,7 +15909,7 @@
 		</data>
 		<key>app/tns_modules/tns-core-modules/package.json</key>
 		<data>
-		xJfEOYk3PCCdI0Fx9KwCYs9vzDw=
+		chkTcj3RR6vkJQuEusVEPAFPyHc=
 		</data>
 		<key>app/tns_modules/tns-core-modules/platform/package.json</key>
 		<data>
@@ -16435,711 +16615,6 @@
 		<data>
 		4qqIlK9DL77zY06+sgQwXTeChfE=
 		</data>
-		<key>app/tns_modules/tns-ios/README.md</key>
-		<data>
-		7Gokl7EFLUcNuzsL81jlQNKMD6g=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/__PROJECT_NAME__.xcodeproj/project.pbxproj</key>
-		<data>
-		1EQc1kmnNdTdcF0IHO/MbhMNjMc=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/__PROJECT_NAME__.xcodeproj/xcshareddata/xcschemes/__PROJECT_NAME__.xcscheme</key>
-		<data>
-		XyZKFphnIfB5C/zMLFB3zeNMvM0=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/__PROJECT_NAME__/__PROJECT_NAME__-Prefix.pch</key>
-		<data>
-		em6Dn//Mljy3LcH7B7uuTy/plTE=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/__PROJECT_NAME__/build-debug.xcconfig</key>
-		<data>
-		m3fFZ1OQm3P2jv5qse2VBQzWWQs=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/__PROJECT_NAME__/build-release.xcconfig</key>
-		<data>
-		45ZapnHwkJW7OEz5xzSEiaNkdX4=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/__PROJECT_NAME__/build.xcconfig</key>
-		<data>
-		2BzQG2vOX3RkstySHf94iM0Nvpo=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/__PROJECT_NAME__/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			j6qg+qbNaStgLrdDQMdUxznV6qM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/NativeScript.framework/Headers/NativeScript.h</key>
-		<data>
-		QY5D+ddZ17dQz0k5rM26t6XggOM=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/NativeScript.framework/Headers/TNSRuntime+Diagnostics.h</key>
-		<data>
-		pxZz27DWb3JKM6NZnxYPRECRzP8=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/NativeScript.framework/Headers/TNSRuntime+Inspector.h</key>
-		<data>
-		8SXhe/+cy9Oz+QU+87+2nZYBAjA=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/NativeScript.framework/Headers/TNSRuntime.h</key>
-		<data>
-		n461RO+R9zafhcH71tEm7KeSqc0=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/NativeScript.framework/Info.plist</key>
-		<data>
-		k10lDReAp6DFsz30UCpIH8UiWvY=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/NativeScript.framework/NativeScript</key>
-		<data>
-		WRcAfKXmy2wE/Bs7dIOUHh3O9Ic=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/README.md</key>
-		<data>
-		BHPMnK5RWcSXO0Apnk5z7dVXpbU=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/TKLiveSync.framework/Headers/TKLiveSync.h</key>
-		<data>
-		wH2EaSx3GIXIB2qErCkF4An53wc=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/TKLiveSync.framework/Info.plist</key>
-		<data>
-		FoPMhCdhevxlC+NOBmwXuweGh88=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/TKLiveSync.framework/Modules/module.modulemap</key>
-		<data>
-		k5+/Y/X+ufsR0X3VUxSlVvTW4b8=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/TKLiveSync.framework/TKLiveSync</key>
-		<data>
-		9CbiPDdLGbyU/KTfcNgsV8gzQ60=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/TNSDebugging.h</key>
-		<data>
-		ojnaPR15cwGBhK0y2FerIIG2eww=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/TNSExceptionHandler.h</key>
-		<data>
-		8ePFKD9kG0yRI/cE8Ujfdg1N0zY=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/main.m</key>
-		<data>
-		3JGOoZWB0OTiZED6XPsCjbdV+Rc=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/bin/build-step-metadata-generator.py</key>
-		<data>
-		02puIW7CfqWSt0oFUgqCpw1DyqQ=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/bin/objc-metadata-generator</key>
-		<data>
-		kAW+O9hIRAlYYsrFl+2lGxWKFow=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/asan_blacklist.txt</key>
-		<data>
-		MQ4ga0mWTE6JVNMt253wNT9ZZg4=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/__clang_cuda_cmath.h</key>
-		<data>
-		aGgA7HP/MZejsaqaAYTfqLQC2KQ=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/__clang_cuda_intrinsics.h</key>
-		<data>
-		HT5lja+aPX8/oLGlarYnI5DN82A=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/__clang_cuda_math_forward_declares.h</key>
-		<data>
-		LDNpBpWSyd0qpY6ZWpfvN6P4Vk4=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/__clang_cuda_runtime_wrapper.h</key>
-		<data>
-		1XSOFxzx8+lXWbQFHrps9PZB1eo=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/__stddef_max_align_t.h</key>
-		<data>
-		PNHjmYndwHjjd1VkffpXicZuxcU=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/__wmmintrin_aes.h</key>
-		<data>
-		ooj2dU7ATgStnTp+uZ0c/6r69IE=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/__wmmintrin_pclmul.h</key>
-		<data>
-		0FhXnoBR/8HaJQmcGZtyq3tuY28=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/adxintrin.h</key>
-		<data>
-		fYAORbZPKtEId2K1wZqj1JkiZSg=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/altivec.h</key>
-		<data>
-		cXze6LGC5L6KQw6skX8UXTG+MqI=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/ammintrin.h</key>
-		<data>
-		wuhp+8eCVqXzf57dA4+wwYn6czE=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/arm_acle.h</key>
-		<data>
-		cAhJQm95l4M2XjqDZlwhkCDeHN0=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/arm_neon.h</key>
-		<data>
-		nqgpHzPl0RRtF7p9DmZvQvl9Acs=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx2intrin.h</key>
-		<data>
-		6Un9EDTfk5BNR5rDwavePBv5T7Q=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512bwintrin.h</key>
-		<data>
-		y9EzqKyv+B3wsK7zG0DU6iQz3fI=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512cdintrin.h</key>
-		<data>
-		ku8k/eFCFouk9S4sOUTqRazy7Xw=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512dqintrin.h</key>
-		<data>
-		hwwzGx4bFJ4g3p2dk3JqELS2wQY=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512erintrin.h</key>
-		<data>
-		RBzppw7C10WsT8cQxjpr0x/1QAE=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512fintrin.h</key>
-		<data>
-		/b6JjSbojw7C/3TraXXpy4OWDX4=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512ifmaintrin.h</key>
-		<data>
-		QVHS4rLkXmG7/2Db6u9TusmeE1o=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512ifmavlintrin.h</key>
-		<data>
-		W5gjqS+p8/tk5ka+JkWS5hLP8hw=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512pfintrin.h</key>
-		<data>
-		dRHy43/pe8UnX2HDUvXyAO3Wbnw=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512vbmiintrin.h</key>
-		<data>
-		D0ZOo1pMseYWnC4xAkXoAIlCP78=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512vbmivlintrin.h</key>
-		<data>
-		SDiMBkcaIgIM2OpJBLiy5/SI7N0=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512vlbwintrin.h</key>
-		<data>
-		ZvrcAxg9B9iPmFIJtkAI5G4gtMI=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512vlcdintrin.h</key>
-		<data>
-		q8cdgv+wrhPw4kTu5JbOaauZlj4=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512vldqintrin.h</key>
-		<data>
-		xtf1SuIoeUs1tDrd4E0eR5HGrm4=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512vlintrin.h</key>
-		<data>
-		HwUapirxuShkZBvv+EYNXiCHISY=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avxintrin.h</key>
-		<data>
-		fvZWTN/lHBNwYCfwm+NMPPd4yCY=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/bmi2intrin.h</key>
-		<data>
-		GyRezB+GvnTlhY4ZldMeXUcwCgA=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/bmiintrin.h</key>
-		<data>
-		joKNUzJGAK3ChHe1LnfJpvcfScc=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/clflushoptintrin.h</key>
-		<data>
-		ecE+9Uou7rezgnkm7f3KbQ1DyFA=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/cpuid.h</key>
-		<data>
-		8vHj5TQMXwVWhX5U/Za26SMCB5Q=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/cuda_builtin_vars.h</key>
-		<data>
-		MWFRng1njU9j0WXv7lAMmdIXv2g=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/emmintrin.h</key>
-		<data>
-		jqxUnGYKZjHFVeRO6uDYXqPg4xo=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/f16cintrin.h</key>
-		<data>
-		ZpL9RLdxpJUkkCk2PCMjMWLBAeU=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/float.h</key>
-		<data>
-		/Ek3yCHGs34+eqsclaCk9bHg6xQ=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/fma4intrin.h</key>
-		<data>
-		EsEUDg5YA1rQplMTm2SKR+fH3oM=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/fmaintrin.h</key>
-		<data>
-		9oAUMlQMqsHArn9XbDt6K/9VWx0=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/fxsrintrin.h</key>
-		<data>
-		icjsL/k1wBTEBmUPu//kQ7yl/Dg=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/htmintrin.h</key>
-		<data>
-		0nN2rzz7+PyiozUVV5jUhhVAuNU=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/htmxlintrin.h</key>
-		<data>
-		n/Gf/BnphUERVCZHBldUrb6LCSU=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/ia32intrin.h</key>
-		<data>
-		7Zn+7ibk5+X9TXwX8y3m7a7uWvE=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/immintrin.h</key>
-		<data>
-		UJfIiwZ7+x375q98N0b7ELDF9E0=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/intrin.h</key>
-		<data>
-		3/ix6w9fxwy8jLd1MN27a/YTto8=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/inttypes.h</key>
-		<data>
-		8ak+52V5IsDeJl6xcplGWP7vLuc=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/iso646.h</key>
-		<data>
-		jT15w0WUE/xYos3JWk6jRhYBdiA=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/limits.h</key>
-		<data>
-		LcvlmtVtKAbdQVLJYsCb1Mywj+Q=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/lzcntintrin.h</key>
-		<data>
-		KeErU8Qye6hoqzvBSB2gdyfStno=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/mm3dnow.h</key>
-		<data>
-		mBkTbxy8x8WkxVBTp3KbUQBUbqA=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/mm_malloc.h</key>
-		<data>
-		209vffSXUYKALuaE8nq/S3ipXKE=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/mmintrin.h</key>
-		<data>
-		+qyJlXBB0GYIi/nxHHWllLBT7z0=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/module.modulemap</key>
-		<data>
-		Ac2VYJmcwxkC14n6PQ8o3dzV9Pw=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/mwaitxintrin.h</key>
-		<data>
-		q/CYGQXPUtjBxQE2fLDFlgCRIlY=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/nmmintrin.h</key>
-		<data>
-		OFEgR9H+X6PReLzjyyw7akHruq8=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/omp.h</key>
-		<data>
-		KO3P83CnHmwAb+XuHXuHQk3JUlE=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/opencl-c.h</key>
-		<data>
-		mhyQIajILDq8Zk+v+HcAX1d6aHE=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/pkuintrin.h</key>
-		<data>
-		DVPI63E0fKg37toM1vGTSIbpSII=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/pmmintrin.h</key>
-		<data>
-		S2ApORvZZlyTziexxh77iyBpTOI=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/popcntintrin.h</key>
-		<data>
-		vOZyswLfn+nRj2xq5VSv5A/aCqE=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/prfchwintrin.h</key>
-		<data>
-		chKdph4oyqMKMmrm7rxoFTysekk=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/rdseedintrin.h</key>
-		<data>
-		CmHfUdipwJD8SgrPkTI1b3ufA3w=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/rtmintrin.h</key>
-		<data>
-		3he96T67njhDeegAa7tHuhLtn4U=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/s390intrin.h</key>
-		<data>
-		/6MCCAO/aKhuiNchYLfIVbxI47o=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/allocator_interface.h</key>
-		<data>
-		UHywf4wZiSB3dNYbnMc8/m5nDaU=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/asan_interface.h</key>
-		<data>
-		1t47XGfB96hQ4iN3ibASXl7FJYU=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/common_interface_defs.h</key>
-		<data>
-		XB9TPTiJS0apFwBaFz6P/SJgx/A=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/coverage_interface.h</key>
-		<data>
-		szEyqzNJ/aYuOmoHQ6/2DRid/ok=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/dfsan_interface.h</key>
-		<data>
-		Axv6cQ78NOAUr5UUcgI8gpFou9A=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/esan_interface.h</key>
-		<data>
-		b4klYjRwR1RTEVRD+oFYG55/8Xg=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/linux_syscall_hooks.h</key>
-		<data>
-		jtoi8IA84YbKeKVca1nhxqiubAY=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/lsan_interface.h</key>
-		<data>
-		8kIfc3zA8hc8sDScAuQiVUPj424=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/msan_interface.h</key>
-		<data>
-		N27fQ69wDEj5/xL7CjvfQJs/Cs0=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/tsan_interface_atomic.h</key>
-		<data>
-		M1w6ScrH14twjFbzkSWz9yKq3V8=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/shaintrin.h</key>
-		<data>
-		yJRlJq+NpGkV5QQAfiPRZYh4mwc=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/smmintrin.h</key>
-		<data>
-		uUdoW7jCipZi8mfs71Wy3CKcSTI=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/stdalign.h</key>
-		<data>
-		RGBocaLjjf5kP+dRLKD7y51kM3g=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/stdarg.h</key>
-		<data>
-		/ap7XdI4JGUMlO+kpRgEIfB4bd0=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/stdatomic.h</key>
-		<data>
-		N8OWAX2o81kPhMzAsa/lmzWx1+Y=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/stdbool.h</key>
-		<data>
-		a8Pjb4VA0FgG+2FK7Kffwci9OCc=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/stddef.h</key>
-		<data>
-		w3dtIN3DS5kRiRr4cr+ZbUPBG+E=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/stdint.h</key>
-		<data>
-		tDm80iBWS+hHwE1pE/y8paxlH54=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/stdnoreturn.h</key>
-		<data>
-		ChnaAJ/QNnMhvdIT5PQmFSc2b5U=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/tbmintrin.h</key>
-		<data>
-		fxbcbqVVSDoHNw2SNB70Ujaesog=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/tgmath.h</key>
-		<data>
-		WYWIivXfQNeItDsDHRr1h1XeQgc=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/tmmintrin.h</key>
-		<data>
-		pCCkrICJVY07BbkDEq9rbhD5DIg=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/unwind.h</key>
-		<data>
-		qSMgcJPT/AuIeySE8U0myLwpduQ=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/vadefs.h</key>
-		<data>
-		FEefd5Klr4WP4HMnJWSzBvs0818=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/varargs.h</key>
-		<data>
-		Raz/D5FhMPrsAidy22+CBNWfaAg=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/vecintrin.h</key>
-		<data>
-		Db6yiqwcan+QuugpSiUYVMOTVqE=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/wmmintrin.h</key>
-		<data>
-		lGpXAFlduL+gzxeuQICMq6t7A3Y=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/x86intrin.h</key>
-		<data>
-		vRlHnupMUv9kfh5MtBH++BrnH1w=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/xmmintrin.h</key>
-		<data>
-		yvMMnH/4qnNT0H3FkyFB9vVnyqM=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/xopintrin.h</key>
-		<data>
-		rtp921SY0cFEuyi7RnxmRzWjyLE=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/xsavecintrin.h</key>
-		<data>
-		aUG4UYOXeP/1mpgYOeRMbdwoTbw=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/xsaveintrin.h</key>
-		<data>
-		tS58sn6fm36RgLKObpmh8bBlHcY=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/xsaveoptintrin.h</key>
-		<data>
-		FWnXeKlGXV3tdIGxVVogF6ZDPbo=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/xsavesintrin.h</key>
-		<data>
-		6savumMo2MDhjiZxr+Jxwt/NWuo=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/xtestintrin.h</key>
-		<data>
-		Nom/CtEsWR99qEpc6gQNNHu2h9M=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/nativescript-build.xcconfig</key>
-		<data>
-		/uRDf/uBfVeUzW6Q6INYYQkE66s=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/nativescript-post-build</key>
-		<data>
-		vk1KzBzp5BM+/c8PfoRVLXWv89w=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/nativescript-pre-build</key>
-		<data>
-		aCP64pBvK2owaREySBz04dcwbyk=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/nativescript-pre-link</key>
-		<data>
-		DBAGK9SkY6luGbDelF5IFIwG/3I=
-		</data>
-		<key>app/tns_modules/tns-ios/framework/internal/strip-dynamic-framework-architectures.sh</key>
-		<data>
-		gVvTMK8RCo6W7/UyMKXMbRJPimc=
-		</data>
-		<key>app/tns_modules/tns-ios/package.json</key>
-		<data>
-		W6NIHvPlACcGIA8+8rNShGQtSoU=
-		</data>
-		<key>app/tns_modules/typescript/.mailmap</key>
-		<data>
-		9xqvKz5VfuGTFQYJuolEuK5GsAw=
-		</data>
-		<key>app/tns_modules/typescript/.npmignore</key>
-		<data>
-		0+fxpIowm+Ab9Kj2LeE5SGBtcmE=
-		</data>
-		<key>app/tns_modules/typescript/AUTHORS.md</key>
-		<data>
-		zEwIxDgYvQJBqjvzLnuXVqXuaRM=
-		</data>
-		<key>app/tns_modules/typescript/CONTRIBUTING.md</key>
-		<data>
-		BB5JveXnvMeY7Fz681L5s2UMK4c=
-		</data>
-		<key>app/tns_modules/typescript/CopyrightNotice.txt</key>
-		<data>
-		yQwcZvkr+xFwl7JHMlma+rQuLHM=
-		</data>
-		<key>app/tns_modules/typescript/LICENSE.txt</key>
-		<data>
-		VXzkwfLRSAvvH+PbnBRhXjshOpk=
-		</data>
-		<key>app/tns_modules/typescript/README.md</key>
-		<data>
-		VKGjxGLvOaRdiiKNA/JoppcNaII=
-		</data>
-		<key>app/tns_modules/typescript/ThirdPartyNoticeText.txt</key>
-		<data>
-		B7uXU2wr2PaFaoXwRle7n+mPgCc=
-		</data>
-		<key>app/tns_modules/typescript/bin/tsc</key>
-		<data>
-		gDRyKxSgyN61qdHK1ixuiNmQTv0=
-		</data>
-		<key>app/tns_modules/typescript/bin/tsserver</key>
-		<data>
-		ABCBKygOQuv3kvkin2NQloS31Ko=
-		</data>
-		<key>app/tns_modules/typescript/lib/README.md</key>
-		<data>
-		UEluXMc95oydi5NeN26D5wd+Qmg=
-		</data>
-		<key>app/tns_modules/typescript/lib/cancellationToken.js</key>
-		<data>
-		Hi1YOA4JqpjCdfL63F4quGs2guU=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.d.ts</key>
-		<data>
-		GJDiubbdS+DUW/jrmmnaVx45saE=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.dom.d.ts</key>
-		<data>
-		ZOlVer0j48L3vcavEZNmZss6X8U=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.dom.iterable.d.ts</key>
-		<data>
-		QdE1c1Pwquj1joWbyW/0F0JSJpI=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es2015.collection.d.ts</key>
-		<data>
-		yim48uWCKQmhawxawk0WL1Sqbag=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es2015.core.d.ts</key>
-		<data>
-		a1aP6eMXpU3Ohsyt21/7RBDsThc=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es2015.d.ts</key>
-		<data>
-		gPuRXjMHUVZdtaKM4G0OmY/pyqA=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es2015.generator.d.ts</key>
-		<data>
-		k58+EMAkhhL4aKdUFhxx7ZTki3E=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es2015.iterable.d.ts</key>
-		<data>
-		u4AnHKFzpR9/hgaex+xcOgu9HJ0=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es2015.promise.d.ts</key>
-		<data>
-		Mduk6IXS79QDD8fLXFFqGOjmc4w=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es2015.proxy.d.ts</key>
-		<data>
-		pRHTZwiQe6FrM3xmuat4EbCXRes=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es2015.reflect.d.ts</key>
-		<data>
-		mVn/EtobASfpfddD6VlLkf7oVj4=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es2015.symbol.d.ts</key>
-		<data>
-		F9RqAET14TgFvQBPQVv4kUIrhCo=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts</key>
-		<data>
-		lnDuUqQCZdyqTYasludLO4QjLhM=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es2016.array.include.d.ts</key>
-		<data>
-		rfnpEeAnEjGKtjoqyb9xJ2M3jNA=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es2016.d.ts</key>
-		<data>
-		AB9xI08ACghF5zXzPaTwT0zWK6M=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es2017.d.ts</key>
-		<data>
-		V+f2YzF2l9HHAfvUVmwBY9WN+H8=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es2017.object.d.ts</key>
-		<data>
-		LLCt+Ko9KXGHSO4do1XqSJAzKKw=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es2017.sharedmemory.d.ts</key>
-		<data>
-		b4wUyPvt0UmEI6spuxOZH73mrsY=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es2017.string.d.ts</key>
-		<data>
-		F0ZJGmzdThUJc6avcZrDSugY4VE=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es5.d.ts</key>
-		<data>
-		VYT8Vin8aiydU6FYqY8A9jHbVlA=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.es6.d.ts</key>
-		<data>
-		M2bF9zq0pj9zbEEiax94KKb7cPU=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.scripthost.d.ts</key>
-		<data>
-		PduVy46IyARJK6shipGe/Ge6euw=
-		</data>
-		<key>app/tns_modules/typescript/lib/lib.webworker.d.ts</key>
-		<data>
-		gWojNJmeCGrZivv/h/29Ze9iWNQ=
-		</data>
-		<key>app/tns_modules/typescript/lib/protocol.d.ts</key>
-		<data>
-		8ovjfm8wU1h92+5VPzMviNMtgic=
-		</data>
-		<key>app/tns_modules/typescript/lib/tsc.js</key>
-		<data>
-		Qnl6FMPYdZ+nSFIEFPDBLeX4Xwg=
-		</data>
-		<key>app/tns_modules/typescript/lib/tsserver.js</key>
-		<data>
-		yckLz8Pq35CcfW9nQXYDyqAKB98=
-		</data>
-		<key>app/tns_modules/typescript/lib/tsserverlibrary.d.ts</key>
-		<data>
-		+KePsLDicr8OUz5sAhAbPnyjdIM=
-		</data>
-		<key>app/tns_modules/typescript/lib/tsserverlibrary.js</key>
-		<data>
-		g8PllBmVpFesowbq2FFkAvhABsE=
-		</data>
-		<key>app/tns_modules/typescript/lib/typescript.d.ts</key>
-		<data>
-		4fk42tcYg8MeIIZgYIioKOaLN04=
-		</data>
-		<key>app/tns_modules/typescript/lib/typescript.js</key>
-		<data>
-		umQDIJ4R/rLtoZIWiMMbaNxvIYw=
-		</data>
-		<key>app/tns_modules/typescript/lib/typescriptServices.d.ts</key>
-		<data>
-		HRI92giKxZzVxJEUbh7L7OhJE04=
-		</data>
-		<key>app/tns_modules/typescript/lib/typescriptServices.js</key>
-		<data>
-		umQDIJ4R/rLtoZIWiMMbaNxvIYw=
-		</data>
-		<key>app/tns_modules/typescript/lib/typingsInstaller.js</key>
-		<data>
-		jMVx0RMfHu/UcPqGhtavJ54NqSk=
-		</data>
-		<key>app/tns_modules/typescript/package.json</key>
-		<data>
-		SRs6BwaFe52m/Q9HqG9KNz92BTo=
-		</data>
 		<key>app/tns_modules/url/.npmignore</key>
 		<data>
 		aWqrzpf3Ss9CwweROR33ZnmWthM=
@@ -17159,50 +16634,6 @@
 		<key>app/tns_modules/url/README.md</key>
 		<data>
 		pXh13b5tBuhhZO3c5ack9fdTTrw=
-		</data>
-		<key>app/tns_modules/url/node_modules/querystring/.travis.yml</key>
-		<data>
-		R19J8qx8pxoYpRH+hUlJGVKpSnE=
-		</data>
-		<key>app/tns_modules/url/node_modules/querystring/History.md</key>
-		<data>
-		sZ2Pc1mknEnEFxOJGBqSsg3Qreg=
-		</data>
-		<key>app/tns_modules/url/node_modules/querystring/License.md</key>
-		<data>
-		QFGIdUfgcLvh4dLcqzpG9EvurLI=
-		</data>
-		<key>app/tns_modules/url/node_modules/querystring/Readme.md</key>
-		<data>
-		nTq74kXJCjjDZeiejL6U8H0aax4=
-		</data>
-		<key>app/tns_modules/url/node_modules/querystring/decode.js</key>
-		<data>
-		eME1N65lhSu2sd9FY87Ton+Eg3Y=
-		</data>
-		<key>app/tns_modules/url/node_modules/querystring/encode.js</key>
-		<data>
-		vEJEEZLOqd54c5iFDx0wiYBCEBc=
-		</data>
-		<key>app/tns_modules/url/node_modules/querystring/index.js</key>
-		<data>
-		y3/Sg19lKTjP5QHz8MIl4mRuuAE=
-		</data>
-		<key>app/tns_modules/url/node_modules/querystring/package.json</key>
-		<data>
-		9INFHTXXLfNTCkygtgRgpyF8gMM=
-		</data>
-		<key>app/tns_modules/url/node_modules/querystring/test/common-index.js</key>
-		<data>
-		Y5/ANrsw/4VB9MK937cN28Ym3vg=
-		</data>
-		<key>app/tns_modules/url/node_modules/querystring/test/index.js</key>
-		<data>
-		ur8jEe+7lFa6lsQEUH2AukA6jd4=
-		</data>
-		<key>app/tns_modules/url/node_modules/querystring/test/tap-index.js</key>
-		<data>
-		8XQUlbhufjWcE7W3zcdy+zKquZo=
 		</data>
 		<key>app/tns_modules/url/package.json</key>
 		<data>
@@ -17232,21 +16663,89 @@
 		<data>
 		zrLQog5ieA+uyQxTEMI1kr7R2C8=
 		</data>
+		<key>app/widgets/friend-preview/dashboard.component.js</key>
+		<data>
+		nls4vyuxYy8bg4ZW9zdA2t1W+X0=
+		</data>
+		<key>app/widgets/friend-preview/friend-preview-common.css</key>
+		<data>
+		WN6suktghUn1usjtNvCylsvB1Yg=
+		</data>
+		<key>app/widgets/friend-preview/friend-preview.component.js</key>
+		<data>
+		VyL917n7WRZBFHmNhSeymrgZJPY=
+		</data>
+		<key>app/widgets/friend-preview/friend-preview.component.ts</key>
+		<data>
+		WExwGUzexoLvD0Zj+eaXBT3KgBE=
+		</data>
+		<key>app/widgets/friend-preview/friend-preview.css</key>
+		<data>
+		XEnXwd5x6Gkf2iuoRTPb2Zywqa8=
+		</data>
+		<key>app/widgets/friend-preview/friend-preview.html</key>
+		<data>
+		0cWJtgw3jZfqWxdPhUJMMnhkoM8=
+		</data>
+		<key>app/widgets/friend-preview/friends-add.component.js</key>
+		<data>
+		OeRSxoXvO8MYBK8PfBH8Z2Ivio8=
+		</data>
+		<key>app/widgets/friend-preview/friends.component.js</key>
+		<data>
+		JsnRjipR9WXfrG3XwA17ugk4fZM=
+		</data>
+		<key>app/widgets/friend-preview/list.component.js</key>
+		<data>
+		8RYDlth/KQSSl6ORdGQJ4kVLWLs=
+		</data>
+		<key>app/widgets/friends-add/dashboard.component.js</key>
+		<data>
+		nls4vyuxYy8bg4ZW9zdA2t1W+X0=
+		</data>
+		<key>app/widgets/friends-add/friends-add-common.css</key>
+		<data>
+		KnLrR/mAg6ze9UN1d4rAzipiawg=
+		</data>
+		<key>app/widgets/friends-add/friends-add.component.js</key>
+		<data>
+		n2N8ftf1V4zWwIvQOfXLmySGeV4=
+		</data>
+		<key>app/widgets/friends-add/friends-add.component.ts</key>
+		<data>
+		s0FoQDqQIYvnq1yG8nM7ThOCMJc=
+		</data>
+		<key>app/widgets/friends-add/friends-add.css</key>
+		<data>
+		XEnXwd5x6Gkf2iuoRTPb2Zywqa8=
+		</data>
+		<key>app/widgets/friends-add/friends-add.html</key>
+		<data>
+		DCQUfTkdw+g0S54MNZutAzg7X+k=
+		</data>
+		<key>app/widgets/friends-add/friends.component.js</key>
+		<data>
+		JsnRjipR9WXfrG3XwA17ugk4fZM=
+		</data>
+		<key>app/widgets/friends-add/list.component.js</key>
+		<data>
+		8RYDlth/KQSSl6ORdGQJ4kVLWLs=
+		</data>
 		<key>app/widgets/friends-map/dashboard.component.js</key>
 		<data>
 		nls4vyuxYy8bg4ZW9zdA2t1W+X0=
 		</data>
 		<key>app/widgets/friends-map/friends-map-common.css</key>
 		<data>
-		DFZVPuQtDF6d8Tk4qcj55/sAw6A=
+		h+KjdAedhMHa5HLoEIby46HQFQg=
 		</data>
 		<key>app/widgets/friends-map/friends-map.component.js</key>
 		<data>
-		trVgfmgpcIeXcuW/FXqTSVWzf5k=
+		RG2W9qEmzlNvhAQH/AEU/NTPKCE=
 		</data>
 		<key>app/widgets/friends-map/friends-map.component.ts</key>
 		<data>
-		xGvB/xIQG13L3LSPp2YQyUsTnmA=
+		RZHW0uLhaLHmEsgwVeGXxtyARz4=
 		</data>
 		<key>app/widgets/friends-map/friends-map.css</key>
 		<data>
@@ -17254,7 +16753,7 @@
 		</data>
 		<key>app/widgets/friends-map/friends-map.html</key>
 		<data>
-		49xgpDu8hT5iNqk0lVXDpJHd1cs=
+		7LuAGc3Rh3b0uQshX8VWDLZVUv4=
 		</data>
 		<key>app/widgets/friends-map/friends.component.js</key>
 		<data>
@@ -17270,15 +16769,15 @@
 		</data>
 		<key>app/widgets/friends/friends-common.css</key>
 		<data>
-		yAlgLmZ7EcK36c6XoCRgFH6+Poc=
+		xRBXnAdoMs34JXbhEs+sffKei2Q=
 		</data>
 		<key>app/widgets/friends/friends.component.js</key>
 		<data>
-		txOkWPRBU6ySNncrQziSn/8Lz3o=
+		nEVBfjWwNw0EsPVF9fZDTu0EIDI=
 		</data>
 		<key>app/widgets/friends/friends.component.ts</key>
 		<data>
-		RnPb8Urtl9DGdT9kyd8TjDBVzP8=
+		zfyJRsJq+bj+E9dmcdLPx200JhY=
 		</data>
 		<key>app/widgets/friends/friends.css</key>
 		<data>
@@ -17286,7 +16785,7 @@
 		</data>
 		<key>app/widgets/friends/friends.html</key>
 		<data>
-		0BA8V6PpTZZjBAlIEGOyTXSKewE=
+		O0PZ/+5N2t6S+SpsmQnBSGvWdjA=
 		</data>
 		<key>app/widgets/friends/list.component.js</key>
 		<data>
@@ -17532,11 +17031,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			miAfdrpKAnK4/CAexUQ0umjOLao=
+			l0i0MqByJBgjkxjnOzLzfPCmwFc=
 			</data>
 			<key>hash2</key>
 			<data>
-			actl6uU6g1ue7TnI/VIlpeuZC+615TLipFey6nfamyI=
+			lP2hQY44In9oyHzfvPQwEkaOHjZDHCaYoJ5PMOjaqMY=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -19213,11 +18712,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4dgtH0RccyzG1NkDExlXNtwyo9A=
+			1jMa0vOre0ZzNYSYvRGPkBP4+XE=
 			</data>
 			<key>hash2</key>
 			<data>
-			gcwzHNiQxXzYCuKmXEzVr21UqLhLIYe2tPbA413LMGA=
+			I9EeDdXJK4FtPg8msUcKbMGo5JdKwAI3kZorF2xeztM=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -19235,11 +18734,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			40/b9PhGmiUcSpgpYMjGURprsD8=
+			xpPMnHJZT/0FUOIMG32DF2yFYa0=
 			</data>
 			<key>hash2</key>
 			<data>
-			5JIOZLwaf/kxg1eURs9NkZF9OPcKWVGtBbsZIECtXmM=
+			lQ/7GcZfwFPIevWVtYqJB/ot3bnUa3xYwsql8suAYVA=
 			</data>
 		</dict>
 		<key>app/App_Resources/Android/AndroidManifest.xml</key>
@@ -19983,22 +19482,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CjSB0n07KEL6S+N0axhhwuQK7+8=
+			Jobtx4EOQ8lE8wm90vwG0kXje8A=
 			</data>
 			<key>hash2</key>
 			<data>
-			Js/cWe9WWFgVwciExgEfwSJFjY4MkoTl+KFz5x8qy98=
+			KtVJE1LaEtUueSQ5B34aAfhF0OgW15uZ3omL+gKvuh4=
 			</data>
 		</dict>
 		<key>app/app.module.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uJlrheP0TRVHbJ37RYokuHFpk3w=
+			O28AOWs1eXijvYE0blXhlcHaN8Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			f6R0E5oaJvUWJ12KeIJ0qOI6ubJHHOQOeU8rFdG8whM=
+			R74wPXePznQAP/ZGjF4KvOA4inD3OPV5q/8BBB1teTk=
 			</data>
 		</dict>
 		<key>app/app.routing.js</key>
@@ -20021,6 +19520,28 @@
 			<key>hash2</key>
 			<data>
 			0ZLu+Amon91ErWnI1TS8oCoK2aeKQiIcwt9/CaGSybM=
+			</data>
+		</dict>
+		<key>app/images/VisualStudio2017Launchand20thAnniversaryEventWebDevelopment.ics</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NtLkjJXIuH/OzfYnUl2In1sCiUk=
+			</data>
+			<key>hash2</key>
+			<data>
+			/H+0S5xiGCYvUrBUS+LPTtfhU3eEqEoNGylzCg/ZP30=
+			</data>
+		</dict>
+		<key>app/images/friend-add.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			D7hf6D6mQbnLXgR3CJ7kn4SIB00=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ss6RMEH433QN+g52Cxv5Cn6Q8OzJc8yG1e0ch5mkaa4=
 			</data>
 		</dict>
 		<key>app/images/friend-marker.png</key>
@@ -20170,11 +19691,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Etc4PqiuzUsAxijvw+hXHYf6bo8=
+			jTLpYomIvoEOhbKgsh/rw4C3kjU=
 			</data>
 			<key>hash2</key>
 			<data>
-			iEifBILOQSJTeoZu+bth2X2cMz2bcsZVhK6dEIcOeCo=
+			Z3N0rvAAS7is+Ssj9WdbxcqIzv9EG1mjr0CVjTuEVfU=
 			</data>
 		</dict>
 		<key>app/pages/dashboard/list.component.js</key>
@@ -20269,66 +19790,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rZGR7crll3fWH6iT7j+n10GrMuw=
+			mwvp5mXgIKX9PEYag+smAKFbuWo=
 			</data>
 			<key>hash2</key>
 			<data>
-			zY0SPc4lDLkL2zjmnP2lti48vttruH8dZIzMQImbbSE=
+			lKU98SVFN1t5gagM/BuyZC1osyk8KIY/Lp7O+1BwNnA=
 			</data>
 		</dict>
 		<key>app/shared/friends/friend.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z3X1yrZKro76xra3UJvrtvRqhKo=
+			4q/YR/e0GCLERO+F+yR1AnkwioI=
 			</data>
 			<key>hash2</key>
 			<data>
-			n/09fznqLDg7b9Dd8NW4V5qBX4zFlF6j+fdlFaoAPjw=
+			Mg8QMzNnI6Al8HZnaVdmsB3KQlVjut9QJ/WHvBVXo/8=
 			</data>
 		</dict>
 		<key>app/shared/friends/friends-lives.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TSxtIzkQIQL0AY2HCwShHU0+Trg=
+			L3DO7mLy/w/m3KBf7b9uDzR5kNA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Akt1YUL7ldIaNv2PVTAsp6BhmcxNkOX2Yv79U/j2Mmw=
+			9DxbcxUqCTUWU2HXjU/6NJ2cDowKVjCEjsDWa92D3qs=
 			</data>
 		</dict>
 		<key>app/shared/friends/friends-lives.service.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QBsQEIx/qRppb1v2ZaoclyNpfA0=
+			24sW22PZSS8+E0LLkEDHNMO9MVc=
 			</data>
 			<key>hash2</key>
 			<data>
-			8NFpxVZUqe0eDMlP4uIhc9z/VCFUdhmZ2tw4uiPr4nk=
+			FRf0mZDQdOocWmQZOB0H3qw40aR22qYLePLpQnq7wMU=
 			</data>
 		</dict>
 		<key>app/shared/friends/friends.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8TVToGdPkvPlcUUVsmQfiu3KKEw=
+			GY27BCCc9hhPUcSPE48A10GCUGA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Pt2GqJ0YbaUjVmXijAJZirzLvdnyvmuue3HJhB2x70M=
+			P+AkC7qcZEKlVaMVsNPVBMLYPWYrfg0r2mPbeT+KM+4=
 			</data>
 		</dict>
 		<key>app/shared/friends/friends.service.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Uz8Vfe7sZFrpHuAwwkjjeOxQZ/E=
+			gM2pKgq5J8hYpzW0Acc4bxxP/iQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z/NIsnb0rhUaeA6rDB4HuAefgywc+08O01+NOy2NuWo=
+			JPadoyWap7ipJ6FDhoWrQWearzhIRSDHXwRbbUViYbQ=
 			</data>
 		</dict>
 		<key>app/shared/friends/user.js</key>
@@ -20408,48 +19929,70 @@
 			Vi2bH9o+RcHL4fzShY7kQAIhDMfQs2lPBBrQgX0LxXs=
 			</data>
 		</dict>
+		<key>app/shared/services/map/config.service.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			53GxYuHaAXjTqMwWMAjOS0dPiaQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			BKy5pDH6fvbCLJuuwCd9wU4F8+GjeJFWtvsnkjF6ZX0=
+			</data>
+		</dict>
+		<key>app/shared/services/map/config.service.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			98zV4p8XtBCNcC9gwp+ABRdP9EE=
+			</data>
+			<key>hash2</key>
+			<data>
+			Qr5qPX3k+9ph3v/Swxc7xm3DZlXUXvCND732B5zo17w=
+			</data>
+		</dict>
 		<key>app/shared/services/map/core/MarkContainer.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zoGipvCe82W+HOQaLViJW7aQSzg=
+			0K1YVi+ouzDuv71EZOX48UDvmcI=
 			</data>
 			<key>hash2</key>
 			<data>
-			S5a75FJZI8GXPIrEwFHoYtjzp4U4RQUuAl3iTkne/N0=
+			iXXD9YrsnITTsAUtCvPoa3cOgRQ/sgQLQB1Z55dSSJA=
 			</data>
 		</dict>
 		<key>app/shared/services/map/core/MarkContainer.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZqZS9Sof7YsXosncqPYUCAvq2Nc=
+			3dFs04WHAwAztLmUI7gkSZ8r0Rg=
 			</data>
 			<key>hash2</key>
 			<data>
-			RJtuvLxwyP91h1476iHQlitSNQxXNbrEIBqUf+y4TJQ=
+			8prEdDWPqaNDz5GWRs3iosW9G5ZOpJReoZI+fCbn1+w=
 			</data>
 		</dict>
 		<key>app/shared/services/map/external-map.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Wi6j1RYpT9+ejBiCL/1FMi1m8xM=
+			UqsveH22/iK5YomZfybkeulWuiw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ztxYWgPWFiHdNKWEf5E0GizxvNJGY/GCvNCRIol2MPY=
+			nk1tj3A6rxuT2zDrUOwKc9zb2DC3nc0vxVJSs9Kd8L8=
 			</data>
 		</dict>
 		<key>app/shared/services/map/external-map.service.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3nltoK3IqVrJ7gfrW1kYf0jUCGI=
+			m0RRT0SdWbMJ5Scpk2zftrpnseg=
 			</data>
 			<key>hash2</key>
 			<data>
-			AbwWgZ2EYlU1B6rjAqFlTfrQn1O6Fv64d4n3tLL6luQ=
+			cSlFbrqW+WnN9Nr1Pmzsag6BQ0taKZWOayLhHNpducE=
 			</data>
 		</dict>
 		<key>app/shared/services/map/info-window.xml</key>
@@ -20489,44 +20032,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GtNaoFsSwIgiYhR6UvyVtMmbfxk=
+			Lp/1L6dzGs8Ak9eSBXCZTZUKON4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ow3mn2G7hGFyx3HiFu7Z8/xxudEmvsSbztYPBFW04So=
+			pxUHBJrC/tkvUhbpIVdVHvo654R8Fdh/9++q2vAxWQs=
 			</data>
 		</dict>
 		<key>app/shared/services/map/map-view.service.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mcUTAQSLwdqN7SmsECdQ/36TMrw=
+			F5QQfcqcBhSrQ8hiIRU24HCvJ8o=
 			</data>
 			<key>hash2</key>
 			<data>
-			vcIQ4zyPDXWZeL8ceh0PhTgsSpIFq4l44hILO4Aft4w=
+			bo1BXLo6+fW7gQAs72M9MfsezlWbVBTrfgJp2k1F6wY=
 			</data>
 		</dict>
 		<key>app/shared/services/map/mark-manager.service.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bbz21N08g8rbBd8jpplPokvQ1hM=
+			4wHYcvdLcoOGcqPJXg1h+NNtHig=
 			</data>
 			<key>hash2</key>
 			<data>
-			lLsLQvFfGTi0XiuMesg7GbfXhtE4sKPL0FdvFB3BEbg=
+			lSmkO1szDMLBS/s2vjOzmenWuyXCkgANjmiU/48ttUQ=
 			</data>
 		</dict>
 		<key>app/shared/services/map/mark-manager.service.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oM3JV/nkzGgPzh2pgCNmD1dp3bg=
+			4iJHN28k+fcRZiWHO9dFPUM8A+U=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y52RrvLtz3a3d/ButJBXpsz1dNTMnbZq0SKc0Rw6IRw=
+			BniwsVB0qy0nHXQEP2hwsQ/mYp67Z/OUGYLJixp8BjI=
+			</data>
+		</dict>
+		<key>app/shared/user/logged.service.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gAo+mtWRsGukE3dMHoWFY/sbRnE=
+			</data>
+			<key>hash2</key>
+			<data>
+			TPWkFnk7thOLv1L26m/EPjHSir1fs2MOKF6OAqc2GYE=
+			</data>
+		</dict>
+		<key>app/shared/user/logged.service.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RhD8+orTc14to3aXfxdoTxOB7dg=
+			</data>
+			<key>hash2</key>
+			<data>
+			403bMW9DHn7kNFDyDgDu62W4OYqfHGbJjVB1mV3soUI=
+			</data>
+		</dict>
+		<key>app/shared/user/me.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/U3w58fJ0z0vbhnPaKk6lfoQt4Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			hzYJv6SEaNoTddR37ZlIWfMFRdDrA6bO2oUmcRxBjaM=
+			</data>
+		</dict>
+		<key>app/shared/user/me.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			G9Ia1wLzITlL1jSr8KZCPFDB0qY=
+			</data>
+			<key>hash2</key>
+			<data>
+			YUtb0skA88YVQVl1Lvzvy9tMQ2Yuhq1eb1j4RhQnS8I=
 			</data>
 		</dict>
 		<key>app/shared/user/user.js</key>
@@ -39075,15 +38662,553 @@
 			JoUb/mQHcrovksUQh6tdxroklc8j/OTqn6ROq3s/5gI=
 			</data>
 		</dict>
+		<key>app/tns_modules/linqts/node_modules/.bin/tsc</key>
+		<dict>
+			<key>symlink</key>
+			<string>../typescript/bin/tsc</string>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/.bin/tsserver</key>
+		<dict>
+			<key>symlink</key>
+			<string>../typescript/bin/tsserver</string>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/.mailmap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jIkt6SqVEEhC7IxCLNZ4FFiBBL4=
+			</data>
+			<key>hash2</key>
+			<data>
+			QcL/I9PgcYm2/XiuSk/rESb2qyHNF4dGiHvBOAH5AI8=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/.npmignore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0+fxpIowm+Ab9Kj2LeE5SGBtcmE=
+			</data>
+			<key>hash2</key>
+			<data>
+			bTpGspo3PyhCj/dF7LqR0oYZVlZ2IJbL00JIA3ZMqig=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/AUTHORS.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			L1+7eq+j00mgX7FqWz5MRdEGmFo=
+			</data>
+			<key>hash2</key>
+			<data>
+			n9LWJLTuNYWm0NPgLf5H3RT1/VDAYM7E67dchFx6xnE=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/CONTRIBUTING.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BB5JveXnvMeY7Fz681L5s2UMK4c=
+			</data>
+			<key>hash2</key>
+			<data>
+			VHeryrGepDEbBRSzIUjQKp8HZBOHoIAxBKu2IRlLuvo=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/CopyrightNotice.txt</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yQwcZvkr+xFwl7JHMlma+rQuLHM=
+			</data>
+			<key>hash2</key>
+			<data>
+			GSRkZstR5GwSsi5DtNJwOsmBy0KV0GHW4gYJvVhFUQs=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/LICENSE.txt</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VXzkwfLRSAvvH+PbnBRhXjshOpk=
+			</data>
+			<key>hash2</key>
+			<data>
+			p9AL/VRSW8aUtuMvZMfrz15reuNle+XMEnZ7znRlSkc=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VKGjxGLvOaRdiiKNA/JoppcNaII=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZrpQYnF9yJ2SyDccGR80Ri6aa/RhT8geIfZ66F85eJ4=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/ThirdPartyNoticeText.txt</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B7uXU2wr2PaFaoXwRle7n+mPgCc=
+			</data>
+			<key>hash2</key>
+			<data>
+			qTPF/xKdSHwp7kB2JhcsebQWyBINI5TvSK/OmlN+QXY=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/bin/tsc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gDRyKxSgyN61qdHK1ixuiNmQTv0=
+			</data>
+			<key>hash2</key>
+			<data>
+			jV+lvYg/7Al5/CAE8f4dma70BXAVXVUOrcCwO1VRO/A=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/bin/tsserver</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ABCBKygOQuv3kvkin2NQloS31Ko=
+			</data>
+			<key>hash2</key>
+			<data>
+			oIjww0Gbyy97hgrULkyfJerQZ+2nCvahDQp9RTlUqto=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UEluXMc95oydi5NeN26D5wd+Qmg=
+			</data>
+			<key>hash2</key>
+			<data>
+			h9rE8W81ALiysZju+CjfUrEeI/S+sTI9/lK0hZ4r1rs=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/cancellationToken.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			szeb68sbg1aWR8CK1hkKY0yZnwg=
+			</data>
+			<key>hash2</key>
+			<data>
+			dzGqxkz06CRY5f/OezAkvgJvz1HzuUwFCtr2QD13hfU=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WRKEF2PSK3yMhS50If98U+veDK4=
+			</data>
+			<key>hash2</key>
+			<data>
+			/NbuNsiesNAaDETvtbBgLz9gkP+BBqvKsaBn0PvKLRs=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.dom.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p9XzNjgQGTkUMfqbUAi9nhXTSEo=
+			</data>
+			<key>hash2</key>
+			<data>
+			ImsaIYnkVwbFBPfEnwL9yNkzgl1u5YarElqHE3r99A4=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.dom.iterable.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QdE1c1Pwquj1joWbyW/0F0JSJpI=
+			</data>
+			<key>hash2</key>
+			<data>
+			scBMUMYC7YnR9TgI2o23COfPHezrlYlxxiDIqjEoqz4=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.collection.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IZ6zZO3IMpykfclZkgTcdnpDa5U=
+			</data>
+			<key>hash2</key>
+			<data>
+			LrLe0CCAmmEy0CVwG4eQst/VQ14Di6I7oAMmN2C/8k4=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.core.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ayEnjutlzba/7OOaUlGn5tU7Phw=
+			</data>
+			<key>hash2</key>
+			<data>
+			QzyqO69tmZ0e1Zz3Q8YYwOAJphFO99E2Y78eDsBpWTQ=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gPuRXjMHUVZdtaKM4G0OmY/pyqA=
+			</data>
+			<key>hash2</key>
+			<data>
+			p8fkBzBhZgwUFo7m0w6xbyb/3sGg21gEH7IjGFLzmS0=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.generator.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k58+EMAkhhL4aKdUFhxx7ZTki3E=
+			</data>
+			<key>hash2</key>
+			<data>
+			/9jhEdzWq/NePLDuq50vyz+S0OHuY6SxE9jrB5m1Qjc=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.iterable.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cDpQVHgk81UeuE1fYSwPizGlM5I=
+			</data>
+			<key>hash2</key>
+			<data>
+			K540cTsoxXca33cf6dTYfmV5PFEqnPIz47q6/JMq5DU=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.promise.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OWiqoe0uT6WIkvuwv7kHDDjjlu4=
+			</data>
+			<key>hash2</key>
+			<data>
+			VcO7J2264KraPSehQLDuHAWQDpK17vkovYJJ/M4rkdM=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.proxy.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Dlpokzv5dh9ob2ZxB5J2V16aOnk=
+			</data>
+			<key>hash2</key>
+			<data>
+			+81MHcUCE0KQAaIVdpOL4tKJz5UazAKQNFpK9XEgQOs=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.reflect.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mVn/EtobASfpfddD6VlLkf7oVj4=
+			</data>
+			<key>hash2</key>
+			<data>
+			udV+3Y9hRJjAmMCC0jrkB9ATWMiIJ1CZBgkzuZAC6d8=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.symbol.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rN6dwfBorR9apalaA/aUac6PMiI=
+			</data>
+			<key>hash2</key>
+			<data>
+			CET8FK4u0S/MVmmrGYPyKNREpR0hcJC0a1/xnlLgEWA=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2hTGbyRT7VSlfQyd53UbjF5vENA=
+			</data>
+			<key>hash2</key>
+			<data>
+			ks0CKCiJ0smg950dQlOQzNUs0YKs7BrfLZQG276ODs0=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2016.array.include.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rfnpEeAnEjGKtjoqyb9xJ2M3jNA=
+			</data>
+			<key>hash2</key>
+			<data>
+			QeY/71tlmpPqoKxNFfwJeQKV5h6erfnC+PP8LH2Cjrc=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2016.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AB9xI08ACghF5zXzPaTwT0zWK6M=
+			</data>
+			<key>hash2</key>
+			<data>
+			qsydMq4yOlijBiT3LgBKHTgpOmWNfIwoRZgNr5qd2Fg=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2017.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			V+f2YzF2l9HHAfvUVmwBY9WN+H8=
+			</data>
+			<key>hash2</key>
+			<data>
+			3Aylcrv8d2a77gai8SOM1smEfypDDKTvDPGjHZ+sPgs=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2017.object.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LLCt+Ko9KXGHSO4do1XqSJAzKKw=
+			</data>
+			<key>hash2</key>
+			<data>
+			pqZoaDGOfTn2RjNwgiiPQOqP7gdoV/6brnNX0ZFiaZo=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b4wUyPvt0UmEI6spuxOZH73mrsY=
+			</data>
+			<key>hash2</key>
+			<data>
+			wEK5J6tsE+sWQTxKvicFFo2nujxP9W11KxwqUxfRUv0=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es2017.string.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			F0ZJGmzdThUJc6avcZrDSugY4VE=
+			</data>
+			<key>hash2</key>
+			<data>
+			ruc42BWaHmLYuT3yGngMToB4XHCN2YMGrHySpJlJqn8=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es5.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Lg1r3MY4QyYAJ5p1o5e+KCF/vuQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			RpHjn9xbDm+ahh3+o0hKYzt9Z5lwK9/DSR0USkmENFY=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.es6.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MMX5SyqSajqac76IzUvAQklg2Qc=
+			</data>
+			<key>hash2</key>
+			<data>
+			rs7B5Ho7PYcuIUy5rbgrMNa9BHHqCq1zEa2BQoVmYnw=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.scripthost.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PduVy46IyARJK6shipGe/Ge6euw=
+			</data>
+			<key>hash2</key>
+			<data>
+			qNHkvyGipjIyoB69X98gjYCx1IYEbv7BIgHtaWCrrSY=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/lib.webworker.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			viTrGnuzD/eL6Wq8XcNypevmNcs=
+			</data>
+			<key>hash2</key>
+			<data>
+			sVHk1nM4iG0zJ3PuP1ui8C8JUDIZFu5yEpsH5E4VFxs=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/protocol.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3WwflZBz12rgeFGfuC/wlRhu34c=
+			</data>
+			<key>hash2</key>
+			<data>
+			RJ7D2sk7AbxMMffzbhb4Ro3aNu7IOYhfD8FZ7Ug1DXk=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/tsc.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P4FBe0tm86Cp1DxnRo9VI1Dv/Kg=
+			</data>
+			<key>hash2</key>
+			<data>
+			fmVKCapdRR2fkmo7DI08/E7QOvYUWJ4qZNjX1mRY0UQ=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/tsserver.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Kt0RPuI4ZW0dmMbd/J/7EJmNF/I=
+			</data>
+			<key>hash2</key>
+			<data>
+			U3wy+E67N1qXaHljneYXaX46kbuH76/hijEIs2E4R4w=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/tsserverlibrary.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rSp3DCkIJSiAn2LiVewl8Klpa88=
+			</data>
+			<key>hash2</key>
+			<data>
+			E3YzNTSsHjB9pK3b9URjr5/C537chbhzAa5fDSfGJhk=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/tsserverlibrary.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tlhMKHCANAwX+BIzqvyBG7JVEeU=
+			</data>
+			<key>hash2</key>
+			<data>
+			qwB8Mf4uHlNBpRd8I1+7k4umvdoLreqKOWTaeskW26M=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/typescript.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7nxQ6ZZYm6OMqpqWaLeigWkvO1k=
+			</data>
+			<key>hash2</key>
+			<data>
+			bB0FEBrYDCoHlgdKzPwceLKHvF2nF9hg0jcjxHZuCJc=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/typescript.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			N+scyxFDTAvO5RL3z5+yFjNPIGg=
+			</data>
+			<key>hash2</key>
+			<data>
+			96wuDK59h/U7T8fyFpSmiSc4yNgVauyY4gSn1a0IzzU=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/typescriptServices.d.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JrZHsNk8iaA0Gadgovhb0KUJK9w=
+			</data>
+			<key>hash2</key>
+			<data>
+			3oUeHMhiLeYCQDCtIfx37vFdFsXBgsvcL5Ge1+tsC/M=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/typescriptServices.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			N+scyxFDTAvO5RL3z5+yFjNPIGg=
+			</data>
+			<key>hash2</key>
+			<data>
+			96wuDK59h/U7T8fyFpSmiSc4yNgVauyY4gSn1a0IzzU=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/typingsInstaller.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eTQNYWEnjlBcc3tFWSs1xnsFpGM=
+			</data>
+			<key>hash2</key>
+			<data>
+			oTPzUafDuRdeLMVWsNpXM9bBWL7IlyOBERkZ3KR8C90=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/lib/watchGuard.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5I0/KVRV3WspVfC0RU4l+Z4c9Bo=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ch7V1afObTkpiW/vFyxk7Lc7eI5BnygJh58Gw6OcqE8=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lcrSd9mZ1jiaJxeBqzclql1v02c=
+			</data>
+			<key>hash2</key>
+			<data>
+			3VnP0rSb9MsvnsAJE39RsqN6H4zW4JUfVERqxq0VPlU=
+			</data>
+		</dict>
+		<key>app/tns_modules/linqts/node_modules/typescript/test.config</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aaM5wlcmUDSrJmTNxPb/yLOynr4=
+			</data>
+			<key>hash2</key>
+			<data>
+			kb6a4f71o2o9l80XoSLUs8u9Ur26eptTDXEj+HSWrS8=
+			</data>
+		</dict>
 		<key>app/tns_modules/linqts/package.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tu5DV/8/cxLHqe5LVaRMa4fIxcc=
+			t9hIIDczgoAI7j7ooAaJb7zuT3E=
 			</data>
 			<key>hash2</key>
 			<data>
-			OaRl8vuNd6ltLt2dz39jdpvTC39SKaJFdq9kf8dG2JA=
+			yJkeeBAU4WrQgzST67B8sKUyj7w66END9SV+5qa9/24=
 			</data>
 		</dict>
 		<key>app/tns_modules/linqts/readme.md</key>
@@ -39843,127 +39968,6 @@
 			<key>hash2</key>
 			<data>
 			owCuaurVCm5a+2CHJLdihIP4OMuvV4gpyEtbqJTMvGY=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/.travis.yml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			R19J8qx8pxoYpRH+hUlJGVKpSnE=
-			</data>
-			<key>hash2</key>
-			<data>
-			Bw3/x9wTvwvjzvvvjznOAVU3rTl6u4EuLK2PHfn0WeE=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/History.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sZ2Pc1mknEnEFxOJGBqSsg3Qreg=
-			</data>
-			<key>hash2</key>
-			<data>
-			E3QFMbqBWRYM2o1aiaxxi9rOVFSbwe9pIYpzrnheGAk=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/License.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QFGIdUfgcLvh4dLcqzpG9EvurLI=
-			</data>
-			<key>hash2</key>
-			<data>
-			y3LZcU3cIedY1j9CO+DK3fkJ0jzLsQovUgGocIGOT1c=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/Readme.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nTq74kXJCjjDZeiejL6U8H0aax4=
-			</data>
-			<key>hash2</key>
-			<data>
-			VpKoe70Navr9nyUrZbswMSVHFh463nhE+ndLiTMzJ4M=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/decode.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eME1N65lhSu2sd9FY87Ton+Eg3Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			j3G67AodaJhmG6GZGXLWyOLiOaSNPvVkqMXQMMuq1kk=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/encode.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vEJEEZLOqd54c5iFDx0wiYBCEBc=
-			</data>
-			<key>hash2</key>
-			<data>
-			F+XN90JKmCSoCSDOlN4QT9yvGWBX7yFAOYVPN9x1kDs=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/index.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			y3/Sg19lKTjP5QHz8MIl4mRuuAE=
-			</data>
-			<key>hash2</key>
-			<data>
-			FdRQFVLUkEG5uHh3c8da5O1rzAUihW05GGNw3TzGiIU=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/package.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qIq3X3f1CUBu4612hAgC515QtkM=
-			</data>
-			<key>hash2</key>
-			<data>
-			uprJ0hn/B0cn9ejTCZQyhGoV8lGE83TQgy4H92ZvU34=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/test/common-index.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Y5/ANrsw/4VB9MK937cN28Ym3vg=
-			</data>
-			<key>hash2</key>
-			<data>
-			tByv/QoNT+Su8V6JCU5tGj7anJt3xx8uhyxRDVK77rg=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/test/index.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ur8jEe+7lFa6lsQEUH2AukA6jd4=
-			</data>
-			<key>hash2</key>
-			<data>
-			NNCweTAITlNDViXff8s4Bh4S6COMXjVHvNDfbY1yOs0=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-angular/node_modules/querystring/test/tap-index.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8XQUlbhufjWcE7W3zcdy+zKquZo=
-			</data>
-			<key>hash2</key>
-			<data>
-			atZBDbowvQRRRfRDBxWQCmEWe4YgCJswT59geJwuOoY=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-angular/package.json</key>
@@ -60023,11 +60027,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xJfEOYk3PCCdI0Fx9KwCYs9vzDw=
+			chkTcj3RR6vkJQuEusVEPAFPyHc=
 			</data>
 			<key>hash2</key>
 			<data>
-			NIJbskLAOLnF4aB4Jr92YXSzpW7Pr5mTXpkiG5LHhUQ=
+			xFugWYn9l6AUYI7axBtK6HJiSL0sraafCHFN1slcTl4=
 			</data>
 		</dict>
 		<key>app/tns_modules/tns-core-modules/platform/package.json</key>
@@ -61966,1933 +61970,6 @@
 			yi+uxdzPQ51xYTCPpTi1+3GwKnpVlOv5GbhSJX1s/qU=
 			</data>
 		</dict>
-		<key>app/tns_modules/tns-ios/README.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7Gokl7EFLUcNuzsL81jlQNKMD6g=
-			</data>
-			<key>hash2</key>
-			<data>
-			a9H2hk5Caoo42J8sp+oeZHs2uLDGbGXkVR8pxpj1Uf8=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/__PROJECT_NAME__.xcodeproj/project.pbxproj</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1EQc1kmnNdTdcF0IHO/MbhMNjMc=
-			</data>
-			<key>hash2</key>
-			<data>
-			OeCX6zHTmYFrwqLUlQ1ESRy4d/6INIaGFwT0F4cHVTA=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/__PROJECT_NAME__.xcodeproj/xcshareddata/xcschemes/__PROJECT_NAME__.xcscheme</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XyZKFphnIfB5C/zMLFB3zeNMvM0=
-			</data>
-			<key>hash2</key>
-			<data>
-			YXfAbXx31W/EEpSLnLlsh4/pZrLgDkaUXW49qrfY0n8=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/__PROJECT_NAME__/__PROJECT_NAME__-Prefix.pch</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			em6Dn//Mljy3LcH7B7uuTy/plTE=
-			</data>
-			<key>hash2</key>
-			<data>
-			hsDNFWli6xY2wPuDoaoeSN9QQOTSlrXl6jZrxYBnBGw=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/__PROJECT_NAME__/build-debug.xcconfig</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			m3fFZ1OQm3P2jv5qse2VBQzWWQs=
-			</data>
-			<key>hash2</key>
-			<data>
-			YT1395YxbrwLJBJlGLLPd28tXtb2gXoCf6z838+cAyc=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/__PROJECT_NAME__/build-release.xcconfig</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			45ZapnHwkJW7OEz5xzSEiaNkdX4=
-			</data>
-			<key>hash2</key>
-			<data>
-			6KQbmvjYBLrCNollqqbvOue3GfoYbOXnizi/ItGZPYY=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/__PROJECT_NAME__/build.xcconfig</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2BzQG2vOX3RkstySHf94iM0Nvpo=
-			</data>
-			<key>hash2</key>
-			<data>
-			JDsX3GxMWqpiGBYlJsm72Giq7nfkRpGg5vrzd4ffRwY=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/__PROJECT_NAME__/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			j6qg+qbNaStgLrdDQMdUxznV6qM=
-			</data>
-			<key>hash2</key>
-			<data>
-			/rXoINaO0x+HHSva+NFJNe00OnqHXd13TVVW2o39lRo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/NativeScript.framework/Headers/NativeScript.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QY5D+ddZ17dQz0k5rM26t6XggOM=
-			</data>
-			<key>hash2</key>
-			<data>
-			u0ICbuEzSi/CQOrkKgyu5NLj9FTxrlrhJ2le/N/+Ddc=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/NativeScript.framework/Headers/TNSRuntime+Diagnostics.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pxZz27DWb3JKM6NZnxYPRECRzP8=
-			</data>
-			<key>hash2</key>
-			<data>
-			Kc0kAxGrpn6kczQ9Mpv1XP1fADn3/y2rx50OJT5+7NA=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/NativeScript.framework/Headers/TNSRuntime+Inspector.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8SXhe/+cy9Oz+QU+87+2nZYBAjA=
-			</data>
-			<key>hash2</key>
-			<data>
-			38Oca/q/p4KHtMPPLDcPiYmcxHydKvJNHHyRLu4PoBA=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/NativeScript.framework/Headers/TNSRuntime.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			n461RO+R9zafhcH71tEm7KeSqc0=
-			</data>
-			<key>hash2</key>
-			<data>
-			aMaMk9iy3W86oVp3ANSmOThioevOiHnOoQvmDTHy2t8=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/NativeScript.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			k10lDReAp6DFsz30UCpIH8UiWvY=
-			</data>
-			<key>hash2</key>
-			<data>
-			i8GRyBCa1yZCM8Vy2cpA1db7LuIcK7LHWKGYCeM60yg=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/NativeScript.framework/NativeScript</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WRcAfKXmy2wE/Bs7dIOUHh3O9Ic=
-			</data>
-			<key>hash2</key>
-			<data>
-			mA4HHTyts5xmf2jWEZqUCVjm1kMy/JxNDzPRkND0SKo=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/README.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BHPMnK5RWcSXO0Apnk5z7dVXpbU=
-			</data>
-			<key>hash2</key>
-			<data>
-			C7Ndg9qzO3TH+xBjjj2cJDWeqhUF3TMR6fq7CL6bCrw=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/TKLiveSync.framework/Headers/TKLiveSync.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wH2EaSx3GIXIB2qErCkF4An53wc=
-			</data>
-			<key>hash2</key>
-			<data>
-			lFmn5nu7RGTwYOqFln6haHZETUiuD+3nLWfChfWxQQ0=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/TKLiveSync.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FoPMhCdhevxlC+NOBmwXuweGh88=
-			</data>
-			<key>hash2</key>
-			<data>
-			XwhKjVXYitdAEybWe4hWqsiyszMPr8hbIYnrT/4u+eI=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/TKLiveSync.framework/Modules/module.modulemap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			k5+/Y/X+ufsR0X3VUxSlVvTW4b8=
-			</data>
-			<key>hash2</key>
-			<data>
-			3SxY5ho6GdWG0EyKMFesZjZ2DZ7hYy8I0NSrW3HGWxw=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/TKLiveSync.framework/TKLiveSync</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9CbiPDdLGbyU/KTfcNgsV8gzQ60=
-			</data>
-			<key>hash2</key>
-			<data>
-			mpToXbPwz3WUOYGSShBXkVAOpqUqIG3v+QSgUMqDiZ8=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/TNSDebugging.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ojnaPR15cwGBhK0y2FerIIG2eww=
-			</data>
-			<key>hash2</key>
-			<data>
-			IANyk5nSzCxZ4/9tDR/Zmdrwy0ihdh62bOBs7cImOxI=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/TNSExceptionHandler.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8ePFKD9kG0yRI/cE8Ujfdg1N0zY=
-			</data>
-			<key>hash2</key>
-			<data>
-			KX6yg3rKTLp2k83MJVJY5fGQDw1psskkIQvXj5i1v88=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/main.m</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3JGOoZWB0OTiZED6XPsCjbdV+Rc=
-			</data>
-			<key>hash2</key>
-			<data>
-			nA3PIxPd6CGe40EWlH0uEV9AD2spWXjQw6HQVWIchIw=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/bin/build-step-metadata-generator.py</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			02puIW7CfqWSt0oFUgqCpw1DyqQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			nAxMLvU6Yjv06ti0sgZVsekxf/PhvEeNg29r5jKv24g=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/bin/objc-metadata-generator</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kAW+O9hIRAlYYsrFl+2lGxWKFow=
-			</data>
-			<key>hash2</key>
-			<data>
-			9BxCSihcVPwLBwpSSsNYKNCFXUK0N5Fy/UiHOn8JtLg=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/asan_blacklist.txt</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MQ4ga0mWTE6JVNMt253wNT9ZZg4=
-			</data>
-			<key>hash2</key>
-			<data>
-			70o5KxxnTfHBhYbUXPnJ1kylXFVDYKyM0vXKHvqtwMg=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/__clang_cuda_cmath.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aGgA7HP/MZejsaqaAYTfqLQC2KQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			M798dBSDPND1GXgZy8OT2pWgbKLdJQmZu9t0fW5AWU0=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/__clang_cuda_intrinsics.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HT5lja+aPX8/oLGlarYnI5DN82A=
-			</data>
-			<key>hash2</key>
-			<data>
-			Zt+Bkt8/K8x4tniOdA+MQ3svkPyu9tBRFoGr89Wa7q4=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/__clang_cuda_math_forward_declares.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LDNpBpWSyd0qpY6ZWpfvN6P4Vk4=
-			</data>
-			<key>hash2</key>
-			<data>
-			r2WDAF75B8jcEbGAGw5jnaQcmSd2uyuSol6NL0lupbA=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/__clang_cuda_runtime_wrapper.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1XSOFxzx8+lXWbQFHrps9PZB1eo=
-			</data>
-			<key>hash2</key>
-			<data>
-			3MytkeVr7vwdRdPIGlEj8ZPofqzzfdBtbkjy6Mcvtog=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/__stddef_max_align_t.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PNHjmYndwHjjd1VkffpXicZuxcU=
-			</data>
-			<key>hash2</key>
-			<data>
-			XSaurmb8b5y5ad9QojglNiCPlN7Edt0XI5kk40VQ8z0=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/__wmmintrin_aes.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ooj2dU7ATgStnTp+uZ0c/6r69IE=
-			</data>
-			<key>hash2</key>
-			<data>
-			DgmNcuFvUhjlp/ZiP9S9KA0HQixmCvPd3lxfZVhc8Ck=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/__wmmintrin_pclmul.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0FhXnoBR/8HaJQmcGZtyq3tuY28=
-			</data>
-			<key>hash2</key>
-			<data>
-			hVdQ4mhMVrKDj9FeboDSx5jVCYiGbEOy4ZCkl0J5SXw=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/adxintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fYAORbZPKtEId2K1wZqj1JkiZSg=
-			</data>
-			<key>hash2</key>
-			<data>
-			OJjZEm9sd/bGbO78B44MQl+ll+zDVS+cBywSfLskNSc=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/altivec.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cXze6LGC5L6KQw6skX8UXTG+MqI=
-			</data>
-			<key>hash2</key>
-			<data>
-			tn/4hmfYtwpkUCE6z66rdu7IUOBF+qxx6iiT2rn83uU=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/ammintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wuhp+8eCVqXzf57dA4+wwYn6czE=
-			</data>
-			<key>hash2</key>
-			<data>
-			6zFUSMe4+YW2o04TpABOjPsfPFT+ZN/Ze3iQgjMaIag=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/arm_acle.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cAhJQm95l4M2XjqDZlwhkCDeHN0=
-			</data>
-			<key>hash2</key>
-			<data>
-			yeW7FMFB1A5RNglc1Vndu3SE+hvWtxtiXCxQP7MYBtI=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/arm_neon.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nqgpHzPl0RRtF7p9DmZvQvl9Acs=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZitQ05c3UIVahojabDzJsJfTAjzyk3Jro2h6/AFur8k=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx2intrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6Un9EDTfk5BNR5rDwavePBv5T7Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZL9VPVdOfxvcImTjnjcXleTGatRixzFt1q03enaZSCU=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512bwintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			y9EzqKyv+B3wsK7zG0DU6iQz3fI=
-			</data>
-			<key>hash2</key>
-			<data>
-			fR8P3ECmFTOE6kqHMUP1vIuHiZcVXNkhoG4MtHwp10M=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512cdintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ku8k/eFCFouk9S4sOUTqRazy7Xw=
-			</data>
-			<key>hash2</key>
-			<data>
-			CfNgccGCaxC3QtjGxhh6I5j63+V+0lqr7FG8+QHMjIQ=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512dqintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hwwzGx4bFJ4g3p2dk3JqELS2wQY=
-			</data>
-			<key>hash2</key>
-			<data>
-			gXeOdt+LOKEL4ZUvsPRGI80AwRvrTlHXqL7Zlo1bh0g=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512erintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RBzppw7C10WsT8cQxjpr0x/1QAE=
-			</data>
-			<key>hash2</key>
-			<data>
-			cd4KWpq8BmB1OzqpSXscl5aZKn6jqR8iXTe9umt8BQs=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512fintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/b6JjSbojw7C/3TraXXpy4OWDX4=
-			</data>
-			<key>hash2</key>
-			<data>
-			SwVDjo5EbxclbireXtwRQ2blicYt8CbKRBeWsPcHzQg=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512ifmaintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QVHS4rLkXmG7/2Db6u9TusmeE1o=
-			</data>
-			<key>hash2</key>
-			<data>
-			J/aNGOfBsZNqHZTT6wlz9Lx51dm7SAVZ06TsIsX9Wd8=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512ifmavlintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			W5gjqS+p8/tk5ka+JkWS5hLP8hw=
-			</data>
-			<key>hash2</key>
-			<data>
-			O/RTokB0KXXw/M/D7FbKtQ7FoVAGDB+bVw3kfblH5PI=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512pfintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dRHy43/pe8UnX2HDUvXyAO3Wbnw=
-			</data>
-			<key>hash2</key>
-			<data>
-			STcpggC5diVXcm5Sok6KTYK7GUqYaBYptH+7ymlynn8=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512vbmiintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			D0ZOo1pMseYWnC4xAkXoAIlCP78=
-			</data>
-			<key>hash2</key>
-			<data>
-			nJ9uc17zS4V7AcgFch2rWMxGvL66YWyN3P97w8GWEm0=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512vbmivlintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			SDiMBkcaIgIM2OpJBLiy5/SI7N0=
-			</data>
-			<key>hash2</key>
-			<data>
-			YPv9zxEWnDLY1+FyxogFBjjSkzMGr6P9LeahMTK+ZvQ=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512vlbwintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZvrcAxg9B9iPmFIJtkAI5G4gtMI=
-			</data>
-			<key>hash2</key>
-			<data>
-			R3ETvlxcbRjFKS9l276Tp9FGfXMGfsNhOqgf75VGNBo=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512vlcdintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			q8cdgv+wrhPw4kTu5JbOaauZlj4=
-			</data>
-			<key>hash2</key>
-			<data>
-			SGniI4KQaca5fj/EHrmOzR/8B9N9VWVXzTFTWEnQJs8=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512vldqintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xtf1SuIoeUs1tDrd4E0eR5HGrm4=
-			</data>
-			<key>hash2</key>
-			<data>
-			0/oTlxEkku4VgOlBmDkVS2fIt9UB3ToPFe7eZDQT2TE=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avx512vlintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HwUapirxuShkZBvv+EYNXiCHISY=
-			</data>
-			<key>hash2</key>
-			<data>
-			30YhFhHYprIMLeLnG5NaYhvfUxW0S0oE6HzBzh7c14g=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/avxintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fvZWTN/lHBNwYCfwm+NMPPd4yCY=
-			</data>
-			<key>hash2</key>
-			<data>
-			O2UR7tkLg2kPDNmATDS6VUMnMGOeVbz6MhEysgDIWv0=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/bmi2intrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GyRezB+GvnTlhY4ZldMeXUcwCgA=
-			</data>
-			<key>hash2</key>
-			<data>
-			oBQEBqKFh3lt39pRhP/SCtbViu7ycndXYE9rDmbx4q4=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/bmiintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			joKNUzJGAK3ChHe1LnfJpvcfScc=
-			</data>
-			<key>hash2</key>
-			<data>
-			8VIHMBwVBDkgoHfltD/d2aI/OVxjPRxp2IXMbfrKg5k=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/clflushoptintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ecE+9Uou7rezgnkm7f3KbQ1DyFA=
-			</data>
-			<key>hash2</key>
-			<data>
-			NtB+QBcjEwdNYjPHocr1xh0wCQ59mnVwxq+OLa025Ys=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/cpuid.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8vHj5TQMXwVWhX5U/Za26SMCB5Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			wIm6J8PKWlUesI0Qgx3p5+Q3xJIi10RG6rwSl+d8pek=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/cuda_builtin_vars.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MWFRng1njU9j0WXv7lAMmdIXv2g=
-			</data>
-			<key>hash2</key>
-			<data>
-			I9m9yVWeDn08YmKAyNwYCzfU1joGVzhLNLTdm3hKM8c=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/emmintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jqxUnGYKZjHFVeRO6uDYXqPg4xo=
-			</data>
-			<key>hash2</key>
-			<data>
-			z5VqWCy6PrX2CZuEBicXxncd3NxEv3fb4fWaZkTjH20=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/f16cintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZpL9RLdxpJUkkCk2PCMjMWLBAeU=
-			</data>
-			<key>hash2</key>
-			<data>
-			gEhh0uI6QiCuvlsQFW4q8+yWB63MqEsJUoIl1IFQcSo=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/float.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/Ek3yCHGs34+eqsclaCk9bHg6xQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			BLz/SRxId4X7W/qXl2B7fgVcvL+XP1peGetMiH215Qk=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/fma4intrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EsEUDg5YA1rQplMTm2SKR+fH3oM=
-			</data>
-			<key>hash2</key>
-			<data>
-			Wt7EJ3mFfIswvSW2Gl8pdMKV+qMZcaK1uoz+Sf4pJYg=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/fmaintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9oAUMlQMqsHArn9XbDt6K/9VWx0=
-			</data>
-			<key>hash2</key>
-			<data>
-			lBBHzsxu9w1Yx1a4F23jLlYexI9oZEit0HEItks7/Gg=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/fxsrintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			icjsL/k1wBTEBmUPu//kQ7yl/Dg=
-			</data>
-			<key>hash2</key>
-			<data>
-			NA4NbwAZfyFTVU5COoUzDEUVj726qtWbrMY9pnLe4i4=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/htmintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0nN2rzz7+PyiozUVV5jUhhVAuNU=
-			</data>
-			<key>hash2</key>
-			<data>
-			RJJNgGfiNCtURH9Fn9HYrm0C8ruoSsFfncKc+PqTu5c=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/htmxlintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			n/Gf/BnphUERVCZHBldUrb6LCSU=
-			</data>
-			<key>hash2</key>
-			<data>
-			6KXnzepOy9OGbvDeGqnd/dd8+fjXT6+V7/LjlxgvNDY=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/ia32intrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7Zn+7ibk5+X9TXwX8y3m7a7uWvE=
-			</data>
-			<key>hash2</key>
-			<data>
-			Opq0KCrYKPjDc0WmYQnLPXoqimC30EgcHEC+CjXpBtw=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/immintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UJfIiwZ7+x375q98N0b7ELDF9E0=
-			</data>
-			<key>hash2</key>
-			<data>
-			7s03bPRsnrzntCHYLeCnjT6J/TthNH4kIi+1xZbm3Us=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/intrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3/ix6w9fxwy8jLd1MN27a/YTto8=
-			</data>
-			<key>hash2</key>
-			<data>
-			DDhBAKnYY3H2iu4EGJjNqZepBx7y8YGti2FiQpgyNEk=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/inttypes.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8ak+52V5IsDeJl6xcplGWP7vLuc=
-			</data>
-			<key>hash2</key>
-			<data>
-			MrIIa8hMVbmE0Uv6Mujhx+GBVBIgaXqiZuXpNPGtAhU=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/iso646.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jT15w0WUE/xYos3JWk6jRhYBdiA=
-			</data>
-			<key>hash2</key>
-			<data>
-			k4qHMUvhxsB6/kbY1N84SExPTBU+fQqCCrEOzsiAdJo=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/limits.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LcvlmtVtKAbdQVLJYsCb1Mywj+Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			vyXH2CpBvu4/JYxEZk7rF5NmIiuqndJALQS50GYgNH8=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/lzcntintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KeErU8Qye6hoqzvBSB2gdyfStno=
-			</data>
-			<key>hash2</key>
-			<data>
-			HqotcIwtPNzRD2oNCxCFshmJkiyK+o3tP6fhaLMDql4=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/mm3dnow.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mBkTbxy8x8WkxVBTp3KbUQBUbqA=
-			</data>
-			<key>hash2</key>
-			<data>
-			RNug9/iA3vBvaBMsRnY+ccQeYMTMUIXz26XDL/Jdwsc=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/mm_malloc.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			209vffSXUYKALuaE8nq/S3ipXKE=
-			</data>
-			<key>hash2</key>
-			<data>
-			vnuonRG/wzOqQiQv0vgaI5G7kDSfUB8zhbSGDsCF5eY=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/mmintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+qyJlXBB0GYIi/nxHHWllLBT7z0=
-			</data>
-			<key>hash2</key>
-			<data>
-			nPvf/ygfoeVNgiyWo6M96ZLIB9tGXxfUt00GiBWTTAs=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/module.modulemap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ac2VYJmcwxkC14n6PQ8o3dzV9Pw=
-			</data>
-			<key>hash2</key>
-			<data>
-			MWAbTno0ppx6ZnIwf5VR0GZcR8qSz60lZh2n5c8ThF4=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/mwaitxintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			q/CYGQXPUtjBxQE2fLDFlgCRIlY=
-			</data>
-			<key>hash2</key>
-			<data>
-			djU1nNHLGy621lS6Q+uXijkLTTnZgLKfj5Uvtc0Qf+c=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/nmmintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OFEgR9H+X6PReLzjyyw7akHruq8=
-			</data>
-			<key>hash2</key>
-			<data>
-			vbr8StOAzA5T0I2/mtq6S0p+bjzcZfnaftpJBcxreQw=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/omp.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KO3P83CnHmwAb+XuHXuHQk3JUlE=
-			</data>
-			<key>hash2</key>
-			<data>
-			lwYBzcaOpKlg83TH1F0MZn/zsnWEa4eQ8soi4awzbSc=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/opencl-c.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mhyQIajILDq8Zk+v+HcAX1d6aHE=
-			</data>
-			<key>hash2</key>
-			<data>
-			xZrCmBJH+LDZuAh9xyxlmRZL4xgxCzgaC0Cs29YB7Z0=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/pkuintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DVPI63E0fKg37toM1vGTSIbpSII=
-			</data>
-			<key>hash2</key>
-			<data>
-			6vnmDG+hxG8nYsXd08L5OqTbieF5+A/ArhO3OIb/O6I=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/pmmintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			S2ApORvZZlyTziexxh77iyBpTOI=
-			</data>
-			<key>hash2</key>
-			<data>
-			tgK2XYCzGDUoypx3TEbxRadMYLbkzAIznFGIqg+MJ34=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/popcntintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vOZyswLfn+nRj2xq5VSv5A/aCqE=
-			</data>
-			<key>hash2</key>
-			<data>
-			dTEbD6wdRf1xs/9It00jC6O8Yd+O3etA51TJDxIz6jM=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/prfchwintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			chKdph4oyqMKMmrm7rxoFTysekk=
-			</data>
-			<key>hash2</key>
-			<data>
-			CJ1nffYgBfSiIXxDFZDacuZOEqUolMBRFy9DyKoIYmk=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/rdseedintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CmHfUdipwJD8SgrPkTI1b3ufA3w=
-			</data>
-			<key>hash2</key>
-			<data>
-			ee4I3Su0bq6kA7hSsGOeTE4FaBVYX1ZRB+hdlXzzNqI=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/rtmintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3he96T67njhDeegAa7tHuhLtn4U=
-			</data>
-			<key>hash2</key>
-			<data>
-			8LdfBeQzqPUun/dyS4nct7g61bCxfJvV/jiZ+yVYOJI=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/s390intrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/6MCCAO/aKhuiNchYLfIVbxI47o=
-			</data>
-			<key>hash2</key>
-			<data>
-			sBPRTVuyJaMtYK92QidMDlYm8xT9zyhfCsCCT79ef0I=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/allocator_interface.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UHywf4wZiSB3dNYbnMc8/m5nDaU=
-			</data>
-			<key>hash2</key>
-			<data>
-			92twFfjOS0WQlVEWwCe5vaYdajMMRTx0lPrlqrE0UcU=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/asan_interface.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1t47XGfB96hQ4iN3ibASXl7FJYU=
-			</data>
-			<key>hash2</key>
-			<data>
-			SaXCKAMA+N1rmR/RVwpxjE2kkMRMmVk0ccn5F3e7vkg=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/common_interface_defs.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XB9TPTiJS0apFwBaFz6P/SJgx/A=
-			</data>
-			<key>hash2</key>
-			<data>
-			XLmG8IJrbPuIEaeDHAGE7oTB28vOe7ZAx1hQkHefTK4=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/coverage_interface.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			szEyqzNJ/aYuOmoHQ6/2DRid/ok=
-			</data>
-			<key>hash2</key>
-			<data>
-			GQD5ftmgdR3pZU4Cgtk1NDPA7V8tVhZ79UpfkitvSVg=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/dfsan_interface.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Axv6cQ78NOAUr5UUcgI8gpFou9A=
-			</data>
-			<key>hash2</key>
-			<data>
-			3ATmnAsuwjLKMTvZpqYhIS5FuwnsqZmaj94FaD8MIVo=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/esan_interface.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			b4klYjRwR1RTEVRD+oFYG55/8Xg=
-			</data>
-			<key>hash2</key>
-			<data>
-			z55bByFKZfQW/WnO3Nk3kXoRX0ZA+JSswUhsz3dZvHA=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/linux_syscall_hooks.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jtoi8IA84YbKeKVca1nhxqiubAY=
-			</data>
-			<key>hash2</key>
-			<data>
-			384TvPZM8Wys3RjHpPbvBPUxZEIOSZDXj4t0tJKbI+Y=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/lsan_interface.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8kIfc3zA8hc8sDScAuQiVUPj424=
-			</data>
-			<key>hash2</key>
-			<data>
-			qse+pA97ZgFi+5CUO667raP0PNaZ91D5hbXgjjHBsNQ=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/msan_interface.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			N27fQ69wDEj5/xL7CjvfQJs/Cs0=
-			</data>
-			<key>hash2</key>
-			<data>
-			87DJhRhaKcAyyfUtOfr50m0xRbhcYBKeVuJ0Y6+9Ws0=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/sanitizer/tsan_interface_atomic.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			M1w6ScrH14twjFbzkSWz9yKq3V8=
-			</data>
-			<key>hash2</key>
-			<data>
-			LZINs6skK+n1753BEYaU6fmkLZfOczhHCvvOVqXKk7c=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/shaintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yJRlJq+NpGkV5QQAfiPRZYh4mwc=
-			</data>
-			<key>hash2</key>
-			<data>
-			nPp8dVC5Bu2bpV9+CP9Mg79HydRNfKKt1T37j1oLZBs=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/smmintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uUdoW7jCipZi8mfs71Wy3CKcSTI=
-			</data>
-			<key>hash2</key>
-			<data>
-			AaUVPnjmc2F4A+CWclCd4l2hIX6fmCbpKNBUYbLMdcY=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/stdalign.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RGBocaLjjf5kP+dRLKD7y51kM3g=
-			</data>
-			<key>hash2</key>
-			<data>
-			nsg78+LA+1cElteCt4rol+IETcyTNZMV2tuf0oHQThM=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/stdarg.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/ap7XdI4JGUMlO+kpRgEIfB4bd0=
-			</data>
-			<key>hash2</key>
-			<data>
-			0lnnY/GUXxNsFhygM9qeLnUJP59NZqJvRujuUVfdXGI=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/stdatomic.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			N8OWAX2o81kPhMzAsa/lmzWx1+Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			FSlc/6x1syeV9biJEs1Yk4eTlmW0X5cPzdpReoN5XJE=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/stdbool.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			a8Pjb4VA0FgG+2FK7Kffwci9OCc=
-			</data>
-			<key>hash2</key>
-			<data>
-			qLi1JMaPckHSw97yVHpS3Q3Vbcu6M7Khrwtw114tqOM=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/stddef.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			w3dtIN3DS5kRiRr4cr+ZbUPBG+E=
-			</data>
-			<key>hash2</key>
-			<data>
-			T+KfjR6CEBfzz8XdVro5Fg12KaSfBJ45rvj/7uwAimA=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/stdint.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tDm80iBWS+hHwE1pE/y8paxlH54=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ah3GWaa/0cC8qplUmUbmKLUjhHpoD9Q+WARSPI9aAQM=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/stdnoreturn.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ChnaAJ/QNnMhvdIT5PQmFSc2b5U=
-			</data>
-			<key>hash2</key>
-			<data>
-			SRntipY7/pD9gwMzcYIjvD0w8kw3DXDBDvAigyUZ96Q=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/tbmintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fxbcbqVVSDoHNw2SNB70Ujaesog=
-			</data>
-			<key>hash2</key>
-			<data>
-			XEl4NA/4e+hWGvLf0vMJXxIFn0A8AoGJEHvE00OzYVw=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/tgmath.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WYWIivXfQNeItDsDHRr1h1XeQgc=
-			</data>
-			<key>hash2</key>
-			<data>
-			93u3Fe1ZkTVx9oE2TEIbQdqoX7rE897l6noNj8/64oQ=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/tmmintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pCCkrICJVY07BbkDEq9rbhD5DIg=
-			</data>
-			<key>hash2</key>
-			<data>
-			Qv6QMIq5XoZR7I08dz61KH34vAIN3nSeP96d+64uDGw=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/unwind.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qSMgcJPT/AuIeySE8U0myLwpduQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			bnp+l8A2BIb4qreRQttExruxc0hneKemDp1k+QseeEo=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/vadefs.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FEefd5Klr4WP4HMnJWSzBvs0818=
-			</data>
-			<key>hash2</key>
-			<data>
-			WW5qz3oZOZ6ak2AD/U1LtAAPS+mv15wd+YLeI4JYZJQ=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/varargs.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Raz/D5FhMPrsAidy22+CBNWfaAg=
-			</data>
-			<key>hash2</key>
-			<data>
-			CwJY0FU6ZOhQHAKq9zaFiReEWW4n8lw6dUMzwo+D/2I=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/vecintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Db6yiqwcan+QuugpSiUYVMOTVqE=
-			</data>
-			<key>hash2</key>
-			<data>
-			trfFNRGt8Bc+3oSGaOYPprUOuHECErl8yDuiJ7/iA2Y=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/wmmintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lGpXAFlduL+gzxeuQICMq6t7A3Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			xsFAz/pGNj3xMkntFMPybKgrKjapPMwX6Y96zu4cKhc=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/x86intrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vRlHnupMUv9kfh5MtBH++BrnH1w=
-			</data>
-			<key>hash2</key>
-			<data>
-			9Fhd6PyofLrKT2+eeE0PqdWxp033m3SXeJrCiz9KdN0=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/xmmintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yvMMnH/4qnNT0H3FkyFB9vVnyqM=
-			</data>
-			<key>hash2</key>
-			<data>
-			R1M2aOEqtw0DX4z1CWJ+WmTZmsxSUQuXu8agq+kAkt4=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/xopintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rtp921SY0cFEuyi7RnxmRzWjyLE=
-			</data>
-			<key>hash2</key>
-			<data>
-			n1hPm6MHimmVCMQ2K510MGGxeyH67jyPcxHGxvTZCY4=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/xsavecintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aUG4UYOXeP/1mpgYOeRMbdwoTbw=
-			</data>
-			<key>hash2</key>
-			<data>
-			JkozmvUItj7JqHaIFnEmHLbM1Yzbwmc+Si9Gr4y1NvE=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/xsaveintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tS58sn6fm36RgLKObpmh8bBlHcY=
-			</data>
-			<key>hash2</key>
-			<data>
-			vlw2uqxhq6CXqyFoQUvyzPwrHzgehOBGcEzQ8AJHGj0=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/xsaveoptintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FWnXeKlGXV3tdIGxVVogF6ZDPbo=
-			</data>
-			<key>hash2</key>
-			<data>
-			mvlqomBtByxODGhJ7VVYOj9v3pY4JOAadBHTnkHomeU=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/xsavesintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6savumMo2MDhjiZxr+Jxwt/NWuo=
-			</data>
-			<key>hash2</key>
-			<data>
-			s4c3cBZGBFd1/gA8yM3rNPjYzFLvqzwtSoyJbKV7Gqc=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/metadata-generator/lib/clang/3.9.0/include/xtestintrin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Nom/CtEsWR99qEpc6gQNNHu2h9M=
-			</data>
-			<key>hash2</key>
-			<data>
-			mSDk2uDQMt/3EZypTinBK1bqGfxhxA3Al1YdW0j5y3k=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/nativescript-build.xcconfig</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/uRDf/uBfVeUzW6Q6INYYQkE66s=
-			</data>
-			<key>hash2</key>
-			<data>
-			SRg5bZTsigCQ2spRKcnFBddG5A4yCwbeDxx30EGbJlY=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/nativescript-post-build</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vk1KzBzp5BM+/c8PfoRVLXWv89w=
-			</data>
-			<key>hash2</key>
-			<data>
-			jhYhsSJCIY72qHFN61ASILIRKHLBLWOcUna2f4rxBTQ=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/nativescript-pre-build</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aCP64pBvK2owaREySBz04dcwbyk=
-			</data>
-			<key>hash2</key>
-			<data>
-			MFi475vl/4X3IBCtqxTTY9Vl6+hcU9h6VBkClYMUe64=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/nativescript-pre-link</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DBAGK9SkY6luGbDelF5IFIwG/3I=
-			</data>
-			<key>hash2</key>
-			<data>
-			oqLSHyfc09S3CFJKUS6+s7gDN47GJnFiZVx/PZcSObc=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/framework/internal/strip-dynamic-framework-architectures.sh</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gVvTMK8RCo6W7/UyMKXMbRJPimc=
-			</data>
-			<key>hash2</key>
-			<data>
-			+Y1OjRxAjsEjfVvQnYoxg7osyd2j1pDyaMWW9PAGJcE=
-			</data>
-		</dict>
-		<key>app/tns_modules/tns-ios/package.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			W6NIHvPlACcGIA8+8rNShGQtSoU=
-			</data>
-			<key>hash2</key>
-			<data>
-			HUrWT2Wx6vKNUR6C+RzbSbsM9Kb8PiaaAwhrIsHWAVY=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/.mailmap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9xqvKz5VfuGTFQYJuolEuK5GsAw=
-			</data>
-			<key>hash2</key>
-			<data>
-			ecBkvvfDurqhBMY8OHXtroHuYHy88W/jFBshb4NJhbU=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/.npmignore</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0+fxpIowm+Ab9Kj2LeE5SGBtcmE=
-			</data>
-			<key>hash2</key>
-			<data>
-			bTpGspo3PyhCj/dF7LqR0oYZVlZ2IJbL00JIA3ZMqig=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/AUTHORS.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zEwIxDgYvQJBqjvzLnuXVqXuaRM=
-			</data>
-			<key>hash2</key>
-			<data>
-			MliUDhjLhyWFAvvOUNyKglmKRSWd+13cPI8C+sO1NlU=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/CONTRIBUTING.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BB5JveXnvMeY7Fz681L5s2UMK4c=
-			</data>
-			<key>hash2</key>
-			<data>
-			VHeryrGepDEbBRSzIUjQKp8HZBOHoIAxBKu2IRlLuvo=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/CopyrightNotice.txt</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yQwcZvkr+xFwl7JHMlma+rQuLHM=
-			</data>
-			<key>hash2</key>
-			<data>
-			GSRkZstR5GwSsi5DtNJwOsmBy0KV0GHW4gYJvVhFUQs=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/LICENSE.txt</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VXzkwfLRSAvvH+PbnBRhXjshOpk=
-			</data>
-			<key>hash2</key>
-			<data>
-			p9AL/VRSW8aUtuMvZMfrz15reuNle+XMEnZ7znRlSkc=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/README.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VKGjxGLvOaRdiiKNA/JoppcNaII=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZrpQYnF9yJ2SyDccGR80Ri6aa/RhT8geIfZ66F85eJ4=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/ThirdPartyNoticeText.txt</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			B7uXU2wr2PaFaoXwRle7n+mPgCc=
-			</data>
-			<key>hash2</key>
-			<data>
-			qTPF/xKdSHwp7kB2JhcsebQWyBINI5TvSK/OmlN+QXY=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/bin/tsc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gDRyKxSgyN61qdHK1ixuiNmQTv0=
-			</data>
-			<key>hash2</key>
-			<data>
-			jV+lvYg/7Al5/CAE8f4dma70BXAVXVUOrcCwO1VRO/A=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/bin/tsserver</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ABCBKygOQuv3kvkin2NQloS31Ko=
-			</data>
-			<key>hash2</key>
-			<data>
-			oIjww0Gbyy97hgrULkyfJerQZ+2nCvahDQp9RTlUqto=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/README.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UEluXMc95oydi5NeN26D5wd+Qmg=
-			</data>
-			<key>hash2</key>
-			<data>
-			h9rE8W81ALiysZju+CjfUrEeI/S+sTI9/lK0hZ4r1rs=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/cancellationToken.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Hi1YOA4JqpjCdfL63F4quGs2guU=
-			</data>
-			<key>hash2</key>
-			<data>
-			YunGxGEKXU7UcPCzxtpT53xbebtpQrO5N3rQNyu9XsQ=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GJDiubbdS+DUW/jrmmnaVx45saE=
-			</data>
-			<key>hash2</key>
-			<data>
-			fOQgo+Pv5nQbqpvngfH/pORnOXs2V6+HNofnYEYux9c=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.dom.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZOlVer0j48L3vcavEZNmZss6X8U=
-			</data>
-			<key>hash2</key>
-			<data>
-			N3Ua9kNrHC6Os8HaER4Tw0PnOLJl1G2yzMnT+wTdlE4=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.dom.iterable.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QdE1c1Pwquj1joWbyW/0F0JSJpI=
-			</data>
-			<key>hash2</key>
-			<data>
-			scBMUMYC7YnR9TgI2o23COfPHezrlYlxxiDIqjEoqz4=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es2015.collection.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yim48uWCKQmhawxawk0WL1Sqbag=
-			</data>
-			<key>hash2</key>
-			<data>
-			Trq0cyQgT5qDEWSGaT+6gnGhoy9J2hibWemJK2bxBEM=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es2015.core.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			a1aP6eMXpU3Ohsyt21/7RBDsThc=
-			</data>
-			<key>hash2</key>
-			<data>
-			J9bO8KD7FwBYWtauXbrLpAuoePCiHSdMJ0qggDS3nc8=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es2015.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gPuRXjMHUVZdtaKM4G0OmY/pyqA=
-			</data>
-			<key>hash2</key>
-			<data>
-			p8fkBzBhZgwUFo7m0w6xbyb/3sGg21gEH7IjGFLzmS0=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es2015.generator.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			k58+EMAkhhL4aKdUFhxx7ZTki3E=
-			</data>
-			<key>hash2</key>
-			<data>
-			/9jhEdzWq/NePLDuq50vyz+S0OHuY6SxE9jrB5m1Qjc=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es2015.iterable.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			u4AnHKFzpR9/hgaex+xcOgu9HJ0=
-			</data>
-			<key>hash2</key>
-			<data>
-			oN1qrE7HB/ObV7RlNU4ZEyXaR+r6tCysMlAsK4Ha08g=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es2015.promise.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Mduk6IXS79QDD8fLXFFqGOjmc4w=
-			</data>
-			<key>hash2</key>
-			<data>
-			+ls2nKv85wnnL2hfSOaGRqNrXkQ+1uhqih13/WVMryU=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es2015.proxy.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pRHTZwiQe6FrM3xmuat4EbCXRes=
-			</data>
-			<key>hash2</key>
-			<data>
-			FtmxvATNAKTAtvObiDH8hEqGrNIyqWDU6pBdJGLUP1M=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es2015.reflect.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mVn/EtobASfpfddD6VlLkf7oVj4=
-			</data>
-			<key>hash2</key>
-			<data>
-			udV+3Y9hRJjAmMCC0jrkB9ATWMiIJ1CZBgkzuZAC6d8=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es2015.symbol.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			F9RqAET14TgFvQBPQVv4kUIrhCo=
-			</data>
-			<key>hash2</key>
-			<data>
-			oGNwd24jd/R3ZILZ2aJKemu+cS1b7GVbve9Rm/+zP2Y=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lnDuUqQCZdyqTYasludLO4QjLhM=
-			</data>
-			<key>hash2</key>
-			<data>
-			SRymaVIWL2kiVQPcDK7xFghkjiYA3X8ghAhuqHZj5So=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es2016.array.include.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rfnpEeAnEjGKtjoqyb9xJ2M3jNA=
-			</data>
-			<key>hash2</key>
-			<data>
-			QeY/71tlmpPqoKxNFfwJeQKV5h6erfnC+PP8LH2Cjrc=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es2016.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AB9xI08ACghF5zXzPaTwT0zWK6M=
-			</data>
-			<key>hash2</key>
-			<data>
-			qsydMq4yOlijBiT3LgBKHTgpOmWNfIwoRZgNr5qd2Fg=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es2017.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			V+f2YzF2l9HHAfvUVmwBY9WN+H8=
-			</data>
-			<key>hash2</key>
-			<data>
-			3Aylcrv8d2a77gai8SOM1smEfypDDKTvDPGjHZ+sPgs=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es2017.object.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LLCt+Ko9KXGHSO4do1XqSJAzKKw=
-			</data>
-			<key>hash2</key>
-			<data>
-			pqZoaDGOfTn2RjNwgiiPQOqP7gdoV/6brnNX0ZFiaZo=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es2017.sharedmemory.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			b4wUyPvt0UmEI6spuxOZH73mrsY=
-			</data>
-			<key>hash2</key>
-			<data>
-			wEK5J6tsE+sWQTxKvicFFo2nujxP9W11KxwqUxfRUv0=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es2017.string.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			F0ZJGmzdThUJc6avcZrDSugY4VE=
-			</data>
-			<key>hash2</key>
-			<data>
-			ruc42BWaHmLYuT3yGngMToB4XHCN2YMGrHySpJlJqn8=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es5.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VYT8Vin8aiydU6FYqY8A9jHbVlA=
-			</data>
-			<key>hash2</key>
-			<data>
-			z6MnPk39xYHMFokegdiFryJLGaVuaYFziXHuXCKsiZM=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.es6.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			M2bF9zq0pj9zbEEiax94KKb7cPU=
-			</data>
-			<key>hash2</key>
-			<data>
-			8YnOvpbrdrI4xuNk5y1LAyTmmfg+6uXerCNQbLN2T8Y=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.scripthost.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PduVy46IyARJK6shipGe/Ge6euw=
-			</data>
-			<key>hash2</key>
-			<data>
-			qNHkvyGipjIyoB69X98gjYCx1IYEbv7BIgHtaWCrrSY=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/lib.webworker.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gWojNJmeCGrZivv/h/29Ze9iWNQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			YBNjoj/i0CCwKeY3kTGnCMSPnr1pc1fVvKMk2caq3DA=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/protocol.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8ovjfm8wU1h92+5VPzMviNMtgic=
-			</data>
-			<key>hash2</key>
-			<data>
-			8IHzXEwCnNjjSh9dsGrWsOowkLKO9JwJqiYDrTjCxc8=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/tsc.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Qnl6FMPYdZ+nSFIEFPDBLeX4Xwg=
-			</data>
-			<key>hash2</key>
-			<data>
-			49njIKLK6ZvkqqN5U5YaSDI83xa6mqJVekTWlXHNm40=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/tsserver.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yckLz8Pq35CcfW9nQXYDyqAKB98=
-			</data>
-			<key>hash2</key>
-			<data>
-			53ircdwfnSD4Xuorau4vqnDwx6Wj6GnBoEORupeguHM=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/tsserverlibrary.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+KePsLDicr8OUz5sAhAbPnyjdIM=
-			</data>
-			<key>hash2</key>
-			<data>
-			XfD1XUVQDxRg+VGG02rwWAxcU9JfWbRup6AMLs+yElg=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/tsserverlibrary.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			g8PllBmVpFesowbq2FFkAvhABsE=
-			</data>
-			<key>hash2</key>
-			<data>
-			c0jfDu5eApfm8F3BB9A4Dw6FMEAfRBHGoivjpAfdzdY=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/typescript.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4fk42tcYg8MeIIZgYIioKOaLN04=
-			</data>
-			<key>hash2</key>
-			<data>
-			MV8uLnI/sWoJ3jbc6qxCQ5h3vCVmMqH+7ucqAEboSyU=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/typescript.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			umQDIJ4R/rLtoZIWiMMbaNxvIYw=
-			</data>
-			<key>hash2</key>
-			<data>
-			F7XOCEauMYLvjE5sp5HpC0NgQSIYaGn1g4z37TqSdFM=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/typescriptServices.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HRI92giKxZzVxJEUbh7L7OhJE04=
-			</data>
-			<key>hash2</key>
-			<data>
-			hIW90OCD8g0XqpIzqYB4K8np7gAVm9hOZQrD2MENaKo=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/typescriptServices.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			umQDIJ4R/rLtoZIWiMMbaNxvIYw=
-			</data>
-			<key>hash2</key>
-			<data>
-			F7XOCEauMYLvjE5sp5HpC0NgQSIYaGn1g4z37TqSdFM=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/lib/typingsInstaller.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jMVx0RMfHu/UcPqGhtavJ54NqSk=
-			</data>
-			<key>hash2</key>
-			<data>
-			O4MKPkH2vjEW3iuJ6PWsalaJ1HyVPVpA+6UZbPOscdc=
-			</data>
-		</dict>
-		<key>app/tns_modules/typescript/package.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			SRs6BwaFe52m/Q9HqG9KNz92BTo=
-			</data>
-			<key>hash2</key>
-			<data>
-			N38JxI2rAxdemE/Z2wErZFfAbpHd97nU1JQ5+sKqSkA=
-			</data>
-		</dict>
 		<key>app/tns_modules/url/.npmignore</key>
 		<dict>
 			<key>hash</key>
@@ -63946,127 +62023,6 @@
 			<key>hash2</key>
 			<data>
 			ndD59JvmBvcybCjHV5stEnHrmEqxaXYC9wrQaOcZgFI=
-			</data>
-		</dict>
-		<key>app/tns_modules/url/node_modules/querystring/.travis.yml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			R19J8qx8pxoYpRH+hUlJGVKpSnE=
-			</data>
-			<key>hash2</key>
-			<data>
-			Bw3/x9wTvwvjzvvvjznOAVU3rTl6u4EuLK2PHfn0WeE=
-			</data>
-		</dict>
-		<key>app/tns_modules/url/node_modules/querystring/History.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sZ2Pc1mknEnEFxOJGBqSsg3Qreg=
-			</data>
-			<key>hash2</key>
-			<data>
-			E3QFMbqBWRYM2o1aiaxxi9rOVFSbwe9pIYpzrnheGAk=
-			</data>
-		</dict>
-		<key>app/tns_modules/url/node_modules/querystring/License.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QFGIdUfgcLvh4dLcqzpG9EvurLI=
-			</data>
-			<key>hash2</key>
-			<data>
-			y3LZcU3cIedY1j9CO+DK3fkJ0jzLsQovUgGocIGOT1c=
-			</data>
-		</dict>
-		<key>app/tns_modules/url/node_modules/querystring/Readme.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nTq74kXJCjjDZeiejL6U8H0aax4=
-			</data>
-			<key>hash2</key>
-			<data>
-			VpKoe70Navr9nyUrZbswMSVHFh463nhE+ndLiTMzJ4M=
-			</data>
-		</dict>
-		<key>app/tns_modules/url/node_modules/querystring/decode.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eME1N65lhSu2sd9FY87Ton+Eg3Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			j3G67AodaJhmG6GZGXLWyOLiOaSNPvVkqMXQMMuq1kk=
-			</data>
-		</dict>
-		<key>app/tns_modules/url/node_modules/querystring/encode.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vEJEEZLOqd54c5iFDx0wiYBCEBc=
-			</data>
-			<key>hash2</key>
-			<data>
-			F+XN90JKmCSoCSDOlN4QT9yvGWBX7yFAOYVPN9x1kDs=
-			</data>
-		</dict>
-		<key>app/tns_modules/url/node_modules/querystring/index.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			y3/Sg19lKTjP5QHz8MIl4mRuuAE=
-			</data>
-			<key>hash2</key>
-			<data>
-			FdRQFVLUkEG5uHh3c8da5O1rzAUihW05GGNw3TzGiIU=
-			</data>
-		</dict>
-		<key>app/tns_modules/url/node_modules/querystring/package.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9INFHTXXLfNTCkygtgRgpyF8gMM=
-			</data>
-			<key>hash2</key>
-			<data>
-			IUXk2UlSR+MthC+u4vo9f4NXSJ2S+TjeRkRLKFswDu4=
-			</data>
-		</dict>
-		<key>app/tns_modules/url/node_modules/querystring/test/common-index.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Y5/ANrsw/4VB9MK937cN28Ym3vg=
-			</data>
-			<key>hash2</key>
-			<data>
-			tByv/QoNT+Su8V6JCU5tGj7anJt3xx8uhyxRDVK77rg=
-			</data>
-		</dict>
-		<key>app/tns_modules/url/node_modules/querystring/test/index.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ur8jEe+7lFa6lsQEUH2AukA6jd4=
-			</data>
-			<key>hash2</key>
-			<data>
-			NNCweTAITlNDViXff8s4Bh4S6COMXjVHvNDfbY1yOs0=
-			</data>
-		</dict>
-		<key>app/tns_modules/url/node_modules/querystring/test/tap-index.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8XQUlbhufjWcE7W3zcdy+zKquZo=
-			</data>
-			<key>hash2</key>
-			<data>
-			atZBDbowvQRRRfRDBxWQCmEWe4YgCJswT59geJwuOoY=
 			</data>
 		</dict>
 		<key>app/tns_modules/url/package.json</key>
@@ -64146,6 +62102,193 @@
 			QzoimnAqPVq9ugBHBwLV0FUtEBg5mJRmmo4gnYQpgTU=
 			</data>
 		</dict>
+		<key>app/widgets/friend-preview/dashboard.component.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nls4vyuxYy8bg4ZW9zdA2t1W+X0=
+			</data>
+			<key>hash2</key>
+			<data>
+			a2wzMY6iW76rS0GzuLige9BVKm0pVGxSkaGkcoWdVGU=
+			</data>
+		</dict>
+		<key>app/widgets/friend-preview/friend-preview-common.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WN6suktghUn1usjtNvCylsvB1Yg=
+			</data>
+			<key>hash2</key>
+			<data>
+			qWlSy8phbl0knUvTE7Mi6aHcSurRbBzICDTpjRdJlhg=
+			</data>
+		</dict>
+		<key>app/widgets/friend-preview/friend-preview.component.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VyL917n7WRZBFHmNhSeymrgZJPY=
+			</data>
+			<key>hash2</key>
+			<data>
+			c09GxzPF6xxA+/niTAVsBJ3TQLcUPbC7ltEKLElsvAw=
+			</data>
+		</dict>
+		<key>app/widgets/friend-preview/friend-preview.component.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WExwGUzexoLvD0Zj+eaXBT3KgBE=
+			</data>
+			<key>hash2</key>
+			<data>
+			HEmr3Sk34mjk5vsq5J5tzQqgcNzhfbgDbPbs7hBb0kA=
+			</data>
+		</dict>
+		<key>app/widgets/friend-preview/friend-preview.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XEnXwd5x6Gkf2iuoRTPb2Zywqa8=
+			</data>
+			<key>hash2</key>
+			<data>
+			DhkIn1li4OfghkVt6oc5STP0tooDCZx/oPpJ/+pNrtY=
+			</data>
+		</dict>
+		<key>app/widgets/friend-preview/friend-preview.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0cWJtgw3jZfqWxdPhUJMMnhkoM8=
+			</data>
+			<key>hash2</key>
+			<data>
+			blEJVfTaQkfPJRirDhi9tAfySl6Ohu7UonZSWE6SlD0=
+			</data>
+		</dict>
+		<key>app/widgets/friend-preview/friends-add.component.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OeRSxoXvO8MYBK8PfBH8Z2Ivio8=
+			</data>
+			<key>hash2</key>
+			<data>
+			yoH+n5SBMXlSnAD3jG/+zZXUpdAHLGuYAqXu1rYhmkU=
+			</data>
+		</dict>
+		<key>app/widgets/friend-preview/friends.component.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JsnRjipR9WXfrG3XwA17ugk4fZM=
+			</data>
+			<key>hash2</key>
+			<data>
+			7ZhXt4XaYA1GLdA7VkKxGAI7mgjSLgoA8QB5VQIzwrQ=
+			</data>
+		</dict>
+		<key>app/widgets/friend-preview/list.component.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8RYDlth/KQSSl6ORdGQJ4kVLWLs=
+			</data>
+			<key>hash2</key>
+			<data>
+			jPJ2OL78mdPUvNc9QE4iPTdeDeA1QJ9AZC5U9xrBLv4=
+			</data>
+		</dict>
+		<key>app/widgets/friends-add/dashboard.component.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nls4vyuxYy8bg4ZW9zdA2t1W+X0=
+			</data>
+			<key>hash2</key>
+			<data>
+			a2wzMY6iW76rS0GzuLige9BVKm0pVGxSkaGkcoWdVGU=
+			</data>
+		</dict>
+		<key>app/widgets/friends-add/friends-add-common.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KnLrR/mAg6ze9UN1d4rAzipiawg=
+			</data>
+			<key>hash2</key>
+			<data>
+			7I1S+h4I2lFr4OddHGevlQxLvohitlmQNy4qUniSWHk=
+			</data>
+		</dict>
+		<key>app/widgets/friends-add/friends-add.component.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n2N8ftf1V4zWwIvQOfXLmySGeV4=
+			</data>
+			<key>hash2</key>
+			<data>
+			xX5r8AQyOn1QNg3WJFsxIkfwYHjWFYeVH4LIgzmVehM=
+			</data>
+		</dict>
+		<key>app/widgets/friends-add/friends-add.component.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			s0FoQDqQIYvnq1yG8nM7ThOCMJc=
+			</data>
+			<key>hash2</key>
+			<data>
+			tnu/fVAf9UDC3MWlRBLyukdSZofa24euG0oftUFRXyQ=
+			</data>
+		</dict>
+		<key>app/widgets/friends-add/friends-add.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XEnXwd5x6Gkf2iuoRTPb2Zywqa8=
+			</data>
+			<key>hash2</key>
+			<data>
+			DhkIn1li4OfghkVt6oc5STP0tooDCZx/oPpJ/+pNrtY=
+			</data>
+		</dict>
+		<key>app/widgets/friends-add/friends-add.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DCQUfTkdw+g0S54MNZutAzg7X+k=
+			</data>
+			<key>hash2</key>
+			<data>
+			2a8X/AL/e5k4rKnuRXofyOMHI61OhMpBfEITFokLuUA=
+			</data>
+		</dict>
+		<key>app/widgets/friends-add/friends.component.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JsnRjipR9WXfrG3XwA17ugk4fZM=
+			</data>
+			<key>hash2</key>
+			<data>
+			7ZhXt4XaYA1GLdA7VkKxGAI7mgjSLgoA8QB5VQIzwrQ=
+			</data>
+		</dict>
+		<key>app/widgets/friends-add/list.component.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8RYDlth/KQSSl6ORdGQJ4kVLWLs=
+			</data>
+			<key>hash2</key>
+			<data>
+			jPJ2OL78mdPUvNc9QE4iPTdeDeA1QJ9AZC5U9xrBLv4=
+			</data>
+		</dict>
 		<key>app/widgets/friends-map/dashboard.component.js</key>
 		<dict>
 			<key>hash</key>
@@ -64161,33 +62304,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DFZVPuQtDF6d8Tk4qcj55/sAw6A=
+			h+KjdAedhMHa5HLoEIby46HQFQg=
 			</data>
 			<key>hash2</key>
 			<data>
-			QHP0zP4LTrsmddbi16XTXYcCKwKhHEtLd21JMhPVUJ4=
+			s+AdGBMP3XkqNCYBOy26JwMBSx1153TMDFJgohgtX2E=
 			</data>
 		</dict>
 		<key>app/widgets/friends-map/friends-map.component.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			trVgfmgpcIeXcuW/FXqTSVWzf5k=
+			RG2W9qEmzlNvhAQH/AEU/NTPKCE=
 			</data>
 			<key>hash2</key>
 			<data>
-			el8EGJQKeFy+3kbwjtbBIDXlGgTqUQuv6/1R7t1mNY0=
+			TayEl4tSdcHkJnSxGhmpaILt3ROzZ1e+8Qk9/iAVWsg=
 			</data>
 		</dict>
 		<key>app/widgets/friends-map/friends-map.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xGvB/xIQG13L3LSPp2YQyUsTnmA=
+			RZHW0uLhaLHmEsgwVeGXxtyARz4=
 			</data>
 			<key>hash2</key>
 			<data>
-			nFDaQdlyk5kTzpe/7Q9gTYv9eSMJ+9sEqV09a0v8sp4=
+			1gbKu0Rv4pDHLFUfUO/raACyahFXQ/YD8KOzWqcEfCs=
 			</data>
 		</dict>
 		<key>app/widgets/friends-map/friends-map.css</key>
@@ -64205,11 +62348,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			49xgpDu8hT5iNqk0lVXDpJHd1cs=
+			7LuAGc3Rh3b0uQshX8VWDLZVUv4=
 			</data>
 			<key>hash2</key>
 			<data>
-			c9X/jxX9T7Bx051b+YnHkL4TtLm6uGFnSxOBZ4HwklM=
+			+6RmJV0SFyKguT54gpZgVNpxloDaw77dqUKAy/Ez0HI=
 			</data>
 		</dict>
 		<key>app/widgets/friends-map/friends.component.js</key>
@@ -64249,33 +62392,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yAlgLmZ7EcK36c6XoCRgFH6+Poc=
+			xRBXnAdoMs34JXbhEs+sffKei2Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			IQCI808O4ElL1SWsAV4CDjfgYvHO77T9cz2XkkoL8rw=
+			ANV1vGc+2g2S9vuGsNh4QtueW/EufCBfWCSetqXMvhw=
 			</data>
 		</dict>
 		<key>app/widgets/friends/friends.component.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			txOkWPRBU6ySNncrQziSn/8Lz3o=
+			nEVBfjWwNw0EsPVF9fZDTu0EIDI=
 			</data>
 			<key>hash2</key>
 			<data>
-			pu8JgVVeKTLNKfNVilZbAMeVPtYdCEqYF4DG4FpYqyg=
+			ENvLbycCw+4N2MeJ1C5d9jTddbZELHFrd7Ip2Xi0GEw=
 			</data>
 		</dict>
 		<key>app/widgets/friends/friends.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RnPb8Urtl9DGdT9kyd8TjDBVzP8=
+			zfyJRsJq+bj+E9dmcdLPx200JhY=
 			</data>
 			<key>hash2</key>
 			<data>
-			EDQ7daOZO0Tn2ZuMbxLGewNVxAatw3ZxXwYHKvtHTGY=
+			GJvmDtc5WiMzcVb9EzFxi9YQiM/zLN5Ju+LMXDGQxTI=
 			</data>
 		</dict>
 		<key>app/widgets/friends/friends.css</key>
@@ -64293,11 +62436,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0BA8V6PpTZZjBAlIEGOyTXSKewE=
+			O0PZ/+5N2t6S+SpsmQnBSGvWdjA=
 			</data>
 			<key>hash2</key>
 			<data>
-			AOa2yqMb6/q7u1Y3lDifZ4rxv4aem3AvBNM1teiN+xI=
+			l3l28lF1LbDTd2xdAQbhAvMSIGP2fnBJVzy7trFJ7NQ=
 			</data>
 		</dict>
 		<key>app/widgets/friends/list.component.js</key>
