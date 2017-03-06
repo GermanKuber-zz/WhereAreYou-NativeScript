@@ -9,6 +9,8 @@ import { Subject } from 'rxjs/Subject';
 import { ExternalMapService, GetDistanceRequest, DistanceRequestWrapper, WayModeEnum } from '../services/map/external-map.service';
 import { MarkManagerService } from '../services/map/mark-manager.service';
 import { LoggedService } from '../user/logged.service';
+import { RemoteRepositoryService, RemoteRepoType } from '../remote.service';
+import { User } from '../user/user';
 
 
 @Injectable()
@@ -17,17 +19,22 @@ export class FriendsService {
 
   constructor(private externalMapService: ExternalMapService,
     private markManagerService: MarkManagerService,
-    private loggedService: LoggedService) {
+    private loggedService: LoggedService,
+    private remoteRepositoryService: RemoteRepositoryService) {
     this.friendUpdate$.next(mockListFriend);
 
   }
 
   // Service message commands
   addFriend(friend: Friend): Observable<boolean> {
+var a = this.remoteRepositoryService.getAll<User[]>(RemoteRepoType.users);
+
+    this.remoteRepositoryService.add(RemoteRepoType.users,friend);
     let source = Observable.create(observer => {
       var me = this.loggedService.me;
       if (friend.id == 0 || friend.id == null)
         friend.id = mockListFriend[mockListFriend.length - 1].id + 1;
+      friend.invitationSended = true;
       mockListFriend.push(friend);
       this.friendUpdate$.next(mockListFriend);
       observer.next(true);

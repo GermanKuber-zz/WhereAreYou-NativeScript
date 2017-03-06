@@ -7,6 +7,7 @@ export class Friend {
   displayName: string;
   activate: boolean;
   image: string;
+  invitationSended:boolean=false;
   distanceToMe: number;
   //Si esta en true se dibujara el camino desde la posicion del este amigo hasta la posicion de Me
   drawWaytToMe: boolean = false;

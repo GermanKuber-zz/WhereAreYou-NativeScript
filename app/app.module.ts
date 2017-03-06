@@ -20,6 +20,9 @@ import { FriendsAddComponent } from './widgets/friends-add/friends-add.component
 import { NativeScriptFormsModule } from "nativescript-angular/forms";
 import { FriendPreviewComponent } from './widgets/friend-preview/friend-preview.component';
 import { LoggedService } from './shared/user/logged.service';
+import { RemoteRepositoryService } from './shared/remote.service';
+import { UserService } from './shared/user/user.service';
+import { NavigationService } from './shared/navigation.service';
 var application = require("application");
 declare var GMSServices: any;
 if (application.ios) {
@@ -42,7 +45,10 @@ if (application.ios) {
     ExternalMapService,
     LoggedService,
     MarkManagerService,
-    ConfigService
+    ConfigService,
+    RemoteRepositoryService,
+    UserService,
+    NavigationService
   ],
   bootstrap: [
     AppComponent

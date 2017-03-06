@@ -11,12 +11,12 @@
 		</GridLayout>
 	</StackLayout>
 	<ActivityIndicator busy="{{ isLoading }}"></ActivityIndicator>
-	<!--<label text="El amigo que busca no se encuentra" [hidden]="doesNotFound"></label>-->
-	<label text="Amigo agregado correctamente" [hidden]="!isAdded"></label>
-	<label text="Error al agregar un amigo" [hidden]="!addFriendError"></label>
+	<label text="El amigo que busca no se encuentra" *ngIf="!doesNotFound"></label>
+	<label text="Amigo agregado correctamente" *ngIf="isAdded"></label>
+	<label text="Error al agregar un amigo" *ngIf="addFriendError"></label>
 	<!--<Image [hidden]="!isLoading" class="img-add-friend" src="~/images/friend-add.png" stretch="none"></Image>-->
-	<Button (tap)="addFriend()" [hidden]="!friendFound" text="AgregarS"></Button>
-	<friend-preview *ngIf="friendPreview != null" [friend]="friendPreview"></friend-preview>
+	<Button (tap)="addFriend()" *ngIf="friendFound" text="Agregar"></Button>
+	<friend-preview *ngIf="friendFound" [friend]="friendPreview"></friend-preview>
 </StackLayout>
 <!--<RadListView id="listView" [items]="myFriends" class="list-group list-friends" selectionBehavior="None" (itemSwipeProgressEnded)="onSwipeCellFinished($event)"
 	(itemTap)="onItemSelected($event)" (itemSwipeProgressStarted)="onSwipeCellStarted($event)" (itemSwipeProgressChanged)="onCellSwiping($event)"

@@ -30,10 +30,14 @@ export class FriendsAddComponent implements OnInit {
       .subscribe(f => {
         this.friendPreview = f;
         this.isLoading = false;
+        this.doesNotFound = true;
+        this.friendFound = true;
       },
       e => {
+        this.friendPreview = null;
         this.doesNotFound = false;
         this.isLoading = false;
+        this.friendFound = false;
       });
   }
   public addFriend(): void {

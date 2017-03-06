@@ -1,8 +1,38 @@
 use_frameworks!
 
 target "HelloWorld" do
+# Begin Podfile - /Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld/node_modules/nativescript-azure-mobile-apps/platforms/ios/Podfile 
+ pod 'MicrosoftAzureMobile', '~> 3.3.0' 
+ # End Podfile 
 # Begin Podfile - /Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld/node_modules/nativescript-google-maps-sdk/platforms/ios/Podfile 
  pod 'GoogleMaps' 
+ # End Podfile 
+# Begin Podfile - /Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld/node_modules/nativescript-plugin-firebase/platforms/ios/Podfile 
+ pod 'Firebase', '~> 3.13.0'
+pod 'Firebase/Database'
+pod 'Firebase/Auth'
+
+# Uncomment if you want to enable Remote Config
+#pod 'Firebase/RemoteConfig'
+
+# Uncomment if you want to enable Crash Reporting
+#pod 'Firebase/Crash'
+
+# Uncomment if you want to enable FCM (Firebase Cloud Messaging)
+#pod 'Firebase/Messaging'
+
+# Uncomment if you want to enable Firebase Storage
+#pod 'Firebase/Storage'
+
+# Uncomment if you want to enable AdMob
+#pod 'Firebase/AdMob'
+
+# Uncomment if you want to enable Facebook Authentication
+#pod 'FBSDKCoreKit'
+#pod 'FBSDKLoginKit'
+
+# Uncomment if you want to enable Google Authentication
+#pod 'GoogleSignIn' 
  # End Podfile 
 
 end

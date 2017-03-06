@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0767805DA239415E8C0B3D2D /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1D3A0D459D4449A8BFA1CC /* TelerikUI.framework */; };
-		100D9CE5BA5F4A522D2AF00F /* Pods_HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E71D431D6C72194896DD80 /* Pods_HelloWorld.framework */; };
-		138B5DCF9C024C1792EB5BEE /* TelerikUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF1D3A0D459D4449A8BFA1CC /* TelerikUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		50A36442DFAB4E618A29DE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53CE589576E4F4B8FF27F10 /* Assets.xcassets */; };
-		8295D7967818495FB71A9573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C7A0A26BF84DABA43DEAA1 /* LaunchScreen.storyboard */; };
+		103E3D865D7033925E5ED912 /* Pods_HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438811278BF01B7C790760B3 /* Pods_HelloWorld.framework */; };
+		31B00E5664C14A5C9CBE4D9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C557D3F012342758F063BDB /* LaunchScreen.storyboard */; };
+		34EDDB8EA3444BC0B6D2668E /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C64758DB59AD4BA7A57BA24A /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34F55961918942C4BB1E7520 /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA089970E9344B85A8006683 /* TelerikUI.framework */; };
+		6173AC589EF445C48ABFBD16 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2742198DE94407E93A29BBD /* GoogleService-Info.plist */; };
+		6A3BFC175F7B4C20A23A4FAB /* TelerikUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA089970E9344B85A8006683 /* TelerikUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75B677A53B9F4F008A64C992 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BEBDCA78673A4EDC867C0199 /* build.xcconfig */; };
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
-		89242CDA87CC4E8686C201EA /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9562925310342A1A3FEB153 /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		993B28E84172477385D5C5D4 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3BC551F80D0249CDBF841197 /* build.xcconfig */; };
-		C127202B48094FC397C7953D /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9562925310342A1A3FEB153 /* TNSWidgets.framework */; };
+		B18F0CEC95C74087ACC94C38 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64758DB59AD4BA7A57BA24A /* TNSWidgets.framework */; };
+		B29EC247AC694DED884122EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABB98D63EB64FF9BC949EDA /* Assets.xcassets */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
 /* End PBXBuildFile section */
@@ -27,8 +28,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				138B5DCF9C024C1792EB5BEE /* TelerikUI.framework in Embed Frameworks */,
-				89242CDA87CC4E8686C201EA /* TNSWidgets.framework in Embed Frameworks */,
+				6A3BFC175F7B4C20A23A4FAB /* TelerikUI.framework in Embed Frameworks */,
+				34EDDB8EA3444BC0B6D2668E /* TNSWidgets.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,22 +37,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3BC551F80D0249CDBF841197 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = HelloWorld/Resources/build.xcconfig; sourceTree = "<group>"; };
-		74E71D431D6C72194896DD80 /* Pods_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C557D3F012342758F063BDB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = HelloWorld/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		438811278BF01B7C790760B3 /* Pods_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		858B832E18CA111C00AB12DE /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		858B833918CA111C00AB12DE /* HelloWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
 		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		858B833F18CA111C00AB12DE /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
 		858B843318CA22B800AB12DE /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2C7A0A26BF84DABA43DEAA1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = HelloWorld/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B9562925310342A1A3FEB153 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		A2742198DE94407E93A29BBD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = "GoogleService-Info.plist"; path = "HelloWorld/Resources/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AA089970E9344B85A8006683 /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikUI.framework; path = "$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework"; sourceTree = "<group>"; };
+		BEBDCA78673A4EDC867C0199 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = HelloWorld/Resources/build.xcconfig; sourceTree = "<group>"; };
+		C64758DB59AD4BA7A57BA24A /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		CABB98D63EB64FF9BC949EDA /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Assets.xcassets; path = HelloWorld/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
 		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		EF1D3A0D459D4449A8BFA1CC /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikUI.framework; path = "$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework"; sourceTree = "<group>"; };
-		F53CE589576E4F4B8FF27F10 /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Assets.xcassets; path = HelloWorld/Resources/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,15 +61,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0767805DA239415E8C0B3D2D /* TelerikUI.framework in Frameworks */,
-				C127202B48094FC397C7953D /* TNSWidgets.framework in Frameworks */,
-				100D9CE5BA5F4A522D2AF00F /* Pods_HelloWorld.framework in Frameworks */,
+				34F55961918942C4BB1E7520 /* TelerikUI.framework in Frameworks */,
+				B18F0CEC95C74087ACC94C38 /* TNSWidgets.framework in Frameworks */,
+				103E3D865D7033925E5ED912 /* Pods_HelloWorld.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		716C8A80B37D63F5169A04D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		858B832518CA111C00AB12DE = {
 			isa = PBXGroup;
 			children = (
@@ -75,7 +84,7 @@
 				858B833718CA111C00AB12DE /* HelloWorld */,
 				858B833018CA111C00AB12DE /* Frameworks */,
 				858B832F18CA111C00AB12DE /* Products */,
-				F70CAC143FB3FF7A802C5CC5 /* Pods */,
+				716C8A80B37D63F5169A04D7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,9 +100,9 @@
 		858B833018CA111C00AB12DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EF1D3A0D459D4449A8BFA1CC /* TelerikUI.framework */,
-				B9562925310342A1A3FEB153 /* TNSWidgets.framework */,
-				74E71D431D6C72194896DD80 /* Pods_HelloWorld.framework */,
+				AA089970E9344B85A8006683 /* TelerikUI.framework */,
+				C64758DB59AD4BA7A57BA24A /* TNSWidgets.framework */,
+				438811278BF01B7C790760B3 /* Pods_HelloWorld.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,18 +133,12 @@
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F53CE589576E4F4B8FF27F10 /* Assets.xcassets */,
-				B2C7A0A26BF84DABA43DEAA1 /* LaunchScreen.storyboard */,
-				3BC551F80D0249CDBF841197 /* build.xcconfig */,
+				CABB98D63EB64FF9BC949EDA /* Assets.xcassets */,
+				A2742198DE94407E93A29BBD /* GoogleService-Info.plist */,
+				2C557D3F012342758F063BDB /* LaunchScreen.storyboard */,
+				BEBDCA78673A4EDC867C0199 /* build.xcconfig */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		F70CAC143FB3FF7A802C5CC5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +148,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "HelloWorld" */;
 			buildPhases = (
-				142590BAA771F7112EF2A311 /* [CP] Check Pods Manifest.lock */,
+				6E929D60D950F4E2DF72F636 /* [CP] Check Pods Manifest.lock */,
 				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
 				858B83F218CA22B800AB12DE /* Sources */,
 				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
@@ -153,8 +156,8 @@
 				858B842C18CA22B800AB12DE /* Resources */,
 				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
 				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
-				EFAC1FC6BCF04CDCBB1D91E8 /* [CP] Embed Pods Frameworks */,
-				6BE37B303534A3E4F5928F11 /* [CP] Copy Pods Resources */,
+				A339FFF365E3E792D8A42C2F /* [CP] Embed Pods Frameworks */,
+				3816184434EEDF9F459B8D76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,16 +202,32 @@
 			files = (
 				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
 				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
-				50A36442DFAB4E618A29DE8F /* Assets.xcassets in Resources */,
-				8295D7967818495FB71A9573 /* LaunchScreen.storyboard in Resources */,
-				993B28E84172477385D5C5D4 /* build.xcconfig in Resources */,
+				B29EC247AC694DED884122EA /* Assets.xcassets in Resources */,
+				6173AC589EF445C48ABFBD16 /* GoogleService-Info.plist in Resources */,
+				31B00E5664C14A5C9CBE4D9F /* LaunchScreen.storyboard in Resources */,
+				75B677A53B9F4F008A64C992 /* build.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		142590BAA771F7112EF2A311 /* [CP] Check Pods Manifest.lock */ = {
+		3816184434EEDF9F459B8D76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E929D60D950F4E2DF72F636 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -223,19 +242,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		6BE37B303534A3E4F5928F11 /* [CP] Copy Pods Resources */ = {
+		A339FFF365E3E792D8A42C2F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
@@ -281,21 +300,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
-			showEnvVarsInLog = 0;
-		};
-		EFAC1FC6BCF04CDCBB1D91E8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
