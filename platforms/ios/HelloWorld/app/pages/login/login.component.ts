@@ -1,5 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
-import { User } from "../../shared/user/user";
+import { UserLogin } from "../../shared/user/user";
 import { UserService } from "../../shared/user/user.service";
 import { Router } from "@angular/router";
 import { Page } from 'ui/page';
@@ -14,7 +14,7 @@ import { NavigationService, ViewsEnum } from '../../shared/navigation.service';
     styleUrls: ["pages/login/login-common.css", "pages/login/login.css"]
 })
 export class LoginComponent {
-    user: User;
+    user: UserLogin;
     isLoggingIn = true;
     @ViewChild("container") container: ElementRef;
     @ViewChild("email") email: ElementRef;
@@ -23,7 +23,7 @@ export class LoginComponent {
         private userService: UserService,
         private page: Page) {
 
-        this.user = new User();
+        this.user = new UserLogin();
         this.user.email = "german.kuber@outlook.com";
         this.user.password = "123456";
     }

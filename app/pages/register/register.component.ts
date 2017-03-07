@@ -34,14 +34,25 @@ export class RegisterComponent implements OnInit {
             alert("Ingrese un email correcto!");
             error = true;
         }
-        if (!this.user.isValidEmail()) {
-            alert("El Re Password no es igual al Password");
+        if (!this.user.isValidRePassword()) {
+            alert("Verifique el Password ingresado");
             error = true;
         }
         if (!error) {
             //TODO: Validar todas las propiedades y mostrar errores
             this.userService.register(this.user)
-            this.navigationService.navigateClear(ViewsEnum.dashboard);
+                .subscribe(x => {
+                    this.userService.login(this.user)
+                        .subscribe(
+                        () => this.navigationService.navigateClear(ViewsEnum.dashboard),
+                        (error) => {
+                            this.navigationService.back();
+                        });
+                },
+                e => {
+
+                });
+
         }
     }
 }

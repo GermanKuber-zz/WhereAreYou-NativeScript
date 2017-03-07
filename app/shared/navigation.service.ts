@@ -12,6 +12,9 @@ export class NavigationService {
   navigate(view: ViewsEnum) {
     this.router.navigate([`/${view}`]);
   }
+  back() {
+    this.routerExtensions.back();
+  }
   navigateClear(view: ViewsEnum) {
     this.routerExtensions.navigate([`/${view}`], { clearHistory: true });
   }

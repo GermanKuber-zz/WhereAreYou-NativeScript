@@ -31,13 +31,3 @@ ListView {
     opacity: 1;
   }
 }
-
-.btn-menu-open {
-  position: absolute;
-  top: 20px;
-  left: 2p0x;
-  width: 200px;
-  height: 20px;
-  background-color: red;
-  border:  1px solid black;
-}

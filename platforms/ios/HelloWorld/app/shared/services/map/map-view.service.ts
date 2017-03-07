@@ -117,7 +117,7 @@ export class MapViewService {
         this.mapView.setStyle(style);
         //Notifico cuando el mapa esta listo
         // this.mapView.notifyMapReady = () => {
-           
+
         // }
         // this.mapView.markerSelect = this.onMarkerSelect;
         // this.mapView.cameraChanged = this.onCameraChanged;
@@ -130,7 +130,7 @@ export class MapViewService {
                 this.watchId = geolocation.watchLocation((p) => { this.locationReceived(p) }, this.error,
                     this.getLocationObjectParameter());
             }, this.error);
-             mapReadyNotify();
+        mapReadyNotify();
     };
 
 
@@ -151,6 +151,9 @@ export class MapViewService {
         } else {
             this.locationReceivedMapBehavior();
             this.markManagerService.moveMe(position.latitude, position.longitude);
+            this.mapView.removeMarker(this.markManagerService.me);
+            var markContainer = this.markManagerService.addMeMark(position.latitude, position.longitude);
+            this.mapView.addMarker(markContainer.mark)
         }
     };
     private locationReceivedMapBehavior(): void {
