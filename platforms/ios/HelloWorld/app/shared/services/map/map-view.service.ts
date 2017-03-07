@@ -116,9 +116,9 @@ export class MapViewService {
         this.mapView = event.object;
         this.mapView.setStyle(style);
         //Notifico cuando el mapa esta listo
-        this.mapView.notifyMapReady = () => {
-            mapReadyNotify();
-        }
+        // this.mapView.notifyMapReady = () => {
+           
+        // }
         // this.mapView.markerSelect = this.onMarkerSelect;
         // this.mapView.cameraChanged = this.onCameraChanged;
 
@@ -130,6 +130,7 @@ export class MapViewService {
                 this.watchId = geolocation.watchLocation((p) => { this.locationReceived(p) }, this.error,
                     this.getLocationObjectParameter());
             }, this.error);
+             mapReadyNotify();
     };
 
 

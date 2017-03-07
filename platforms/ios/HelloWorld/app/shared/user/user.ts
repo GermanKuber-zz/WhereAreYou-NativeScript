@@ -7,3 +7,11 @@ export class User {
     return validator.validate(this.email);
   }
 }
+export class UserRegister {
+  email: string;
+  password: string;
+  isValidEmail() {
+    return validator.validate(this.email);
+  }
+}
+

@@ -20,5 +20,6 @@ export class NavigationService {
 export class ViewsEnum {
   static login = "login";
   static dashboard = "dashboard";
+  static register = "register";
 
 }

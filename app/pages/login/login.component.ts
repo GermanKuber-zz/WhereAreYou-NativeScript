@@ -69,7 +69,11 @@ export class LoginComponent {
             );
 
     }
+    register() {
+        this.navigationService.navigate(ViewsEnum.register);
+    }
     signUp() {
+
         this.userService.register(this.user)
             .subscribe(
             () => {

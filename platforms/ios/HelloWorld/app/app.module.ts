@@ -23,6 +23,7 @@ import { LoggedService } from './shared/user/logged.service';
 import { RemoteRepositoryService } from './shared/remote.service';
 import { UserService } from './shared/user/user.service';
 import { NavigationService } from './shared/navigation.service';
+import { RegisterComponent } from './pages/register/register.component';
 var application = require("application");
 declare var GMSServices: any;
 if (application.ios) {
@@ -36,6 +37,7 @@ if (application.ios) {
     FriendsComponent,
     FriendsAddComponent,
     FriendsMapComponent,
+    RegisterComponent,
     FriendPreviewComponent,
     SIDEDRAWER_DIRECTIVES
   ],

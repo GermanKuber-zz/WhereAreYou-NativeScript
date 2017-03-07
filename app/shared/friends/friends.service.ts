@@ -27,9 +27,8 @@ export class FriendsService {
 
   // Service message commands
   addFriend(friend: Friend): Observable<boolean> {
-var a = this.remoteRepositoryService.getAll<User[]>(RemoteRepoType.users);
 
-    this.remoteRepositoryService.add(RemoteRepoType.users,friend);
+    this.remoteRepositoryService.add(RemoteRepoType.users, friend);
     let source = Observable.create(observer => {
       var me = this.loggedService.me;
       if (friend.id == 0 || friend.id == null)
