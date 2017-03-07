@@ -39,17 +39,7 @@ export class MapViewService {
     @ViewChild(RadSideDrawerComponent) public drawerComponent: RadSideDrawerComponent;
     private drawer: SideDrawerType;
 
-    ngAfterViewInit() {
-        this.drawer = this.drawerComponent.sideDrawer;
-    }
 
-    openDrawer() {
-        this.drawer.showDrawer();
-    }
-
-    closeDrawer() {
-        this.drawer.closeDrawer();
-    }
     //Public Methods
     public addFriendnMark(markInfo: AddMarkerArgs, markId: number): MarkContainer {
         var markContainer = this.markManagerService.addFriendMark(markInfo, markId);
@@ -193,6 +183,7 @@ export class MapViewService {
 
     private error(err) {
         console.log('Error: ' + JSON.stringify(err));
+        this.mapView.notifyMarkerEvent
     }
 
     private onMarkerSelect(event) {
