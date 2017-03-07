@@ -2,23 +2,42 @@
   background-color: #CB1D00;
   padding: 5 10;
 }
+
 .add-bar Image {
   height: 15;
   vertical-align: center;
   margin-left: 10;
   margin-right: 5;
 }
+
 TextField {
   color: white;
 }
+
 ListView {
   opacity: 0;
 }
+
 .visible {
   animation-name: show;
   animation-duration: 1s;
 }
+
 @keyframes show {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.btn-menu-open {
+  position: absolute;
+  top: 20px;
+  left: 2p0x;
+  width: 200px;
+  height: 20px;
+  background-color: red;
+  border:  1px solid black;
 }
