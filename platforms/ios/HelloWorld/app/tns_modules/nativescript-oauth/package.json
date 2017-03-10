@@ -1,0 +1,134 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-oauth",
+        "scope": null,
+        "escapedName": "nativescript-oauth",
+        "name": "nativescript-oauth",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld"
+    ]
+  ],
+  "_from": "nativescript-oauth@latest",
+  "_id": "nativescript-oauth@1.3.0",
+  "_inCache": true,
+  "_location": "/nativescript-oauth",
+  "_nodeVersion": "6.9.5",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-oauth-1.3.0.tgz_1486950053260_0.393273867899552"
+  },
+  "_npmUser": {
+    "name": "alexziskind1",
+    "email": "alex@nuvious.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {
+    "punycode": "1.3.2",
+    "querystring": "0.2.0"
+  },
+  "_requested": {
+    "raw": "nativescript-oauth",
+    "scope": null,
+    "escapedName": "nativescript-oauth",
+    "name": "nativescript-oauth",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-oauth/-/nativescript-oauth-1.3.0.tgz",
+  "_shasum": "9b747445286804b03509f99663589ee9c2028fc4",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-oauth",
+  "_where": "/Users/germankuber/Documents/Repositorios/NativeScript-Test/HelloWorld",
+  "author": {
+    "name": "Alexander Ziskind",
+    "email": "alex@nuvious.com",
+    "url": "http://www.nuvious.com/blog"
+  },
+  "bugs": {
+    "url": "https://github.com/alexziskind1/nativescript-oauth/issues"
+  },
+  "contributors": [
+    {
+      "name": "Kevin Primm",
+      "email": "kfprimm@gmail.com",
+      "url": "https://github.com/kfprimm"
+    },
+    {
+      "name": "Toma Nikolov",
+      "url": "https://github.com/TomaNikolov"
+    }
+  ],
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "url": "^0.11.0"
+  },
+  "description": "OAuth 2 login for NativeScript.",
+  "devDependencies": {
+    "nativescript-dev-typescript": "^0.3.5",
+    "tns-core-modules": "^2.5.0",
+    "typescript": "^2.1.4"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "9b747445286804b03509f99663589ee9c2028fc4",
+    "tarball": "https://registry.npmjs.org/nativescript-oauth/-/nativescript-oauth-1.3.0.tgz"
+  },
+  "gitHead": "0b6b1edb901a0fd9a1becbc368992569d9dba3b0",
+  "homepage": "https://github.com/alexziskind1/nativescript-oauth",
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "TypeScript",
+    "Office365",
+    "Facebook",
+    "Azure AD",
+    "iOS",
+    "Android"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/alexziskind1/nativescript-oauth/blob/master/LICENSE"
+  },
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "alexziskind1",
+      "email": "alex@nuvious.com"
+    }
+  ],
+  "name": "nativescript-oauth",
+  "nativescript": {
+    "platforms": {
+      "ios": "2.5.0",
+      "android": "2.5.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexziskind1/nativescript-oauth.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.android": "npm run preparedemo && cd demo && tns run android",
+    "demo.ios": "npm run preparedemo && cd demo && tns emulate ios",
+    "preparedemo": "npm run build && cd demo && tns plugin remove nativescript-oauth && tns plugin add .. && tns install",
+    "setup": "cd demo && npm install && cd .. && npm run build && cd demo && tns plugin add .. && cd .."
+  },
+  "typescript": {
+    "definition": "index.d.ts"
+  },
+  "typings": "index",
+  "version": "1.3.0"
+}

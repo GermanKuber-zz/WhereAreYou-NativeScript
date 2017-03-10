@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "575763996017",
+    "firebase_url": "https://where-are-you-1487366664735.firebaseio.com",
+    "project_id": "where-are-you-1487366664735",
+    "storage_bucket": "where-are-you-1487366664735.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575763996017:android:090dd0dfddf41aac",
+        "android_client_info": {
+          "package_name": "org.nativescript.WhereAreYou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575763996017-6apkm25po7nvprks5h59kob63qhcr8sl.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "575763996017-7qi88ur8ruubj1upo4pgp7kdsm5gsfbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD26fy69t6o_rCVpPcJHkCjhEOhbXSyHug"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

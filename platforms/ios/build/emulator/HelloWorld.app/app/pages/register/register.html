@@ -1,0 +1,14 @@
+<StackLayout #container>
+	<!--<Image src="res://logo_login" stretch="none" horizontalAlignment="center"></Image>-->
+	<!--<TextField wy-error [wy-error-visible]="user.nameError" [wy-error-message]="'Ingrese un nombre correcto'" #name hint="Nombre" [(ngModel)]="user.name" autocorrect="false" autocapitalizationType="none"></TextField>-->
+	<TextField #name hint="Nombre" [(ngModel)]="user.name" autocorrect="false" autocapitalizationType="none"></TextField>
+
+	<TextField #lastName hint="Apellido" [(ngModel)]="user.lastName" autocorrect="false" autocapitalizationType="none"></TextField>
+	<TextField #email hint="Email" keyboardType="email" [(ngModel)]="user.email" autocorrect="false" autocapitalizationType="none"></TextField>
+	<TextField #displayName hint="Display Name" (ngModel)]="user.displayName" autocorrect="false" autocapitalizationType="none"></TextField>
+	<TextField #image hint="Imagen" (ngModel)]="user.image" autocorrect="false" autocapitalizationType="none"></TextField>
+	<TextField #password hint="Password" secure="true" [(ngModel)]="user.password"></TextField>
+	<TextField #rePassword hint="Re Password" secure="true" [(ngModel)]="user.rePassword"></TextField>
+	<Button text="Registrar" (tap)="register()"></Button>
+	<Button text="Volver" (tap)="back()"></Button>
+</StackLayout>
